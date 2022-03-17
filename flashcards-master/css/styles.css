@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+  color: #ddd;
+  background-color: #303030;
+}
+
+header {
+  text-align: center;
+}
+
+#wrapper {
+  min-height: 100%;
+  width: 1024px;
+  margin: 1% auto 0px;
+  padding: 1%;
+}
+
+footer {
+  text-align: center;
+
+  position: relative;
+  height: 75px;
+  padding-top: 21px;
+  margin-top: -75px; /* negative value of footer height */
+  clear: both;
+}
+
+#card-buttons {
+  display: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#content {
+  overflow: auto;
+  padding-bottom: 6%;
+  text-align: left;
+}
+
+#card-table {
+  width: 100%;
+  padding-top: 2%;
+}
+
+#card-table .header {
+  margin-bottom: 1%;
+}
+
+#card-table .header .card-column {
+  padding: 1%;
+  border-bottom: 3px solid gray;
+}
+
+#card-table .body {
+  margin-bottom: 15%;
+}
+
+#card-table .table-row {
+  padding: 1em;
+}
+
+#card-table .table-row.selected {
+  border: 3px solid #0056d8;
+  border-radius: 10px;
+}
+
+.card-column {
+  width: 28%;
+  display: inline-block;
+}
+
+.card {
+  border: 2px solid #808080;
+  border-radius: 10px;
+  height: 200px;
+  vertical-align: middle;
+  margin: 1%;
+  display: inline-flex;
+  padding: 1%;
+  overflow: auto;
+}
+
+.card p {
+  margin: auto;
+}
+
+.card.left, .card.right {
+  font-size: 24px;
+}
+
+.card.card-small {
+  font-size: 20px;
+}
+
+.card.card-v-small {
+  font-size: 14px;
+}
+
+.card.notes {
+  text-align: left;
+  font-size: 11px;
+}
+
+.card.notes-big {
+  text-align: left;
+  font-size: 24px;
+}
+
+.card.notes p {
+  margin: 1%;
+}
+
+.card.note-content {
+  background-image: url('../img/info.png');
+  background-repeat: no-repeat;
+  background-size: 32px;
+  background-position: top right;
+}
+
+.divider-text {
+  text-align: center;
+  font-size: 48px;
+  border-bottom: 3px solid gray;
+}
+
+.filler {
+  display: inline-block;
+  width: 6%;
+}
+
+button {
+  height: 1.75em;
+  border-radius: 5px;
+  background-color: #906020;
+  border-color: #303030;
+  color: #ffe5b3;
+}
+
+button.btn-remove, button.btn-unremove {
+  width: 2em;
+  height: 2em;
+}
+
+#load-key-container #txt-spreadsheet-key {
+  width: 20em;
+}
+
+#load-key-container {
+  padding: 2em;
+}
+
+#load-key-container #load-spreadsheet-instructions {
+  font-size: .75em;
+  margin-top: .5em;
+}
+
+#select-deck-container {
+  display: none;
+}
+
+#load-new-key-container {
+  display: none;
+}
+
+#load-new-key-container #btn-load-new-key {
+  height: 1.5em;
+  font-size: .75em;
+}
+
+#load-deck-container {
+  display: inline-block;
+}
+
+#deck-notes-container {
+  display: none;
+  padding: 1em;
+}
+
+#deck-notes {
+  display: none;
+}
+
+#deck-notes-content {
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: left;
+  padding: 1%;
+  line-height: 1.2;
+}
+
+#control-container {
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#user-guide {
+  position: relative;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 1%;
+  line-height: 1.2;
+  font-size: 14px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#user-guide #btn-hide-guide {
+  position: absolute;
+  display: none;
+  right: 10px;
+  top: 10px;
+}
+
+#user-guide .instructions {
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#user-guide .instructions ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+
+#user-guide #app-instructions {
+  display: none;
+}
+
+#user-guide #mobile-instructions {
+  display: none;
+}
+
+#user-guide #keys-container {
+  display: none;
+}
+
+#flashcard-container {
+  display: none;
+}
+
+#toggle-theme-container {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 200px;
+  z-index: 1;
+}
+
+#btn-toggle-theme {
+  background-color: #eee;
+  color: #222;
+  font-size: .7em;
+}
+
+#card-count-container {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 1;
+}
+
+a:link,
+a:hover,
+a:active {
+  color: #afcefd;
+}
+
+a:visited {
+  color: rgb(171, 102, 180);
+}
+
+#mobile-card-control-container {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  #user-guide .instructions {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  #load-deck-container {
+    width: 100%;
+  }
+
+  #sel-deck {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    height: 3.5em;
+    margin-bottom: .5em;
+  }
+
+  button.btn-remove, button.btn-unremove {
+    width: 100%;
+    height: 2.5em;
+  }
+
+  button#btn-load-deck {
+    margin-bottom: 2em;
+  }
+
+  #user-guide #btn-hide-guide,
+  #user-guide #app-instructions,
+  #user-guide #keys-container {
+    display: none !important;
+  }
+
+  #user-guide #mobile-instructions {
+    display: inline-block;
+  }
+
+  .card.left, .card.right {
+    font-size: 16px;
+  }
+
+  .card.notes {
+    font-size: 10px;
+  }
+
+  .table-row {
+    margin-bottom: .75em;
+  }
+
+  #toggle-theme-container {
+    display: none;
+  }
+
+  #card-count-container {
+    bottom: 140px;
+    right: 20px;
+    z-index: 1;
+    font-size: 16px;
+  }
+
+  .filler {
+    display: none;
+  }
+
+  #load-new-key-container #btn-load-new-key {
+    height: 2em;
+    font-size: 1em;
+  }
+
+  .card {
+    height: 75px;
+  }
+
+  #mobile-card-control-container {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid gray;
+    background-color: #303030;
+  }
+
+  button.mobile-card-control-button {
+    width: 21%;
+    height: 7em;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 10px;
+  }
+
+  .mobile-card-control-row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  footer {
+    display: none;
+  }
+
+  #btn-show-left, #btn-show-right, #btn-shuffle {
+    width: 21%;
+    height: 7em;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+  }
+
+  #btn-show-all, #btn-hide-all {
+    display: none;
+  }
+}
