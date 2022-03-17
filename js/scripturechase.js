@@ -27,20 +27,9 @@ export default class Scriptures {
     this.srchbtn = util.qs("#srchbtn");
     this.allbtn = util.qs("#allbtn");
     //this.addbtn = util.qs('#addbtn');
-    this.srchbtn.addEventListener(
-      "touchend",
-      () => {
-        this.listFiltered();
-      },
-      false
-    );
-    this.allbtn.addEventListener(
-      "touchend",
-      () => {
-        this.listAll();
-      },
-      false
-    );
+    this.srchbtn.addEventListener("touchend", () => { this.listFiltered(); }, false);
+    this.allbtn.addEventListener("touchend", () => { this.listAll(); }, false);
+    this.alphbtn.addEventListener("touchend", () => { this.listAlpha(); }, false);
   }
 
   callAPI(url) {
