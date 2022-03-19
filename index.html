@@ -1,61 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
-    <!-- <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" /> -->
-    <title>Scripture Chase</title>
-</head>
-<body>
-    <h1 class="title">Scripture Chase</h1>
-    <div class="container">
-      <input type="number" name="token" id="token" inputmode="numeric" pattern="[0-9]*"   autocomplete="one-time-code" />
-        <div class="col2">
-            <div class="">
-              <h2 class="subtitle">Old Testament</h2>
-              <img src="./img/moroni_writes_on_the_plates.jpeg" alt="Book of Mormon - " class="imgbox whitebg centerimg">
-            </div>
-            <div class="">
-                <h2 class="subtitle">New Testament</h2>
-                <img src="./img/moroni_writes_on_the_plates.jpeg" alt="Book of Mormon - " class="imgbox whitebg centerimg">
-            </div>
-        </div>
-    <div class="container">
-        <div class="col2">
-            <div class="">
-              <h2 class="subtitle">Book of Mormon</h2>
-              <img src="./img/moroni_writes_on_the_plates.jpeg" alt="Book of Mormon - " class="imgbox whitebg centerimg">
-            </div>
-            <div class="">
-              <h2 class="subtitle">Doctrine and Covenants/Pearl of Great Price</h2>
-              <img src="./img/moroni_writes_on_the_plates.jpeg" alt="Book of Mormon - " class="imgbox whitebg centerimg">
-            </div>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <ul id="reflist">Question Category List displays here</ul>
-    <button type="button" id="previousBtn">Previous</button>
-    <button type="button" id="nextBtn">Next</button>
-    <footer class="title">
-      <div class="container col5">
-          <div class="">
-            <img src="./img/icons8-home-96.png" alt="home icon" class="imgbox centerimg whitebg">
-          </div>
-          <div class="">
-            <img src="./img/icons8-menu-384.png" alt="menu icon" class="imgbox centerimg whitebg">
-          </div>
-          <div class="">
-            <img src="./img/icons8-flashcards-90.png" alt="flashcards icon" class="imgbox centerimg whitebg">
-          </div>
-          <div class="">
-            <img src="./img/icons8-quiz-66.png" alt="quiz icon" class="imgbox centerimg whitebg">
-          </div>
-          <div class="">
-            <img src="./img/icons8-menu-384.png" alt="menu icon" class="imgbox centerimg whitebg">
-          </div>
-      </div>
-    </footer>
-</body>
-  <script src="./js/scmain.js" type="module"></script>
+        <!-- Custom CSS -->
+        <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/custom.css" />
+        <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
+        <!-- <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" /> -->
+
+        <!-- Sweet Alert JavaScript -->
+        <!-- <script src="./js/sweetalert2.js"></script> -->
+
+        <title>Log in | Scripture Chase</title>
+    </head>
+
+    <body>
+        <h1 class="title">Scripture Chase</h1>
+        <section id="gridcontainer">
+            <div id="left">
+                <img src="../img/scriptures.jpg" alt="Images of Holy Bible and Book of Mormon" class="centerimg">
+            </div>
+                <div id="signInForm">
+                    <h2 class="title">Sign In</h2>
+                    <br>
+                    <div class="form-group">
+                        <label class="normal-text" for="userSIEmail">Email adress<span class="text-danger ml-1">*</span></label>
+                        <input type="email" class="inputs" id="userSIEmail" onblur="checkUserSIEmail()"placeholder="mail@mail.com">
+                        <small id="userSIEmailError" class="warning">Please check your login information.</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="normal-text" for="userSIPassword">Password<span class="text-danger ml-1">*</span></label>
+                        <input type="password" class="inputs" id="userSIPassword" onblur="checkUserSIPassword()" placeholder="password">
+                        <small id="userSIPasswordError" class="warning">Please check your password.</small>
+                    </div>
+                    <button type="button" class="buttons" onclick="signIn()">Sign In</button>
+                    <p>
+                        Not a member yet? Become a member:
+                        <a href="./pages/sign-up.html">
+                            <strong class="text-primary text-uppercase showSignUpForm">Sign Up</strong>
+                        </a>
+                    </p>
+                </div>
+            </section>
+        <!-- Optional JavaScript -->
+        <!-- jQuery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <!-- Firebase -->
+
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
+                authDomain: "scripturechase-46976.firebaseapp.com",
+                projectId: "scripturechase-46976",
+                storageBucket: "scripturechase-46976.appspot.com",
+                messagingSenderId: "51330554814",
+                appId: "1:51330554814:web:8943dc84fc3bd5391537ef",
+                measurementId: "G-HE9YJ49Y12"
+            };
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
+        <script src="../js/app.js"></script>
+    </body>
 </html>
