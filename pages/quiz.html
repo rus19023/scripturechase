@@ -14,15 +14,33 @@
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
         <!-- <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" /> -->
 
-        <title>Home | Scripture Chase</title>
+        <title>Quiz | Scripture Chase</title>
     </head>
 
     <body>
-        <h1 class="title">Scripture Chase | Home</h1>
+        <h1 class="title">Scripture Chase | Quiz</h1>
         <div class="container">
-        <ul id="reflist" class="normal-text">Question Category List displays here</ul>
-        <div class="progress-bar"></div>
-        <footer class="title">
+        <ul id="reflist" class="normal-text nodots">
+            list of categories with checkboxes to choose, concatenate all chosen arrays
+            Question Category List displays here to get url for API
+        </ul>
+            <section class="dojo">
+                <div class="quiz-body">
+                    <header class="title quizhead">
+                        <div id='timer'>Time: <strong>20</strong></div>
+                        <div id='score'>Score: <strong>0</strong></div>
+                        <div id='hiScore'>High Score: <strong>0</strong></div>
+                    </header>
+                    <h1 class="title">Scripture Chase Quiz</h1>
+                    <div id="question"></div>
+                    <div id='response'></div>
+                    <div id="result"></div>
+                    <div id="info"></div>
+                    <button id="start" class="todo-buttons startbtn">Start</button>
+                </div>
+            </section>
+            <div class="progress-bar"></div>
+        <footer class="">
             <div class="container col5">
                 <div class="">
                     <a href="./home.html">
@@ -59,5 +77,6 @@
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="../js/app.js"></script>
+        <script src="../js/quiz.js"></script>
     </body>
 </html>
