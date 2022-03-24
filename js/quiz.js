@@ -2,7 +2,7 @@ const url = 'http://rus19023.github.io/myportfolio/330/exercises/questions.json'
 const url2 = 'https://gist.github.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc';
 const url3 = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/questions.json';
 const url4 = 'http://localhost/myportfolio/330/exercises/js/questions.json';
-const url6 = ''
+const url6 = 'https://rus19023.github.io/scripturechase/json/lds-scriptures.json';
 
 const url5 = [
     { name: "Superman", realName: "Clark Kent" },
