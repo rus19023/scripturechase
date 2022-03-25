@@ -42,7 +42,7 @@ const sendVerificationEmail = () => {
     .then(() => {
         console.log('Verification Email Sent Successfully !');
         //redirecting the user to the profile page once everything is done correctly
-        window.location.assign('../profile');
+        window.location.assign('../pages/profile');
     })
     .catch(error => {
         console.error(error);
@@ -52,7 +52,7 @@ const sendVerificationEmail = () => {
 signUp.addEventListener('click', signUpFunction);
 
 document.getElementById('userInfo').addEventListener('click', () => {
-    console.log(auth.currentUser)
+    console.log(auth.currentUser);
 });
 
 //Animations

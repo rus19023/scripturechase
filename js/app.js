@@ -1,10 +1,10 @@
-import * as sc from "./scripturechase.js";
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { } from 'firebase/database';
-import { } from 'firebase/storage';
+import { } from 'firebase/firestore';
+
+
 
 // Firebase project configuration
 const firebaseConfig = {
@@ -214,9 +214,10 @@ function signIn() {
             swal({
                 type: 'successful',
                 title: 'Succesfully signed in',
-            }).then((value) => {
+            })
+            .then((value) => {
                 setTimeout(function() {
-                    window.location.replace("./pages/profile.html");
+                    window.location.replace("../pages/profile.html");
                 }, 1000)
             });
         }).catch((error) => {
