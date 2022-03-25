@@ -1,10 +1,12 @@
+import * as sc from "./scripturechase.js";
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword,  } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { } from 'firebase/database';
 import { } from 'firebase/storage';
 
-// TODO: Replace the following with your app's Firebase project configuration
+// Firebase project configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
     authDomain: "scripturechase-46976.firebaseapp.com",
@@ -25,35 +27,35 @@ const analytics = app.analytics();
 // Sign Up Form
 // Full Name Validation
 function checkUserFullName() {
-    var userLastname = util.qs("#userFullName").value;
+    var userLastname = sc.qs("#userFullName").value;
     var flag = false;
     if (userLastname === "") {
         flag = true;
     }
     if (flag) {
-        util.qs("#userFullNameError").style.display = "block";
+        sc.qs("#userFullNameError").style.display = "block";
     } else {
-        util.qs("#userFullNameError").style.display = "none";
+        sc.qs("#userFullNameError").style.display = "none";
     }
 }
 
 // Validate last name
 function checkUserLastname() {
-    var userLastname = util.qs("#userLastname").value;
+    var userLastname = sc.qs("#userLastname").value;
     var flag = false;
     if (userLastname === "") {
         flag = true;
     }
     if (flag) {
-        util.qs("#userLastnameError").style.display = "block";
+        sc.qs("#userLastnameError").style.display = "block";
     } else {
-        util.qs("#userLastnameError").style.display = "none";
+        sc.qs("#userLastnameError").style.display = "none";
     }
 }
 
 // Validate email
 function checkUserEmail() {
-    var userEmail = util.qs("#userEmail");
+    var userEmail = sc.qs("#userEmail");
     var userEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
     if (userEmail.value.match(userEmailFormat)) {
@@ -62,15 +64,15 @@ function checkUserEmail() {
         flag = true;
     }
     if (flag) {
-        util.qs("#userEmailError").style.display = "block";
+        sc.qs("#userEmailError").style.display = "block";
     } else {
-        util.qs("#userEmailError").style.display = "none";
+        sc.qs("#userEmailError").style.display = "none";
     }
 }
 
 // Validate password
 function checkUserPassword() {
-    var userPassword = util.qs("#userPassword");
+    var userPassword = sc.qs("#userPassword");
     var userPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
     if (userPassword.value.match(userPasswordFormat)) {
@@ -79,29 +81,29 @@ function checkUserPassword() {
         flag = true;
     }
     if (flag) {
-        util.qs("#userPasswordError").style.display = "block";
+        sc.qs("#userPasswordError").style.display = "block";
     } else {
-        util.qs("#userPasswordError").style.display = "none";
+        sc.qs("#userPasswordError").style.display = "none";
     }
 }
 
 // Check user bio for future use
 function checkUserBio() {
-    var userBio = util.qs("#userBio").value;
+    var userBio = sc.qs("#userBio").value;
     var flag = false;
     if (flag) {
-        util.qs("#userBioError").style.display = "block";
+        sc.qs("#userBioError").style.display = "block";
     } else {
-        util.qs("#userBioError").style.display = "none";
+        sc.qs("#userBioError").style.display = "none";
     }
 }
 
 // Create new user in firebase auth
 function signUp() {
-    var userFullName = util.qs("#userFullName").value;
-    var userLastname = util.qs("#userLastname").value;
-    var userEmail = util.qs("#userEmail").value;
-    var userPassword = util.qs("#userPassword").value;
+    var userFullName = sc.qs("#userFullName").value;
+    var userLastname = sc.qs("#userLastname").value;
+    var userEmail = sc.qs("#userEmail").value;
+    var userPassword = sc.qs("#userPassword").value;
     var userFullNameFormat = /^([A-Za-z.\s_-])/;
     var userEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var userPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
@@ -161,7 +163,7 @@ function signUp() {
 //  Working For Sign In Form 
 //  Sign In Email Validation 
 function checkUserSIEmail() {
-    var userSIEmail = util.qs("#userSIEmail");
+    var userSIEmail = sc.qs("#userSIEmail");
     var userSIEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
     if (userSIEmail.value.match(userSIEmailFormat)) {
@@ -170,15 +172,15 @@ function checkUserSIEmail() {
         flag = true;
     }
     if (flag) {
-        util.qs("#userSIEmailError").style.display = "block";
+        sc.qs("#userSIEmailError").style.display = "block";
     } else {
-        util.qs("#userSIEmailError").style.display = "none";
+        sc.qs("#userSIEmailError").style.display = "none";
     }
 }
 
 //  Sign In Password Validation 
 function checkUserSIPassword() {
-    var userSIPassword = util.qs("#userSIPassword");
+    var userSIPassword = sc.qs("#userSIPassword");
     var userSIPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
     if (userSIPassword.value.match(userSIPasswordFormat)) {
@@ -187,16 +189,16 @@ function checkUserSIPassword() {
         flag = true;
     }
     if (flag) {
-        util.qs("#userSIPasswordError").style.display = "block";
+        sc.qs("#userSIPasswordError").style.display = "block";
     } else {
-        util.qs("#userSIPasswordError").style.display = "none";
+        sc.qs("#userSIPasswordError").style.display = "none";
     }
 }
 
 //  Check email or password exsist in firebase authentication 
 function signIn() {
-    var userSIEmail = util.qs("#userSIEmail").value;
-    var userSIPassword = util.qs("#userSIPassword").value;
+    var userSIEmail = sc.qs("#userSIEmail").value;
+    var userSIPassword = sc.qs("#userSIPassword").value;
     var userSIEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var userSIPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
 
@@ -205,7 +207,7 @@ function signIn() {
 
     if (checkUserEmailValid == null) {
         return checkUserSIEmail();
-    }else if (checkUserPasswordValid == null) {
+    } else if (checkUserPasswordValid == null) {
         return checkUserSIPassword();
     } else {
         firebase.auth().signInWithEmailAndPassword(userSIEmail, userSIPassword).then((success) => {
@@ -242,14 +244,15 @@ firebase.auth().onAuthStateChanged((user) => {
         }
         let firebaseRefKey = firebase.database().ref().child(uid);
         firebaseRefKey.on('value', (data) => {
-            util.qs("#userPfFullName").innerHTML = data.val().userFullName;
-            util.qs("#userPfLastname").innerHTML = data.val().userLastname;
+            sc.qs("#userPfFullName").innerHTML = data.val().userFullName;
+            sc.qs("#userPfLastname").innerHTML = data.val().userLastname;
+            sc.qs("#userPfLang").innerHTML = data.val().userLang;
             // userEmail = data.val().userEmail;
             // userPassword = data.val().userPassword;
-            util.qs("#userPfFb").setAttribute('href', data.val().userFb);
-            util.qs("#userPfTw").setAttribute('href', data.val().userTw);
-            util.qs("#userPfGp").setAttribute('href', data.val().userGp);
-            util.qs("#userPfBio").innerHTML = data.val().userBio;
+            sc.qs("#userPfFb").setAttribute('href', data.val().userFb);
+            sc.qs("#userPfTw").setAttribute('href', data.val().userTw);
+            sc.qs("#userPfGp").setAttribute('href', data.val().userGp);
+            sc.qs("#userPfBio").innerHTML = data.val().userBio;
         })
     } else {
     //   No user is signed in.
@@ -258,36 +261,36 @@ firebase.auth().onAuthStateChanged((user) => {
 
 //  Show edit profile form with detail
 function showEditProfileForm() {
-    util.qs("#profileSection").style.display = "none";
-    util.qs("#editProfileForm").style.display = "block";
-    var userPfFullName = util.qs("#userPfFullName").innerHTML;
-    var userPfLastname = util.qs("#userPfLastname").innerHTML;
-    var userPfFb = util.qs("#userPfFb").getAttribute("href");
-    var userPfTw = util.qs("#userPfTw").getAttribute("href");
-    var userPfGp = util.qs("#userPfGp").getAttribute("href");
-    var userPfBio = util.qs("#userPfBio").innerHTML;
-    util.qs("#userFullName").value = userPfFullName;
-    util.qs("#userLastname").value = userPfLastname;
-    util.qs("#userFacebook").value = userPfFb;
-    util.qs("#userTwitter").value = userPfTw;
-    util.qs("#userGooglePlus").value = userPfGp;
-    util.qs("#userBio").value = userPfBio;
+    sc.qs("#profileSection").style.display = "none";
+    sc.qs("#editProfileForm").style.display = "block";
+    var userPfFullName = sc.qs("#userPfFullName").innerHTML;
+    var userPfLastname = sc.qs("#userPfLastname").innerHTML;
+    var userPfFb = sc.qs("#userPfFb").getAttribute("href");
+    var userPfTw = sc.qs("#userPfTw").getAttribute("href");
+    var userPfGp = sc.qs("#userPfGp").getAttribute("href");
+    var userPfBio = sc.qs("#userPfBio").innerHTML;
+    sc.qs("#userFullName").value = userPfFullName;
+    sc.qs("#userLastname").value = userPfLastname;
+    sc.qs("#userFacebook").value = userPfFb;
+    sc.qs("#userTwitter").value = userPfTw;
+    sc.qs("#userGooglePlus").value = userPfGp;
+    sc.qs("#userBio").value = userPfBio;
 }
 
 //  Hide edit profile form
 function hideEditProfileForm() {
-    util.qs("#profileSection").style.display = "block";
-    util.qs("#editProfileForm").style.display = "none";
+    sc.qs("#profileSection").style.display = "block";
+    sc.qs("#editProfileForm").style.display = "none";
 }
 
 //  Save profile and update database
 function saveProfile() {
-    let userFullName = util.qs("#userFullName").value
-    let userLastname = util.qs("#userLastname").value
-    let userFacebook = util.qs("#userFacebook").value
-    let userTwitter = util.qs("#userTwitter").value
-    let userGooglePlus = util.qs("#userGooglePlus").value
-    let userBio = util.qs("#userBio").value
+    let userFullName = sc.qs("#userFullName").value
+    let userLastname = sc.qs("#userLastname").value
+    let userFacebook = sc.qs("#userFacebook").value
+    let userTwitter = sc.qs("#userTwitter").value
+    let userGooglePlus = sc.qs("#userGooglePlus").value
+    let userBio = sc.qs("#userBio").value
     var userFullNameFormat = /^([A-Za-z.\s_-])/;
     var checkUserFullNameValid = userFullName.match(userFullNameFormat);
     if (checkUserFullNameValid == null) {
@@ -317,9 +320,9 @@ function saveProfile() {
         })
         .then((value) => {
             setTimeout(function() {
-                util.qs("#profileSection").style.display = "block";
+                sc.qs("#profileSection").style.display = "block";
 
-                util.qs("#editProfileForm").style.display = "none";
+                sc.qs("#editProfileForm").style.display = "none";
             }, 1000)
         });
     }

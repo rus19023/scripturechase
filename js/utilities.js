@@ -45,4 +45,4 @@ function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass) {
     lmnt.setAttribute('class', LMNTclass);
     return lmnt;
 }
-export { qs, onTouch, createLMNT};
+export { qs, onTouch, createLMNT };
