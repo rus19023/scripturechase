@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,17 +14,18 @@
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
         <!-- <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />-->
 
-        <title>Scripture Chase | FlipCards</title>
+        <title>Scripture Chase | Quiz</title>
     </head>
 
     <body>
-        <h1 class="title">Scripture Chase | FlipCards</h1>
+        <h1 class="title">Scripture Chase | Quiz</h1>
         <div class="container">
-        <ul id="reflist" class="normal-text nodots">
-            <!-- TODO: choose which clues on flipcard -->
-            <br> concatenate all chosen lists
-            <br> Question Category List displays here to get url for API
-        </ul>
+            <div id="quizleaderboard"></div>
+            <ul id="reflist" class="normal-text nodots">
+                list of categories with checkboxes to choose
+                <br> concatenate all chosen lists
+                <br> Question Category List displays here to get url for API
+            </ul>
             <section class="dojo">
                 <div class="quiz-body">
                     <header class="title quizhead">
@@ -76,7 +78,7 @@
         </footer>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="../js/app.js"></script>
-        <script src="../js/quiz.js"></script>
+        <!-- <script src="../js/app.js" type="module"></script> -->
+        <script src="../js/quiz.js" type="module"></script>
     </body>
 </html>

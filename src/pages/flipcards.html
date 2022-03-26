@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,34 +13,33 @@
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
         <!-- <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />-->
 
-        <title>Scripture Chase | Quiz</title>
+        <title>Scripture Chase | FlipCards</title>
     </head>
 
     <body>
-        <h1 class="title">Scripture Chase | Quiz</h1>
-        <div class="container">
+        <h1 class="title">Scripture Chase | FlipCards</h1>
+        <div id="container">
+            <div id="quizleaderboard"></div>
+        </div>
         <ul id="reflist" class="normal-text nodots">
-            list of categories with checkboxes to choose
+            <!-- TODO: checkboxes (prettified) to choose which clues on flipcards -->
             <br> concatenate all chosen lists
             <br> Question Category List displays here to get url for API
         </ul>
-            <section class="dojo">
-                <div class="quiz-body">
-                    <header class="title quizhead">
-                        <div id='timer'>Time: <strong>0</strong></div>
-                        <div id='score'>Score: <strong>0</strong></div>
-                        <div id='hiScore'>High Score: <strong>0</strong></div>
-                    </header>
-                    <h1 class="title">Scripture Chase Quiz</h1>
-                    <div id="question" class="normal-text"></div>
-                    <div id="response" class="normal-text"></div>
-                    <div id="result" class="normal-text"></div>
-                    <div id="info" class="normal-text"></div>
-                    <button id="start" class="todo-buttons startbtn">Start</button>
+        <div class="gridcontainer">
+            <div class="maincontainer">
+                <div id="card" class="card">
+                    <div class="front">
+                        <h2 class="title">Front text</h2>
+                    </div>
+                    <div class="back">
+                        <h2 class="title">Back text</h2>
+                    </div>
                 </div>
-            </section>
+            </div>
             <div class="progress-bar"></div>
-        <footer class="">
+        </div>
+        <footer class="title">
             <div class="container col5">
                 <div class="">
                     <a href="./home.html">
@@ -50,13 +48,13 @@
                     </a>
                 </div>
                 <div class="">
-                    <a href="./#nav">
-                        <img src="../../img/icons8-menu-384.png" alt="menu icon" class="icon whitebg">
-                        Menu
+                    <a href="./profile.html">
+                        <img src="../../img/icons8-user-64.png" alt="profile icon" class="icon whitebg">
+                        Profile
                     </a>
                 </div>
                 <div class="">
-                    <a href="./flashcards.html">
+                    <a href="./flipcards.html">
                         <img src="../../img/icons8-flashcards-90.png" alt="flashcards icon" class="icon whitebg">
                         Flipcard
                     </a>
@@ -77,7 +75,7 @@
         </footer>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <!-- <script src="../js/app.js" type="module"></script> -->
-        <script src="../js/quiz.js" type="module"></script>
+        <script src="../js/app.js"></script>
+        <script src="../js/flipcard.js" type="module"></script>
     </body>
 </html>

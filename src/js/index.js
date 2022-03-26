@@ -3,6 +3,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { } from 'firebase/database';
 import { } from 'firebase/firestore';
+import { } from 'firebase/analytics';
 
 // Firebase project configuration
 const firebaseConfig = {

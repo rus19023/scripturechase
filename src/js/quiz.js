@@ -63,6 +63,7 @@ const buildUrl = (volume, book, chapter, startverse, endverse) => {
     return `${baseurl}/${volume}/${book}/${chapter}/${verses}?lang=${langpref}`;
 }
 
+
 const getQuiz = async () => {
     if (!('fetch' in window)) {
         console.log('Your browser does not support this app. Please use a modern browser such as Chrome, Safari, Opera, Brave, FireFox or Edge.');
@@ -130,6 +131,7 @@ const view = {
     response: util.qs("#response"),
     timer: util.qs('#timer strong'),
     hiScore: util.qs('#hiScore strong'),
+    user: util.qs('#user strong'), // TODO: get username from firebase
 
     render(target, content, attributes) {
         //console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
