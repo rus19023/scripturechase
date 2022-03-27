@@ -80,7 +80,9 @@ const getQuiz = async (url) => {
             const getQuizArray = await response.json();
             let newArray = [];
             console.log(getQuizArray);
-
+            getQuizArray.forEach(el => {
+                console.log(el);
+            });
             // Create a new json file for the mastery scripture passages
             // getQuizArray.forEach(vol => {
             //         vol.bom.forEach(el => {
