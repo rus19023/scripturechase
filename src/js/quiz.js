@@ -1,42 +1,39 @@
 import * as util from '../js/utilities.js';
 
-const url = 'http://rus19023.github.io/scripturechase/json/lds-scriptures.json';
-const url2 = 'https://gist.github.com/mariodev12/a923f2b651a005ca3ca7f851141efcbc';
-const url3 = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/questions.json';
-const url4 = 'http://localhost/myportfolio/330/exercises/js/questions.json';
-const url6 = 'https://github.com/rus19023/scripturechase/blob/main/json/lds-scriptures.json';
+const url1 = 'rus19023.github.io/scripturechase/json/lds-scriptures.json';
+const url6 = 'https://raw.githubusercontent.com/rus19023/scripturechase/main/json/scripturechase.json';
 
 const url5 = [
-    { name: "Superman", realName: "Clark Kent" },
-    { name: "Wonder Woman", realName: "Diana Prince" },
-    { name: "Batman", realName: "Bruce Wayne" },
-    { name: "Flash", realName: "Barry Allen" },
-    { name: "Cyborg", realName: "Victor Stone" },
-    { name: "IronMan", realName: "Tony Stark" },
-    { name: "Catwoman", realName: "Selena Kyle" },
-    { name: "Riddler", realName: "Edward Nygma" },
-    { name: "SpiderMan", realName: "Peter Parker" },
-    { name: "Green Goblin", realName: "Norman Osborne" },
-    { name: "Penguin", realName: "Oswald Cobblepot" },
-    { name: "Scarecrow", realName: "Dr Jonathan Crane" },
-    { name: "Dr Manhattan", realName: "Jonathan Osterman" },
-    { name: "Rorschach", realName: "Walter Kovacs" },
-    { name: "Gambit", realName: "Remy LeBeau" },
-    { name: "Wolverine", realName: "James Logan" },
-    { name: "Mystique", realName: "Raven Darkholme" },
-    { name: "Magneto", realName: "Max Eisenhardt" },
-    { name: "Professor X", realName: "Charles Xavier" },
-    { name: "Phoenix", realName: "Jean Gray" },
-    { name: "NightCrawler", realName: "Kurt Wagner" },
-    { name: "Beast", realName: "Hank McCoy" },
-    { name: "Storm", realName: "Ororo Munroe" },
-    { name: "Rogue", realName: "Anna Marie DAncanto" },
-    { name: "The Hulk",realName: "Bruce Banner" },
-    { name: "Spider-man",realName: "Peter Parker" },
-    { name: "Cyclops",realName: "Scott Summers" }
+    { ques: "Superman", ans: "Clark Kent" },
+    { ques: "Wonder Woman", ans: "Diana Prince" },
+    { ques: "Batman", ans: "Bruce Wayne" },
+    { ques: "Flash", ans: "Barry Allen" },
+    { ques: "Cyborg", ans: "Victor Stone" },
+    { ques: "IronMan", ans: "Tony Stark" },
+    { ques: "Catwoman", ans: "Selena Kyle" },
+    { ques: "Riddler", ans: "Edward Nygma" },
+    { ques: "SpiderMan", ans: "Peter Parker" },
+    { ques: "Green Goblin", ans: "Norman Osborne" },
+    { ques: "Penguin", ans: "Oswald Cobblepot" },
+    { ques: "Scarecrow", ans: "Dr Jonathan Crane" },
+    { ques: "Dr Manhattan", ans: "Jonathan Osterman" },
+    { ques: "Rorschach", ans: "Walter Kovacs" },
+    { ques: "Gambit", ans: "Remy LeBeau" },
+    { ques: "Wolverine", ans: "James Logan" },
+    { ques: "Mystique", ans: "Raven Darkholme" },
+    { ques: "Magneto", ans: "Max Eisenhardt" },
+    { ques: "Professor X", ans: "Charles Xavier" },
+    { ques: "Phoenix", ans: "Jean Gray" },
+    { ques: "NightCrawler", ans: "Kurt Wagner" },
+    { ques: "Beast", ans: "Hank McCoy" },
+    { ques: "Storm", ans: "Ororo Munroe" },
+    { ques: "Rogue", ans: "Anna Marie DAncanto" },
+    { ques: "The Hulk", ans: "Bruce Banner" },
+    { ques: "Spider-man", ans: "Peter Parker" },
+    { ques: "Cyclops", ans: "Scott Summers" }
 ];
 
-console.log(url6);
+console.log(url5);
 
 //  https://abn.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2018/doctrinal-mastery-passages/doctrinal-mastery-passages-by-topic-and-course?lang=eng
 
@@ -52,7 +49,7 @@ var book = '';
 var chapter = '';
 var startverse = '';
 var endverse = '';
-var langpref = util.qs('#langpref').value;
+//var langpref = util.qs('#langpref').value;
 
 const buildUrl = (volume, book, chapter, startverse, endverse) => {
     if (endverse.length > 0) {
@@ -64,7 +61,7 @@ const buildUrl = (volume, book, chapter, startverse, endverse) => {
 }
 
 
-const getQuiz = async () => {
+const getQuiz = async (url) => {
     if (!('fetch' in window)) {
         console.log('Your browser does not support this app. Please use a modern browser such as Chrome, Safari, Opera, Brave, FireFox or Edge.');
         return;
@@ -81,7 +78,49 @@ const getQuiz = async () => {
             throw Error(`${response.status} ${response.statusText}`);
         } else {
             const getQuizArray = await response.json();
+            let newArray = [];
             console.log(getQuizArray);
+
+            // Create a new json file for the mastery scripture passages
+            // getQuizArray.forEach(vol => {
+            //         vol.bom.forEach(el => {
+            //             if (el.mastery) {
+            //                 console.log(el);
+            //                 newArray.push(el);
+            //             }
+            //         });
+            //         vol.ot.forEach(el => {
+            //             if (el.mastery) {
+            //                 console.log(el);
+            //                 newArray.push(el);
+            //             }
+            //         });
+            //         vol.nt.forEach(el => {
+            //             if (el.mastery) {
+            //                 console.log(el);
+            //                 newArray.push(el);
+            //             }
+            //         });
+            //         vol.dc.forEach(el => {
+            //             if (el.mastery) {
+            //                 console.log(el);
+            //                 newArray.push(el);
+            //             }
+            //         });
+            //     console.log(newArray);
+            //     const text = JSON.stringify(newArray);
+            //     const name = "sample.json";
+            //     const type = "text/plain";
+            //     // create file
+            //     const a = document.createElement("a");
+            //     const file = new Blob([text], { type: type });
+            //     a.href = URL.createObjectURL(file);
+                   //  auto download the json file
+            //     a.download = name;
+            //     document.body.appendChild(a);
+            //     a.click();
+            //     a.remove();
+            // });
             const quiz = getQuizArray.filter(quiz => quiz.type === 'multiple');
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
@@ -118,7 +157,7 @@ function shuffle(array) {
     }
 }
 
-getQuiz();
+const quiz = getQuiz(url6);
 console.log(quiz);
 
 // View Object
@@ -223,7 +262,7 @@ const game = {
     // },
 
 
-    ask(name) {
+    ask(ques) {
         console.log('ask() invoked');
         if(this.questions.length > 2) {
             shuffle(this.questions);
@@ -243,7 +282,7 @@ const game = {
     check(event) {
         console.log('check(event) invoked');
         const response = event.target.textContent;
-        const answer = this.question.realName;
+        const answer = this.question.ans;
         if(response === answer) {
             view.render(view.result,'Correct!',{'class':'correct'});
             this.score += 10;
