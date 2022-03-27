@@ -19,27 +19,29 @@
             <div id="left">
                 <img src="../img/scriptures.jpg" alt="Images of Holy Bible and Book of Mormon" class="centerimg fifty">
             </div>
-            <div class="container signup-container">
+            <div id="signup-container" class="container signup-container">
                 <fieldset>
-                  <div class="bwhite">
-                    <img src="../img/icons8-sign-up-64.png">
-                    <!--https://www.visualpharm.com/free-icon-->
-                   </div>
-                  <div>
-                    <label class="normal-text" for="mail">Email</label> <br>
-                   <input type="email" id="mail" name="mail"/>
-                 </div>
-                  <div>
-                   <label class="normal-text" for="password">Password</label> <br>
-                   <input type="password" id="password" name="password"/> <br>
-                  </div>
-                  <button id="signUp">Signup</button>
+                    <div class="whitebg">
+                        <img src="../img/icons8-sign-up-64.png">
+                    </div>
+                    <div>
+                        <label class="normal-text" for="userSIEmail">
+                            Email address<span class="text-danger ml-1">*</span>
+                        </label>
+                        <input type="email" class="inputs" id="userSIEmail" onblur="checkUserSIEmail()" placeholder="mail@mail.com">
+                        <small id="userSIEmailError" class="warning">Please check your login information.</small>
+                    </div>
+                    <div>
+                        <label class="normal-text" for="password">Password</label> <br>
+                        <input type="password" id="password" name="password"/> <br>
+                    </div>
+                    <button id="signUp" class="buttons">Signup</button>
                 </fieldset>
-              </div>
-              <div class="feedbackContainer failure">
+            </div>
+            <div class="feedbackContainer failure">
                 <div class="feedbackIcon"></div>
                 <p class="feedbackMessage">Signing up failed</p>
-              </div>
+            </div>
         </section>
 
         <!-- Optional JavaScript -->
