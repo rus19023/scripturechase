@@ -19,87 +19,112 @@
         <title>Profile | Scripture Chase</title>
     </head>
 
-    <body class="bg-light">
-        <div class="container-fluid">
-            <div class="row mx-1">
-                <div class="col-lg-10 col-md-10 offset-lg-1 offset-md-1 bg-white shadow my-5 border border-primary">
+    <body class=""><section id="gridcontainer">
+        <div id="left">
+            <img src="../images/scriptures.jpg" alt="image of Holy Bible and Book of Mormon">
+        </div>
+            <div id="profileSection" class="container signup-container">
+                <div class=" class="fifty centerimg"">
+                    <img id="userAvatar" src="../images/avatar.png" alt="avatar icon" >
+                </div>
+                <div class="form-group">
+                    <span class="h3" id="userPfFullName">Full Name</span>
+                    <span class="h3" id="userPfSurname">Last Name</span>
+                </div>
+                <div class="col-lg-12 col-md-12 mb-4 text-center">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 p-4 bg-primary divCover">
-                            <img src="../images/firebase_logo.png" alt="Firebase cover image">
+                        <div class="col-2 offset-3 border-right">
+                            <a id="userPfFb" href="#" target="_blank">
+                                <i class="fab fa-facebook-f text-primary"></i>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-md-6 p-lg-5 p-md-5 px-3 py-4 text-dark">
-                            <div id="profileSection">
-                                <div class="col-12 col-12 mb-3 text-center">
-                                    <img id="userAvatar" src="../images/avatar.png" alt="avatar icon" >
-                                </div>
-                                <div class="col-12 col-12 mb-4 text-center">
-                                    <span class="h3" id="userPfFullName">Full Name</span>
-                                    <span class="h3" id="userPfSurname">Last Name</span>
-                                </div>
-                                <div class="col-lg-12 col-md-12 mb-4 text-center">
-                                    <div class="row">
-                                        <div class="col-2 offset-3 border-right">
-                                            <a id="userPfFb" href="#" target="_blank">
-                                                <i class="fab fa-facebook-f text-primary"></i>
-                                            </a>
-                                        </div>
-                                        <div class="col-2 border-right">
-                                            <a id="userPfTw" href="#" target="_blank">
-                                                <i class="fab fa-twitter text-primary"></i>
-                                            </a>
-                                        </div>
-                                        <div class="col-2">
-                                            <a id="userPfGp" href="#" target="_blank">
-                                                <i class="fab fa-google-plus-g text-primary"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 mb-4 text-center">
-                                    <p id="userPfBio">Profile biography</p>
-                                </div>
-                                <div class="col-lg-12 col-md-12 text-center">
-                                    <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="showEditProfileForm()">
-                                    Edit Profile<small></small></button>
-                                    <button type="button" class="btn btn-outline-secondary text-uppercase" onclick="signOut()">
-                                    Sign Out<small></small></button>
-                                </div>
-                            </div>
-                            <div id="editProfileForm">
-                                <h2 class="h2 text-center text-dark mb-3">Edit Profile</h2>
-                                <div class="form-group">
-                                    <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
-                                    <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="First Name ">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userSurname">Last Name<span class="text-danger ml-1">*</span></label>
-                                    <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="Firma Faliyet Alanı">
-                                    <small id="userSurnameError" class="form-text text-danger">Please fill the field.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="userFacebook">Facebook</label>
-                                    <input type="text" class="form-control" id="userFacebook" placeholder="https://www.facebook.com/">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userTwitter">Twitter</label>
-                                    <input type="text" class="form-control" id="userTwitter" placeholder="https://www.twitter.com/">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userGooglePlus">Google Plus</label>
-                                    <input type="text" class="form-control" id="userGooglePlus" placeholder="https://plus.google.com/">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userBio">Biography<span class="text-danger ml-1">*</span></label>
-                                    <textarea class="form-control" id="userBio" rows="4" onblur="checkUserBio()"></textarea>
-                                </div>
-                                <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="saveProfile()">Save</button>
-                                <button type="button" class="btn btn-outline-secondary btn-block text-uppercase" onclick="hideEditProfileForm()">Cancel</button>
-                            </div>
+                        <div class="col-2 border-right">
+                            <a id="userPfTw" href="#" target="_blank">
+                                <i class="fab fa-twitter text-primary"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a id="userPfGp" href="#" target="_blank">
+                                <i class="fab fa-google-plus-g text-primary"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-12 col-md-12 mb-4 text-center">
+                    <p id="userPfBio">Profile biography</p>
+                </div>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="showEditProfileForm()">
+                    Edit Profile<small></small></button>
+                    <button type="button" class="btn btn-outline-secondary text-uppercase" onclick="signOut()">
+                    Sign Out<small></small></button>
+                </div>
+            </div>
+            <div id="editProfileForm">
+                <h2 class="h2 text-center text-dark mb-3">Edit Profile</h2>
+                <div class="form-group">
+                    <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
+                    <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="First Name ">
+                </div>
+                <div class="form-group">
+                    <label for="userSurname">Last Name<span class="text-danger ml-1">*</span></label>
+                    <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="Firma Faliyet Alanı">
+                    <small id="userSurnameError" class="form-text text-danger">Please fill the field.</small>
+                </div>
+                <div class="form-group">
+                    <label for="userFacebook">Facebook</label>
+                    <input type="text" class="form-control" id="userFacebook" placeholder="https://www.facebook.com/">
+                </div>
+                <div class="form-group">
+                    <label for="userTwitter">Twitter</label>
+                    <input type="text" class="form-control" id="userTwitter" placeholder="https://www.twitter.com/">
+                </div>
+                <div class="form-group">
+                    <label for="userGooglePlus">Google Plus</label>
+                    <input type="text" class="form-control" id="userGooglePlus" placeholder="https://plus.google.com/">
+                </div>
+                <div class="form-group">
+                    <label for="userBio">Biography<span class="text-danger ml-1">*</span></label>
+                    <textarea class="form-control" id="userBio" rows="4" onblur="checkUserBio()"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="saveProfile()">Save</button>
+                <button type="button" class="btn btn-outline-secondary btn-block text-uppercase" onclick="hideEditProfileForm()">Cancel</button>
             </div>
         </div>
+        <footer class="title">
+            <div class="container col5">
+                <div class="">
+                    <a href="./home.html">
+                        <img src="../../img/icons8-home-96.png" alt="home icon" class="icon whitebg">
+                        Home
+                    </a>
+                </div>
+                <div class="">
+                    <a href="./quiz.html">
+                        <img src="../../img/icons8-quiz-66.png" alt="quiz icon" class="icon whitebg">
+                        Quiz
+                    </a>
+                </div>
+                <div class="">
+                    <a href="./flipcards.html">
+                        <img src="../../img/icons8-flashcards-90.png" alt="flashcards icon" class="icon whitebg">
+                        Flipcard
+                    </a>
+                </div>
+                <div class="">
+                    <a href="./profile.html">
+                        <img src="../../img/icons8-user-64.png" alt="profile icon" class="icon whitebg">
+                        Profile
+                    </a>
+                </div>
+                <div class="">
+                    <a href="/">
+                        <img src="../../img/icons8-logout-64.png" alt="logout icon" class="icon whitebg">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

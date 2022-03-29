@@ -1,33 +1,43 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
-import { } from 'firebase/database';
-import { } from 'firebase/firestore';
+import * as su from './signup.js';
+import * as util from './utilities.js';
 
-// Firebase project configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
-    authDomain: "scripturechase-46976.firebaseapp.com",
-    projectId: "scripturechase-46976",
-    storageBucket: "scripturechase-46976.appspot.com",
-    messagingSenderId: "51330554814",
-    appId: "1:51330554814:web:8943dc84fc3bd5391537ef",
-    measurementId: "G-HE9YJ49Y12"
-};
+// Initialize Firebase services and get references to the service
+const auth = getAuth(fireApp);
+const fs = getFirestore(fireApp);
+const db = getDatabase(fireApp);
+const analytics = getAnalytics(fireApp);
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-// Initialize Firebase Authentication and get a reference to the service
-const auth = app.auth();
-const db = app.firestore();
-const analytics = app.analytics();
+const mailField = util.qs('#mail');
+const passwordField = util.qs('#password');
+const displayNameField = util.qs('#displayName');
+const photoField = util.qs('#photo');
+const labels = document.getElementsByTagName('label');
+const signUp = util.qs('#signUp');
+const failureModal = util.qs('.failure');
+
+//Sends verification emails in the same language as the language used in the
+//user's device
+auth.useDeviceLanguage();  //TODO: use lang pref to send emails in the user's language   (https://firebase.google.com/docs/auth/web/language-selection)
+
+// Detect auth state
+onAuthStateChanged(auth, user => {
+    if (user) {
+        // User is signed in.
+        console.log('User is signed in');
+        console.log(user);
+    } else {
+        // No user is signed in.
+        console.log('No user is signed in');
+    }
+});
+
 
 // Sign Up Form
 // Full Name Validation
-function checkUserFullName() {
+export function checkUserFullName() {
     var userLastname = sc.qs("#userFullName").value;
     var flag = false;
-    if (userLastname === "") {
+    if (userLastname === "") {n
         flag = true;
     }
     if (flag) {
@@ -38,7 +48,7 @@ function checkUserFullName() {
 }
 
 // Validate last name
-function checkUserLastname() {
+export function checkUserLastname() {
     var userLastname = sc.qs("#userLastname").value;
     var flag = false;
     if (userLastname === "") {
@@ -52,7 +62,7 @@ function checkUserLastname() {
 }
 
 // Validate email
-function checkUserEmail() {
+export function checkUserEmail() {
     var userEmail = sc.qs("#userEmail");
     var userEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
@@ -69,7 +79,7 @@ function checkUserEmail() {
 }
 
 // Validate password
-function checkUserPassword() {
+export function checkUserPassword() {
     var userPassword = sc.qs("#userPassword");
     var userPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
@@ -86,7 +96,7 @@ function checkUserPassword() {
 }
 
 // Check user bio for future use
-function checkUserBio() {
+export function checkUserBio() {
     var userBio = sc.qs("#userBio").value;
     var flag = false;
     if (flag) {
@@ -97,7 +107,7 @@ function checkUserBio() {
 }
 
 // Create new user in firebase auth
-function signUp() {
+export function signUp() {
     var userFullName = sc.qs("#userFullName").value;
     var userLastname = sc.qs("#userLastname").value;
     var userEmail = sc.qs("#userEmail").value;
@@ -160,7 +170,7 @@ function signUp() {
 
 //  Working For Sign In Form 
 //  Sign In Email Validation 
-function checkUserSIEmail() {
+export function checkUserSIEmail() {
     var userSIEmail = sc.qs("#userSIEmail");
     var userSIEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
@@ -177,7 +187,7 @@ function checkUserSIEmail() {
 }
 
 //  Sign In Password Validation 
-function checkUserSIPassword() {
+export function checkUserSIPassword() {
     var userSIPassword = sc.qs("#userSIPassword");
     var userSIPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
@@ -194,7 +204,7 @@ function checkUserSIPassword() {
 }
 
 //  Check email or password exsist in firebase authentication 
-function signIn() {
+export function signIn() {
     var userSIEmail = sc.qs("#userSIEmail").value;
     var userSIPassword = sc.qs("#userSIPassword").value;
     var userSIEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -259,7 +269,7 @@ firebase.auth().onAuthStateChanged((user) => {
 });
 
 //  Show edit profile form with detail
-function showEditProfileForm() {
+export function showEditProfileForm() {
     sc.qs("#profileSection").style.display = "none";
     sc.qs("#editProfileForm").style.display = "block";
     var userPfFullName = sc.qs("#userPfFullName").innerHTML;
@@ -277,13 +287,13 @@ function showEditProfileForm() {
 }
 
 //  Hide edit profile form
-function hideEditProfileForm() {
+export function hideEditProfileForm() {
     sc.qs("#profileSection").style.display = "block";
     sc.qs("#editProfileForm").style.display = "none";
 }
 
 //  Save profile and update database
-function saveProfile() {
+export function saveProfile() {
     let userFullName = sc.qs("#userFullName").value
     let userLastname = sc.qs("#userLastname").value
     let userFacebook = sc.qs("#userFacebook").value
@@ -328,7 +338,7 @@ function saveProfile() {
 }
 
 //  Logout
-function signOut() {
+export function signOut() {
     firebase.auth().signOut()
     .then(function() {
         // Logout successful.

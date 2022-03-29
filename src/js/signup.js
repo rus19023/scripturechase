@@ -1,38 +1,53 @@
-const mailField = document.getElementById('mail');
-const passwordField = document.getElementById('password');
-const displayNameField = document.getElementById('displayName');
-const photoField = document.getElementById('photo');
-const labels = document.getElementsByTagName('label');
-const signUp = document.getElementById('signUp');
-const failureModal = document.querySelector('.failure');
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
+import * as util from './utilities.js';
 
-const auth = firebase.auth();
-//auth.languageCode = 'fr_FR'; //Sending verification emails only in french
+const emailField = util.qs('#userSIEmail');
+const passwordField = util.qs('#userSIPassword');
+const signUp = util.qs('#signUp');
+const login = util.qs('#login');
 
-//Sends verification emails in the same language as the language used in the
-//user's device
+// Firebase project configuration
+const fireConfig = {
+    apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
+    authDomain: "scripturechase-46976.firebaseapp.com",
+    projectId: "scripturechase-46976",
+    storageBucket: "scripturechase-46976.appspot.com",
+    messagingSenderId: "51330554814",
+    appId: "1:51330554814:web:8943dc84fc3bd5391537ef",
+    measurementId: "G-HE9YJ49Y12"
+};
+
+// Initialize Firebase
+const firebase = initializeApp(fireConfig);
+
+const auth = getAuth(firebase);
+//console.log(auth);
+
+//Sends verification emails in the same language as the language used in the user's device
 auth.useDeviceLanguage();
 
-//Function wrapping all the signup parts including the email verification email
+//Function wrapping all the sign up parts including the email verification email
 //triggered once the user clicks on the signup button
 const signUpFunction = () => {
-    const email = mailField.value;
+    const email = emailField.value;
     const password = passwordField.value;
+    //console.log(email, password);
 
-    //Built in firebase function responsible for signing up a user
-    auth.createUserWithEmailAndPassword(email, password)
-    .then(() => {
+    //Built in Firebase function responsible for signing up a user
+    createUserWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        console.log(user);
         console.log('Signed Up Successfully !');
         sendVerificationEmail();
     })
     .catch(error => {
-        console.error(error);
-        //Shows a modal as feedback if there's an error
-        failureModal.style.display = 'flex';
-        setTimeout(() => {
-            failureModal.style.display = 'none';
-        }, 1000);
-    })
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode, errorMessage);
+    });
 }
 
 //Function called right after the signUpWithEmailAndPassword to send verification emails
@@ -41,35 +56,9 @@ const sendVerificationEmail = () => {
     auth.currentUser.sendEmailVerification()
     .then(() => {
         console.log('Verification Email Sent Successfully !');
-        //redirecting the user to the profile page once everything is done correctly
-        window.location.assign('../pages/profile');
     })
     .catch(error => {
         console.error(error);
     });
 }
-
 signUp.addEventListener('click', signUpFunction);
-
-document.getElementById('userInfo').addEventListener('click', () => {
-    console.log(auth.currentUser);
-});
-
-//Animations
-mailField.addEventListener('focus', () => {
-    labels.item(0).className = "focused-field";
-});
-
-passwordField.addEventListener('focus', () => {
-    labels.item(1).className = "focused-field";
-});
-
-mailField.addEventListener('blur', () => {
-    if(!mailField.value)
-        labels.item(0).className = "unfocused-field";
-});
-
-passwordField.addEventListener('blur', () => {
-    if(!passwordField.value)
-        labels.item(1).className = "unfocused-field";
-});
