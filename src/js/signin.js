@@ -1,31 +1,11 @@
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
-import * as util from './utilities.js';
+import {} from './fsconfig';
+import { getAuth, signInWithEmailFunction } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
+import * as util from './utilities';
 
+// TODO: check for logged in user on page load, if logged in, show navbar & profile
 const emailField = util.qs('#userSIEmail');
 const passwordField = util.qs('#userSIPassword');
 const login = util.qs('#login');
-
-// Firebase project configuration
-const fireConfig = {
-    apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
-    authDomain: "scripturechase-46976.firebaseapp.com",
-    projectId: "scripturechase-46976",
-    storageBucket: "scripturechase-46976.appspot.com",
-    messagingSenderId: "51330554814",
-    appId: "1:51330554814:web:8943dc84fc3bd5391537ef",
-    measurementId: "G-HE9YJ49Y12"
-};
-
-// Initialize Firebase
-const firebase = initializeApp(fireConfig);
-
-const auth = getAuth(firebase);
-//console.log(auth);
-
-//Sends verification emails in the same language as the language used in the user's device
-auth.useDeviceLanguage();
-
 
 //Sign in function
 const signInWithEmailFunction = () => {
@@ -39,6 +19,8 @@ const signInWithEmailFunction = () => {
           const user = userCredential.user;
           console.log(user);
           console.log('You\'re successfully signed in !');
+          navbar.classList.remove('hide');
+          profile.classList.remove('hide');
     })
     .catch(error => {
       console.error(error);

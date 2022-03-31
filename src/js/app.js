@@ -1,11 +1,20 @@
 import * as su from './signup.js';
+import * as si from './signin.js';
 import * as util from './utilities.js';
 
-// Initialize Firebase services and get references to the service
-const auth = getAuth(fireApp);
-const fs = getFirestore(fireApp);
-const db = getDatabase(fireApp);
-const analytics = getAnalytics(fireApp);
+const getUnits = util.qs('#getUnit');
+
+getUnits.addEventListener('click', () => {
+    const unit = util.qs('#unit').value;
+    console.log(unit);
+});
+
+
+// // Initialize Firebase services and get references to the service
+// const auth = getAuth(fireApp);
+// const fs = getFirestore(fireApp);
+// const db = getDatabase(fireApp);
+// const analytics = getAnalytics(fireApp);
 
 const mailField = util.qs('#mail');
 const passwordField = util.qs('#password');
@@ -17,47 +26,47 @@ const failureModal = util.qs('.failure');
 
 //Sends verification emails in the same language as the language used in the
 //user's device
-auth.useDeviceLanguage();  //TODO: use lang pref to send emails in the user's language   (https://firebase.google.com/docs/auth/web/language-selection)
+//auth.useDeviceLanguage();  //TODO: use lang pref to send emails in the user's language   (https://firebase.google.com/docs/auth/web/language-selection)
 
-// Detect auth state
-onAuthStateChanged(auth, user => {
-    if (user) {
-        // User is signed in.
-        console.log('User is signed in');
-        console.log(user);
-    } else {
-        // No user is signed in.
-        console.log('No user is signed in');
-    }
-});
+// // Detect auth state
+// onAuthStateChanged(auth, user => {
+//     if (user) {
+//         // User is signed in.
+//         console.log('User is signed in');
+//         console.log(user);
+//     } else {
+//         // No user is signed in.
+//         console.log('No user is signed in');
+//     }
+// });
 
 
 // Sign Up Form
-// Full Name Validation
-export function checkUserFullName() {
-    var userLastname = sc.qs("#userFullName").value;
+// First Name Validation
+export function checkUserFirstName() {
+    var userLastName = sc.qs("#userFirstName").value;
     var flag = false;
-    if (userLastname === "") {n
+    if (userLastName === "") {n
         flag = true;
     }
     if (flag) {
-        sc.qs("#userFullNameError").style.display = "block";
+        sc.qs("#userFirstNameError").style.display = "block";
     } else {
-        sc.qs("#userFullNameError").style.display = "none";
+        sc.qs("#userFirstNameError").style.display = "none";
     }
 }
 
 // Validate last name
-export function checkUserLastname() {
-    var userLastname = sc.qs("#userLastname").value;
+export function checkUserLastName() {
+    var userLastName = sc.qs("#userLastName").value;
     var flag = false;
-    if (userLastname === "") {
+    if (userLastName === "") {
         flag = true;
     }
     if (flag) {
-        sc.qs("#userLastnameError").style.display = "block";
+        sc.qs("#userLastNameError").style.display = "block";
     } else {
-        sc.qs("#userLastnameError").style.display = "none";
+        sc.qs("#userLastNameError").style.display = "none";
     }
 }
 
@@ -107,23 +116,23 @@ export function checkUserBio() {
 }
 
 // Create new user in firebase auth
-export function signUp() {
-    var userFullName = sc.qs("#userFullName").value;
-    var userLastname = sc.qs("#userLastname").value;
+export function signUp2() {
+    var userFirstName = sc.qs("#userFirstName").value;
+    var userLastName = sc.qs("#userLastName").value;
     var userEmail = sc.qs("#userEmail").value;
     var userPassword = sc.qs("#userPassword").value;
-    var userFullNameFormat = /^([A-Za-z.\s_-])/;
+    var userFirstNameFormat = /^([A-Za-z.\s_-])/;
     var userEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var userPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
 
-    var checkUserFullNameValid = userFullName.match(userFullNameFormat);
+    var checkUserFirstNameValid = userFirstName.match(userFirstNameFormat);
     var checkUserEmailValid = userEmail.match(userEmailFormat);
     var checkUserPasswordValid = userPassword.match(userPasswordFormat);
 
-    if (checkUserFullNameValid == null) {
-        return checkUserFullName();
-    }else if (userLastname === "") {
-        return checkUserLastname();
+    if (checkUserFirstNameValid == null) {
+        return checkUserFirstName();
+    }else if (userLastName === "") {
+        return checkUserLastName();
     }else if (checkUserEmailValid == null) {
         return checkUserEmail();
     }else if (checkUserPasswordValid == null) {
@@ -138,8 +147,8 @@ export function signUp() {
             }
             var firebaseRef = firebase.database().ref();
             var userData = {
-                userFullName: userFullName,
-                userLastname: userLastname,
+                userFirstName: userFirstName,
+                userLastName: userLastName,
                 userEmail: userEmail,
                 userPassword: userPassword,
                 userFb: "https://www.facebook.com/",
@@ -168,8 +177,8 @@ export function signUp() {
     }
 }
 
-//  Working For Sign In Form 
-//  Sign In Email Validation 
+//  Working For Sign In Form
+//  Sign In Email Validation
 export function checkUserSIEmail() {
     var userSIEmail = sc.qs("#userSIEmail");
     var userSIEmailFormat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -186,7 +195,7 @@ export function checkUserSIEmail() {
     }
 }
 
-//  Sign In Password Validation 
+//  Sign In Password Validation
 export function checkUserSIPassword() {
     var userSIPassword = sc.qs("#userSIPassword");
     var userSIPasswordFormat = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
@@ -203,7 +212,7 @@ export function checkUserSIPassword() {
     }
 }
 
-//  Check email or password exsist in firebase authentication 
+//  Check email or password exsist in firebase authentication
 export function signIn() {
     var userSIEmail = sc.qs("#userSIEmail").value;
     var userSIPassword = sc.qs("#userSIPassword").value;
@@ -221,7 +230,7 @@ export function signIn() {
         firebase.auth().signInWithEmailAndPassword(userSIEmail, userSIPassword).then((success) => {
             swal({
                 type: 'successful',
-                title: 'Succesfully signed in',
+                title: 'SuccesFirsty signed in',
             })
             .then((value) => {
                 setTimeout(function() {
@@ -241,45 +250,45 @@ export function signIn() {
     }
 }
 
-//  Working For Profile Page
-//  Get data from server and show in the page
-firebase.auth().onAuthStateChanged((user) => {
-    if (user) {
-    //   User is signed in.
-        let user = firebase.auth().currentUser;
-        let uid
-        if (user != null) {
-            uid = user.uid;
-        }
-        let firebaseRefKey = firebase.database().ref().child(uid);
-        firebaseRefKey.on('value', (data) => {
-            sc.qs("#userPfFullName").innerHTML = data.val().userFullName;
-            sc.qs("#userPfLastname").innerHTML = data.val().userLastname;
-            sc.qs("#userPfLang").innerHTML = data.val().userLang;
-            // userEmail = data.val().userEmail;
-            // userPassword = data.val().userPassword;
-            sc.qs("#userPfFb").setAttribute('href', data.val().userFb);
-            sc.qs("#userPfTw").setAttribute('href', data.val().userTw);
-            sc.qs("#userPfGp").setAttribute('href', data.val().userGp);
-            sc.qs("#userPfBio").innerHTML = data.val().userBio;
-        })
-    } else {
-    //   No user is signed in.
-    }
-});
+// //  Working For Profile Page
+// //  Get data from server and show in the page
+// firebase.auth().onAuthStateChanged((user) => {
+//     if (user) {
+//     //   User is signed in.
+//         let user = firebase.auth().currentUser;
+//         let uid
+//         if (user != null) {
+//             uid = user.uid;
+//         }
+//         let firebaseRefKey = firebase.database().ref().child(uid);
+//         firebaseRefKey.on('value', (data) => {
+//             sc.qs("#userPfFirstName").innerHTML = data.val().userFirstName;
+//             sc.qs("#userPfLastName").innerHTML = data.val().userLastName;
+//             sc.qs("#userPfLang").innerHTML = data.val().userLang;
+//             // userEmail = data.val().userEmail;
+//             // userPassword = data.val().userPassword;
+//             sc.qs("#userPfFb").setAttribute('href', data.val().userFb);
+//             sc.qs("#userPfTw").setAttribute('href', data.val().userTw);
+//             sc.qs("#userPfGp").setAttribute('href', data.val().userGp);
+//             sc.qs("#userPfBio").innerHTML = data.val().userBio;
+//         })
+//     } else {
+//     //   No user is signed in.
+//     }
+// });
 
 //  Show edit profile form with detail
 export function showEditProfileForm() {
     sc.qs("#profileSection").style.display = "none";
     sc.qs("#editProfileForm").style.display = "block";
-    var userPfFullName = sc.qs("#userPfFullName").innerHTML;
-    var userPfLastname = sc.qs("#userPfLastname").innerHTML;
+    var userPfFirstName = sc.qs("#userPfFirstName").innerHTML;
+    var userPfLastName = sc.qs("#userPfLastName").innerHTML;
     var userPfFb = sc.qs("#userPfFb").getAttribute("href");
     var userPfTw = sc.qs("#userPfTw").getAttribute("href");
     var userPfGp = sc.qs("#userPfGp").getAttribute("href");
     var userPfBio = sc.qs("#userPfBio").innerHTML;
-    sc.qs("#userFullName").value = userPfFullName;
-    sc.qs("#userLastname").value = userPfLastname;
+    sc.qs("#userFirstName").value = userPfFirstName;
+    sc.qs("#userLastName").value = userPfLastName;
     sc.qs("#userFacebook").value = userPfFb;
     sc.qs("#userTwitter").value = userPfTw;
     sc.qs("#userGooglePlus").value = userPfGp;
@@ -294,18 +303,18 @@ export function hideEditProfileForm() {
 
 //  Save profile and update database
 export function saveProfile() {
-    let userFullName = sc.qs("#userFullName").value
-    let userLastname = sc.qs("#userLastname").value
+    let userFirstName = sc.qs("#userFirstName").value
+    let userLastName = sc.qs("#userLastName").value
     let userFacebook = sc.qs("#userFacebook").value
     let userTwitter = sc.qs("#userTwitter").value
     let userGooglePlus = sc.qs("#userGooglePlus").value
     let userBio = sc.qs("#userBio").value
-    var userFullNameFormat = /^([A-Za-z.\s_-])/;
-    var checkUserFullNameValid = userFullName.match(userFullNameFormat);
-    if (checkUserFullNameValid == null) {
-        return checkUserFullName();
-    } else if (userLastname === "") {
-        return checkUserLastname();
+    var userFirstNameFormat = /^([A-Za-z.\s_-])/;
+    var checkUserFirstNameValid = userFirstName.match(userFirstNameFormat);
+    if (checkUserFirstNameValid == null) {
+        return checkUserFirstName();
+    } else if (userLastName === "") {
+        return checkUserLastName();
     } else {
         let user = firebase.auth().currentUser;
         let uid;
@@ -314,8 +323,8 @@ export function saveProfile() {
         }
         var firebaseRef = firebase.database().ref();
         var userData = {
-            userFullName: userFullName,
-            userLastname: userLastname,
+            userFirstName: userFirstName,
+            userLastName: userLastName,
             userFb: userFacebook,
             userTw: userTwitter,
             userGp: userGooglePlus,
@@ -360,4 +369,36 @@ export function signOut() {
             text: "Error",
         })
     });
+}
+
+// TODO: programmatically add footer, if logged in, show logout button/icon, if not, show login button/icon
+const loggedin = util.qs('#loggedin');
+if (firebase.auth().currentUser) {
+    // logged in, show logout button/icon
+    const logout = document.createElement("button");
+    logout.innerText = "Log Out";
+    const logoutIcon = document.createElement("img");
+    logout.addEventListener("click", function() {
+        signIn();
+    });
+    logoutIcon.setAttribute("src", "..img/icons/icons8-logout-64.png");
+    logoutIcon.setAttribute("alt", "logout icon");
+    logoutIcon.classList.add("icon");
+    logoutIcon.classList.add("whitebg");
+    logout.appendChild(logoutIcon);
+    loggedin.appendChild(logout);
+} else {
+    // not logged in, show login button/icon
+    const login = document.createElement("button");
+    const loginIcon = document.createElement("img");
+    login.innerText = "Log In";
+    login.addEventListener("click", function() {
+        signIn();
+    });
+    loginIcon.setAttribute("src", "..img/icons/icons8-login-50.png");
+    loginIcon.setAttribute("alt", "login icon");
+    loginIcon.classList.add("icon");
+    loginIcon.classList.add("whitebg");
+    login.appendChild(loginIcon);
+    loggedin.appendChild(login);
 }

@@ -45,4 +45,24 @@ function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass) {
     lmnt.setAttribute('class', LMNTclass);
     return lmnt;
 }
-export { qs, onTouch, createLMNT };
+
+const getUnit = () => {
+    let btnitems = Array.from(document.querySelectorAll('.chkbtn'));
+    //console.log(btnitems);
+    let checkedArray = [];
+    btnitems.forEach(function (item) {
+        item.addEventListener('click', function(e) {
+            console.log(chkval);
+            // check if the event is a checkbox
+            if (e.target.type === 'checkbox') {
+                // get checked values to build query
+                let chkval = e.target.getAttribute('value');
+                console.log(chkval);
+                checkedArray.push(chkval);
+            }
+            console.log(checkedArray);
+        });
+    });
+}
+
+export { qs, onTouch, createLMNT, getUnit };

@@ -60,7 +60,6 @@ const buildUrl = (volume, book, chapter, startverse, endverse) => {
     return `${baseurl}/${volume}/${book}/${chapter}/${verses}?lang=${langpref}`;
 }
 
-
 const getQuiz = async (url) => {
     if (!('fetch' in window)) {
         console.log('Your browser does not support this app. Please use a modern browser such as Chrome, Safari, Opera, Brave, FireFox or Edge.');
