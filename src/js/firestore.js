@@ -3,7 +3,7 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } f
 import { collection, doc, addDoc, updateDoc } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
 import * as util from './utilities.js';
 
-const firebase = firebase.initializeApp({
+const fbconfig = {
     apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
     authDomain: "scripturechase-46976.firebaseapp.com",
     projectId: "scripturechase-46976",
@@ -11,11 +11,13 @@ const firebase = firebase.initializeApp({
     messagingSenderId: "51330554814",
     appId: "1:51330554814:web:8943dc84fc3bd5391537ef",
     measurementId: "G-HE9YJ49Y12"
-});
+};
 
-const auth = getAuth(firebase);
+const fbapp = initializeApp(fbconfig);
 
-const db = firestore(firebase);
+const auth = getAuth(fbapp);
+
+const fdb = firebase(firestore);
 //console.log(auth);
 
 //Sends verification emails in the same language as the language used in the user's device
@@ -38,7 +40,7 @@ const uploadScriptures = async (url) => {
             console.log(getScriptures);
             // getScriptures.forEach(el => {
             //     console.log(el);
-            //     db.collection('scripturechase')
+            //    fdb.collection('scripturechase')
             //     .add({
             //         volume: el.volume_title,
             //         // book blank for D & C
@@ -80,7 +82,7 @@ const saveData = () => {
     const volume = util.qs('#volume').value;
     const book = util.qs('#book').value;
 
-    db.collection('scripturechase')
+   fdb.collection('scripturechase')
     .add({
         volume: volume,
         // book blank for D & C
@@ -108,7 +110,7 @@ const saveData = () => {
 }
 
 const readData = () => {
-    db.collection('scripturechase')
+   fdb.collection('scripturechase')
     .get()
     .then((data) => {
         console.log(data.docs.map((item) => {
@@ -120,7 +122,7 @@ const readData = () => {
 const updateData = () => {
     const newVolume = util.qs('#newvolume').value;
     const newBook = util.qs('#newbook').value;
-    db.collection('scripturechase').doc(itemId)
+   fdb.collection('scripturechase').doc(itemId)
     .update({
         volume: newVolume,
         book: newBook
@@ -131,7 +133,7 @@ const updateData = () => {
 }
 
 const deleteData = () => {
-    db.collection('scripturechase').doc(itemId).delete()
+   fdb.collection('scripturechase').doc(itemId).delete()
     .then(() => {
         alert('Data Deleted')
     })
