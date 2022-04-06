@@ -712,6 +712,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Genesis",
         "book_short_title": "Gen.",
         "chapter_number": 1,
@@ -732,6 +733,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Genesis",
         "book_short_title": "Gen.",
         "chapter_number": 1,
@@ -752,6 +754,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Genesis",
         "book_short_title": "Gen.",
         "chapter_number": 2,
@@ -772,6 +775,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Genesis",
         "book_short_title": "Gen.",
         "chapter_number": 39,
@@ -792,6 +796,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Exodus",
         "book_short_title": "Ex.",
         "chapter_number": 19,
@@ -812,6 +817,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Exodus",
         "book_short_title": "Ex.",
         "chapter_number": 20,
@@ -832,6 +838,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Joshua",
         "book_short_title": "Josh.",
         "chapter_number": 24,
@@ -852,6 +859,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "1 Samuel",
         "book_short_title": "1 Sam.",
         "chapter_number": 16,
@@ -872,6 +880,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Psalms",
         "book_short_title": "Ps.",
         "chapter_number": 24,
@@ -892,6 +901,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Psalms",
         "book_short_title": "Ps.",
         "chapter_number": 119,
@@ -912,6 +922,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Psalms",
         "book_short_title": "Ps.",
         "chapter_number": 127,
@@ -932,6 +943,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Proverbs",
         "book_short_title": "Prov.",
         "chapter_number": 3,
@@ -952,6 +964,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 1,
@@ -972,6 +985,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 5,
@@ -994,6 +1008,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 29,
@@ -1014,6 +1029,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 53,
@@ -1034,6 +1050,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 58,
@@ -1054,6 +1071,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Isaiah",
         "book_short_title": "Isa.",
         "chapter_number": 58,
@@ -1074,6 +1092,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Jeremiah",
         "book_short_title": "Jer.",
         "chapter_number": 1,
@@ -1094,6 +1113,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Ezekiel",
         "book_short_title": "Ezek.",
         "chapter_number": 3,
@@ -1114,6 +1134,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Ezekiel",
         "book_short_title": "Ezek.",
         "chapter_number": 37,
@@ -1134,6 +1155,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Daniel",
         "book_short_title": "Dan.",
         "chapter_number": 2,
@@ -1154,6 +1176,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Amos",
         "book_short_title": "Amos",
         "chapter_number": 3,
@@ -1174,6 +1197,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Malachi",
         "book_short_title": "Mal.",
         "chapter_number": 3,
@@ -1194,6 +1218,7 @@
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Malachi",
         "book_short_title": "Mal.",
         "chapter_number": 4,
@@ -2812,10 +2837,12 @@
         "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Old Testament","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Genesis",
         "book_short_title": "Gen.",
         "chapter_number": 1,
@@ -2825,58 +2852,76 @@
         "scripture_text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.","mastery": true,"mnum":99,"description":"Multiply and replenish the earth.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Genesis","book_short_title":"Gen.","chapter_number":2,"verse_number":24,"verse_title":"Genesis 2:24","verse_short_title":"Gen. 2:24","scripture_text":"Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.","mastery":true,"mnum":5,"description":". Husband and wife are to be one.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":2,"verse_number":24,"verse_title":"Genesis 2:24","verse_short_title":"Gen. 2:24","scripture_text":"Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.","mastery":true,"mnum":5,"description":". Husband and wife are to be one.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Genesis","book_short_title":"Gen.","chapter_number":39,"verse_number":9,"verse_title":"Genesis 39:9","verse_short_title":"Gen. 39:9","scripture_text":"There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?","mastery":true,"mnum":6,"description":"Joseph resisted temptation.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":39,"verse_number":9,"verse_title":"Genesis 39:9","verse_short_title":"Gen. 39:9","scripture_text":"There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?","mastery":true,"mnum":6,"description":"Joseph resisted temptation.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Exodus","book_short_title":"Ex.","chapter_number":19,"verse_number":"5-6","verse_title":"Exodus 19:5-6","verse_short_title":"Ex. 19:5-6","scripture_text":"Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine: And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.","mastery":true,"mnum":7,"description":" Keep my covenant and ye shall be a holy nation.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Exodus","book_short_title":"Ex.","chapter_number":19,"verse_number":"5-6","verse_title":"Exodus 19:5-6","verse_short_title":"Ex. 19:5-6","scripture_text":"Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine: And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.","mastery":true,"mnum":7,"description":" Keep my covenant and ye shall be a holy nation.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Exodus","book_short_title":"Ex.","chapter_number":20,"verse_number":"3-17","verse_title":"Exodus 20:3-17","verse_short_title":"Ex. 20:3-17","scripture_text":"Thou shalt have no other gods before me. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth: Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; And shewing mercy unto thousands of them that love me, and keep my commandments. Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain. Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it. Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee. Thou shalt not kill. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbour. Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.","mastery":true,"mnum":8,"description":"God revealed the Ten Commandments","keywords":["commandments",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Exodus","book_short_title":"Ex.","chapter_number":20,"verse_number":"3-17","verse_title":"Exodus 20:3-17","verse_short_title":"Ex. 20:3-17","scripture_text":"Thou shalt have no other gods before me. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth: Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; And shewing mercy unto thousands of them that love me, and keep my commandments. Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain. Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it. Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee. Thou shalt not kill. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbour. Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.","mastery":true,"mnum":8,"description":"God revealed the Ten Commandments","keywords":["commandments",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Joshua","book_short_title":"Josh.","chapter_number":24,"verse_number":15,"verse_title":"Joshua 24:15","verse_short_title":"Josh. 24:15","scripture_text":"And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.","mastery":true,"mnum":9,"description":"Choose you this day whom ye will serve.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Joshua","book_short_title":"Josh.","chapter_number":24,"verse_number":15,"verse_title":"Joshua 24:15","verse_short_title":"Josh. 24:15","scripture_text":"And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.","mastery":true,"mnum":9,"description":"Choose you this day whom ye will serve.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"1 Samuel","book_short_title":"1 Sam.","chapter_number":16,"verse_number":7,"verse_title":"1 Samuel 16:7","verse_short_title":"1 Sam. 16:7","scripture_text":"But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.","mastery":true,"mnum":10,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"1 Samuel","book_short_title":"1 Sam.","chapter_number":16,"verse_number":7,"verse_title":"1 Samuel 16:7","verse_short_title":"1 Sam. 16:7","scripture_text":"But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.","mastery":true,"mnum":10,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Psalms","book_short_title":"Ps.","chapter_number":24,"verse_number":"3-4","verse_title":"Psalms 24:3-4","verse_short_title":"Ps. 24:3-4","scripture_text":"Who shall ascend into the hill of the Lord? or who shall stand in his holy place? He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.","mastery":true,"mnum":11,"description":"To stand worthy in the Lord’s presence, we must have clean hands and a pure heart.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":24,"verse_number":"3-4","verse_title":"Psalms 24:3-4","verse_short_title":"Ps. 24:3-4","scripture_text":"Who shall ascend into the hill of the Lord? or who shall stand in his holy place? He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.","mastery":true,"mnum":11,"description":"To stand worthy in the Lord’s presence, we must have clean hands and a pure heart.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Psalms","book_short_title":"Ps.","chapter_number":119,"verse_number":105,"verse_title":"Psalms 119:105","verse_short_title":"Ps. 119:105","scripture_text":"Thy word is a lamp unto my feet, and a light unto my path.","mastery":true,"mnum":12,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":119,"verse_number":105,"verse_title":"Psalms 119:105","verse_short_title":"Ps. 119:105","scripture_text":"Thy word is a lamp unto my feet, and a light unto my path.","mastery":true,"mnum":12,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Psalms","book_short_title":"Ps.","chapter_number":127,"verse_number":3,"verse_title":"Psalms 127:3","verse_short_title":"Ps. 127:3","scripture_text":"Lo, children are an heritage of the Lord: and the fruit of the womb is his reward.","mastery":true,"mnum":13,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":127,"verse_number":3,"verse_title":"Psalms 127:3","verse_short_title":"Ps. 127:3","scripture_text":"Lo, children are an heritage of the Lord: and the fruit of the womb is his reward.","mastery":true,"mnum":13,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Proverbs","book_short_title":"Prov.","chapter_number":3,"verse_number":"5-6","verse_title":"Proverbs 3:5-6","verse_short_title":"Prov. 3:5-6","scripture_text":"Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.","mastery":true,"mnum":14,"description":". Trust in the Lord with all thine heart, and He shall direct thy paths.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Proverbs","book_short_title":"Prov.","chapter_number":3,"verse_number":"5-6","verse_title":"Proverbs 3:5-6","verse_short_title":"Prov. 3:5-6","scripture_text":"Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.","mastery":true,"mnum":14,"description":". Trust in the Lord with all thine heart, and He shall direct thy paths.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":1,"verse_number":18,"verse_title":"Isaiah 1:18","verse_short_title":"Isa. 1:18","scripture_text":"Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.","mastery":true,"mnum":15,"description":"If we repent, our sins shall be as white as snow.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":1,"verse_number":18,"verse_title":"Isaiah 1:18","verse_short_title":"Isa. 1:18","scripture_text":"Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.","mastery":true,"mnum":15,"description":"If we repent, our sins shall be as white as snow.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":5,"verse_number":20,"verse_title":"Isaiah 5:20","verse_short_title":"Isa. 5:20","scripture_text":"Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!","mastery":true,"mnum":16,"description":"Woe unto them that call evil good, and good evil.","keywords":["darkness","light", "good", "evil"], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":5,"verse_number":20,"verse_title":"Isaiah 5:20","verse_short_title":"Isa. 5:20","scripture_text":"Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!","mastery":true,"mnum":16,"description":"Woe unto them that call evil good, and good evil.","keywords":["darkness","light", "good", "evil"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":29,"verse_number":"13-14","verse_title":"Isaiah 29:13-14","verse_short_title":"Isa. 29:13-14","scripture_text":"Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.","mastery":true,"mnum":17,"description":". The Restoration is a marvelous work and a wonder","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":29,"verse_number":"13-14","verse_title":"Isaiah 29:13-14","verse_short_title":"Isa. 29:13-14","scripture_text":"Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.","mastery":true,"mnum":17,"description":". The Restoration is a marvelous work and a wonder","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":53,"verse_number":"3-5","verse_title":"Isaiah 53:3-5","verse_short_title":"Isa. 53:3-5","scripture_text":"He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.","mastery":true,"mnum":18,"description":"Jesus Christ bore our griefs and suffered for our sins.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":53,"verse_number":"3-5","verse_title":"Isaiah 53:3-5","verse_short_title":"Isa. 53:3-5","scripture_text":"He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.","mastery":true,"mnum":18,"description":"Jesus Christ bore our griefs and suffered for our sins.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"6-7","verse_title":"Isaiah 58:6-7","verse_short_title":"Isa. 58:6-7","scripture_text":"Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke? Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?","mastery":true,"mnum":19,"description":" Fasting helps us to loose the bands of wickedness, undo heavy burdens, and provide for the poor.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"6-7","verse_title":"Isaiah 58:6-7","verse_short_title":"Isa. 58:6-7","scripture_text":"Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke? Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?","mastery":true,"mnum":19,"description":" Fasting helps us to loose the bands of wickedness, undo heavy burdens, and provide for the poor.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"13-14","verse_title":"Isaiah 58:13-14","verse_short_title":"Isa. 58:13-14","scripture_text":"If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the Lord, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in the Lord; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the Lord hath spoken it.","mastery":true,"mnum":20,"description":"The Sabbath is the Lord’s holy day","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"13-14","verse_title":"Isaiah 58:13-14","verse_short_title":"Isa. 58:13-14","scripture_text":"If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the Lord, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in the Lord; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the Lord hath spoken it.","mastery":true,"mnum":20,"description":"The Sabbath is the Lord’s holy day","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Jeremiah","book_short_title":"Jer.","chapter_number":1,"verse_number":"4-5","verse_title":"Jeremiah 1:4-5","verse_short_title":"Jer. 1:4-5","scripture_text":"Then the word of the Lord came unto me, saying, Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.","mastery":true,"mnum":21,"description":"Jeremiah was foreordained to be a prophet.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Jeremiah","book_short_title":"Jer.","chapter_number":1,"verse_number":"4-5","verse_title":"Jeremiah 1:4-5","verse_short_title":"Jer. 1:4-5","scripture_text":"Then the word of the Lord came unto me, saying, Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.","mastery":true,"mnum":21,"description":"Jeremiah was foreordained to be a prophet.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Ezekiel",
         "book_short_title": "Ezek.",
         "chapter_number": 3,
@@ -2886,10 +2931,12 @@
         "scripture_text": "And it came to pass at the end of seven days, that the word of the Lord came unto me, saying, Son of man, I have made thee a watchman unto the house of Israel: therefore hear the word at my mouth, and give them warning from me.","mastery":true,"mnum":22,"description":"The Lord’s watchmen give warnings from Him.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Ezekiel","book_short_title":"Ezek.","chapter_number":37,"verse_number":"15-17","verse_title":"Ezekiel 37:15-17","verse_short_title":"Ezek. 37:15-17","scripture_text":"The word of the Lord came again unto me, saying, Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions: And join them one to another into one stick; and they shall become one in thine hand.","mastery":true,"mnum":22,"description":"The Bible and the Book of Mormon are joined together.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Ezekiel","book_short_title":"Ezek.","chapter_number":37,"verse_number":"15-17","verse_title":"Ezekiel 37:15-17","verse_short_title":"Ezek. 37:15-17","scripture_text":"The word of the Lord came again unto me, saying, Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions: And join them one to another into one stick; and they shall become one in thine hand.","mastery":true,"mnum":22,"description":"The Bible and the Book of Mormon are joined together.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Old Testament",
+        "unit":"ot",
         "book_title": "Daniel",
         "book_short_title": "Dan.",
         "chapter_number": 2,
@@ -2899,13 +2946,16 @@
         "scripture_text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.","mastery":true,"mnum":98,"description":"God’s kingdom shall stand forever.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Amos","book_short_title":"Amos","chapter_number":3,"verse_number":7,"verse_title":"Amos 3:7","verse_short_title":"Amos 3:7","scripture_text":"Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.","mastery":true,"mnum":23,"description":"God reveals His secret to His prophets.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Amos","book_short_title":"Amos","chapter_number":3,"verse_number":7,"verse_title":"Amos 3:7","verse_short_title":"Amos 3:7","scripture_text":"Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.","mastery":true,"mnum":23,"description":"God reveals His secret to His prophets.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Malachi","book_short_title":"Mal.","chapter_number":3,"verse_number":"8-10","verse_title":"Malachi 3:8-10","verse_short_title":"Mal. 3:8-10","scripture_text":"Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings. Ye are cursed with a curse: for ye have robbed me, even this whole nation. Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the Lord of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.","mastery":true,"mnum":24,"description":"Paying tithing brings blessings.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Malachi","book_short_title":"Mal.","chapter_number":3,"verse_number":"8-10","verse_title":"Malachi 3:8-10","verse_short_title":"Mal. 3:8-10","scripture_text":"Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings. Ye are cursed with a curse: for ye have robbed me, even this whole nation. Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the Lord of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.","mastery":true,"mnum":24,"description":"Paying tithing brings blessings.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Old Testament","book_title":"Malachi","book_short_title":"Mal.","chapter_number":4,"verse_number":"5-6","verse_title":"Malachi 4:5-6","verse_short_title":"Mal. 4:5-6","scripture_text":"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.","mastery":true,"mnum":25,"description":"Elijah will turn the hearts of fathers and children.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Old Testament",
+        "unit":"ot","book_title":"Malachi","book_short_title":"Mal.","chapter_number":4,"verse_number":"5-6","verse_title":"Malachi 4:5-6","verse_short_title":"Mal. 4:5-6","scripture_text":"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.","mastery":true,"mnum":25,"description":"Elijah will turn the hearts of fathers and children.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title":"Pearl of Great Price", "unit":"dc", "book_title":"Moses","book_short_title":"Moses","chapter_number":1,"verse_number":39,"verse_title":"Moses 1:39","verse_short_title":"Moses 1:39","scripture_text":"For behold, this is my work and my glory--to bring to pass the immortality and eternal life of man.","mastery":true,"mnum":1, "description": "God’s work and glory is to bring to pass the immortality and eternal life of man.","keywords":["",""], "context":"","":"","topic":""

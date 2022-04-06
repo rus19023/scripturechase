@@ -78,7 +78,7 @@ const getQuiz = async (url) => {
             console.log('getQuizArray/try invoked');
             let newArray = [];
             console.log(getQuizArray);
-            let quizunits = ["ot", "nt", "bom", "dc"];
+            let quizunits = ["ot", "dc"];
             getQuizArray.forEach(el => {
                 console.log(el.unit);
                 console.log(quizunits);
@@ -90,7 +90,7 @@ const getQuiz = async (url) => {
             });
             const quiz = newArray;
             console.log(quiz);
-            this.quiz = quiz;
+            this.quiz = newArray;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
         }
