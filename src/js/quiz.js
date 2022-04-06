@@ -61,6 +61,28 @@ const quizlist = [
 
 // Todo: concatenate all unit questions into one array
 
+$.ajax({
+    url: url6,
+    cache: false
+  })
+    .done(function( html ) {
+      $( "#results" ).append( html );
+    });
+
+// $(document).ready(function() {
+//     //$("button").click(function(){
+//         $.ajax({
+//             url: url6,
+//             error: function(xhr) {
+//                 console.log("An error occured: " + xhr.status + " " + xhr.statusText);
+//             }
+//             .done(function( html ) {
+//               $( "#results" ).append( html );
+//             })
+//         });
+//     //});
+// });
+
 // get the questions from the units chosen in the home page
 const getQuiz = async (url) => {
     if (!('fetch' in window)) {
@@ -74,39 +96,47 @@ const getQuiz = async (url) => {
             throw Error(`${response.status} ${response.statusText}`);
         } else {
             const getQuizArray = await response.json();
-            console.log(getQuizArray);
+            //console.log(getQuizArray);
             console.log('getQuizArray/try invoked');
-            let newArray = [];
+            const questions = [];
+            let quiz = { "questions": questions };
             console.log(getQuizArray);
             // todo: get the quizunits from home page
+            //let quizunits = Array.from(document.querySelectorAll('.chkbtn').selectedOptions).map(option => option.value);
+            //let quizunits = Array.from(document.querySelectorAll('.chkbtn'));
             let quizunits = ["ot", "bom"];
+            console.log(quizunits);
             getQuizArray.forEach(el => {
                 let notDef = el.keywords;
-                console.log(notDef, el.verse_title);
+                //console.log(notDef, el.verse_title);
+                // Push only the questions that are in the units selected to the quiz array
                 if ((quizunits.includes(el.unit)) && (typeof el.keywords !== 'undefined') && (el.keywords.length > 0)) {
                     console.log(el);
-                    console.log(el.unit);
-                    console.log(quizunits);
-                    console.log(quizunits.includes(el.unit));
-                    console.log(el.keywords);
-                    let ans = el.verse_title;
-                    let ques = el.keywords;
-                    newArray.push(`["ques":"${ques}","ans":"${ans}"]`);
-                    console.log(newArray);
+                    //console.log(el.unit);
+                    //console.log(quizunits);
+                    //console.log(quizunits.includes(el.unit));
+                    console.log('KEYWORDS:  ' + el.keywords);
+                    let obj = {
+                        ques: el.keywords,
+                        ans: el.verse_title
+                    };
+                    console.log(obj);
+                    questions.push(obj);
                 }
-                });
-            const quiz = newArray;
+                quiz = { "questions": questions };
+                console.log(quiz);
+            });
             console.log(quiz);
-            this.quiz = newArray;
+            //this.quiz = newArray;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
         }
-        console.log(newArray);
-        return newArray;
+        //return quiz;
     } catch (error) {
         console.log('Looks like there was a problem: ', error);
     }
 };
+
 window.addEventListener("load", () => {
     getQuiz(url6);
 });
@@ -252,10 +282,10 @@ const game = {
         if(this.questions.length > 2) {
             shuffle(this.questions);
             this.question = this.questions.pop();
-            const options = [this.questions[0].verse_title, this.questions[1].verse_title, this.questions[2].verse_title, this.question.verse_title];
+            const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
             //console.log(options);
             shuffle(options);
-            const question = `Clues: ${this.question.clues}`;
+            const question = `What scripture contains these key phrases? ${this.question.ques}`;
             view.render(view.question, question);
             //console.log(view.buttons(options));
             view.render(view.response, view.buttons(options), {'class':'buttonbox'});
@@ -320,7 +350,7 @@ const game = {
         console.log('gameOver() invoked');
         view.render(
         view.info,
-        `Game Over, you scored ${this.score} point${this.score !== 1 ? "s" : ""}`
+        `Session Over, you scored ${this.score} point${this.score !== 1 ? "s" : ""}`
         );
         view.teardown();
         clearInterval(this.timer);

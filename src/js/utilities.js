@@ -65,4 +65,11 @@ const getUnits = () => {
     });
 }
 
-export { qs, onTouch, createLMNT, getUnits };
+function cbChange(element) {
+    if(element.checked)
+      element.value="yes";
+    else
+      element.value="no";
+}
+
+export { qs, onTouch, createLMNT, getUnits, cbChange };

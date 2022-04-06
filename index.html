@@ -24,38 +24,40 @@
         <div class="container">
             <div id="todos"></div>
             <div id="get-unit">
-                <div id="ot2">
-                    <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1">
-                    <label for="myCheckbox1" class="normal-text slider-label todo-bordered">
-                        <h2 class="subtitle">Old Testament</h2>
-                        <!-- <div id="slider-ot" class="sc-slider-ot"></div> -->
-                        <img src="./src/img/ot/mobile/adam_eve_altar-ot-tall.webp" alt="Image of Adam and Eve at an altar">
-                    </label>
-                </div>
-                <div id="nt2">
-                    <input type="checkbox" class="chkbtn hide" name="nt" id="myCheckbox2">
-                    <label for="myCheckbox2" class="normal-text slider-label todo-bordered">
-                        <h2 class="subtitle">New Testament</h2>
-                        <!-- <div id="slider-nt" class="sc-slider-nt"></div> -->
-                        <img src="./src/img/nt/mobile/jesus_at_the_door.webp" alt="Image of Jesus Christ knocking at a door">
-                    </label>
-                </div>
-                <div id="bom2">
-                    <input type="checkbox" class="chkbtn hide" name="bom" id="myCheckbox3">
-                    <label for="myCheckbox3" class="normal-text slider-label todo-bordered">
-                        <h2 class="subtitle">Book of Mormon</h2>
-                        <!-- <div id="slider-bom" class="sc-slider-bom"></div> -->
-                        <img src="./src/img/bom/mobile/christ_appearing_nephites.webp" alt="Image of Christ appearing to the Nephites after His Resurrection">
-                    </label>
-                </div>
-                <div id="dc2">
-                    <input type="checkbox" class="chkbtn hide" name="dc" id="myCheckbox4">
-                    <label for="myCheckbox4" class="normal-text slider-label todo-bordered">
-                        <h2 class="subtitle">Doctrine & Covenants</h2>
-                        <!-- <div id="slider-dc" class="sc-slider-dc"></div> -->
-                        <img src="./src/img/dc/mobile/first_vision.webp" alt="Image of Joseph Smith's First Vision">
-                    </label>
-                </div>
+                <form method="GET" action="quiz.html">
+                    <div id="ot2">
+                        <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1" value="no" onClick="cbChange(this)">
+                        <label for="myCheckbox1" class="normal-text slider-label todo-bordered">
+                            <h2 class="subtitle">Old Testament</h2>
+                            <!-- <div id="slider-ot" class="sc-slider-ot"></div> -->
+                            <img src="./src/img/ot/mobile/adam_eve_altar-ot-tall.webp" alt="Image of Adam and Eve at an altar">
+                        </label>
+                    </div>
+                    <div id="nt2">
+                        <input type="checkbox" class="chkbtn hide" name="nt" id="myCheckbox2" value="no" onClick="cbChange(this)">
+                        <label for="myCheckbox2" class="normal-text slider-label todo-bordered">
+                            <h2 class="subtitle">New Testament</h2>
+                            <!-- <div id="slider-nt" class="sc-slider-nt"></div> -->
+                            <img src="./src/img/nt/mobile/jesus_at_the_door.webp" alt="Image of Jesus Christ knocking at a door">
+                        </label>
+                    </div>
+                    <div id="bom2">
+                        <input type="checkbox" class="chkbtn hide" name="bom" id="myCheckbox3" value="no" onClick="cbChange(this)">
+                        <label for="myCheckbox3" class="normal-text slider-label todo-bordered">
+                            <h2 class="subtitle">Book of Mormon</h2>
+                            <!-- <div id="slider-bom" class="sc-slider-bom"></div> -->
+                            <img src="./src/img/bom/mobile/christ_appearing_nephites.webp" alt="Image of Christ appearing to the Nephites after His Resurrection">
+                        </label>
+                    </div>
+                    <div id="dc2">
+                        <input type="checkbox" class="chkbtn hide" name="dc" id="myCheckbox4" value="no" onClick="cbChange(this)">
+                        <label for="myCheckbox4" class="normal-text slider-label todo-bordered">
+                            <h2 class="subtitle">Doctrine & Covenants</h2>
+                            <!-- <div id="slider-dc" class="sc-slider-dc"></div> -->
+                            <img src="./src/img/dc/mobile/first_vision.webp" alt="Image of Joseph Smith's First Vision">
+                        </label>
+                    </div>
+                </form>
                     <!-- <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=easy">TRIVIA-EASY</option>
                     <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=medium">TRIVIA-MEDIUM</option>
                     <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=hard">TRIVIA-HARD</option> -->
