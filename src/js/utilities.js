@@ -46,9 +46,9 @@ function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass) {
     return lmnt;
 }
 
-const getUnit = () => {
-    let btnitems = Array.from(document.querySelectorAll('.chkbtn'));
-    //console.log(btnitems);
+const getUnits = () => {
+    let btnitems = qs('.chkbtn');
+    console.log(btnitems);
     let checkedArray = [];
     btnitems.forEach(function (item) {
         item.addEventListener('click', function(e) {
@@ -65,4 +65,4 @@ const getUnit = () => {
     });
 }
 
-export { qs, onTouch, createLMNT, getUnit };
+export { qs, onTouch, createLMNT, getUnits };

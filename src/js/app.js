@@ -1,28 +1,40 @@
-import * as su from './signup.js';
-import * as si from './signin.js';
-import * as util from './utilities.js';
+import { fbApp, auth, langpref } from './fsconfig.js';
+import {  } from './signup.js';
+import {  } from './signin.js';
+import { quizlist } from './quiz.js';
+import {  } from './storage.js';
+import { qs } from './utilities.js';
 
-const getUnits = util.qs('#getUnit');
+//const quiz = JSON.stringify(getQuiz());
+console.log(quiz);
+// todo: get all selected quiz units from storage, format for quiz, and display
+
+const getUnits = qs('#get-unit');
 
 getUnits.addEventListener('click', () => {
-    const unit = util.qs('#unit').value;
+    // get the values of any selected units
+    const unit = qs('.chkbtn').value;
     console.log(unit);
 });
 
+// onTouch('#get-unit', () => {
+//     const unit = qs('.chkbtn').value;
+//     console.log(unit);
+// });
 
 // // Initialize Firebase services and get references to the service
-// const auth = getAuth(fireApp);
-// const fs = getFirestore(fireApp);
-// const db = getDatabase(fireApp);
-// const analytics = getAnalytics(fireApp);
+// const auth = getAuth(fbApp);
+// const fs = getFirestore(fbApp);
+// const db = getDatabase(fbApp);
+// const analytics = getAnalytics(fbApp);
 
-const mailField = util.qs('#mail');
-const passwordField = util.qs('#password');
-const displayNameField = util.qs('#displayName');
-const photoField = util.qs('#photo');
+const mailField = qs('#mail');
+const passwordField = qs('#password');
+const displayNameField = qs('#displayName');
+const photoField = qs('#photo');
 const labels = document.getElementsByTagName('label');
-const signUp = util.qs('#signUp');
-const failureModal = util.qs('.failure');
+const signUp = qs('#signUp');
+const failureModal = qs('.failure');
 
 //Sends verification emails in the same language as the language used in the
 //user's device
@@ -46,13 +58,13 @@ const failureModal = util.qs('.failure');
 export function checkUserFirstName() {
     var userLastName = sc.qs("#userFirstName").value;
     var flag = false;
-    if (userLastName === "") {n
+    if (userLastName === "") {
         flag = true;
     }
     if (flag) {
-        sc.qs("#userFirstNameError").style.display = "block";
+        qs("#userFirstNameError").style.display = "block";
     } else {
-        sc.qs("#userFirstNameError").style.display = "none";
+        qs("#userFirstNameError").style.display = "none";
     }
 }
 
@@ -372,7 +384,7 @@ export function signOut() {
 }
 
 // TODO: programmatically add footer, if logged in, show logout button/icon, if not, show login button/icon
-const loggedin = util.qs('#loggedin');
+const loggedin = qs('#loggedin');
 if (firebase.auth().currentUser) {
     // logged in, show logout button/icon
     const logout = document.createElement("button");

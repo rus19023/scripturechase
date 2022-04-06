@@ -1,5 +1,5 @@
-import * as ls from "./ls.js";
-import * as util from "./utilities.js";
+import { } from "./storage.js";
+import { } from "./utilities.js";
 
 //let sList = [];
 //const url = ''

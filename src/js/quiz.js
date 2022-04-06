@@ -1,36 +1,11 @@
-import * as util from '../js/utilities.js';
-
+import { qs } from "./utilities.js";
 const url1 = 'rus19023.github.io/scripturechase/json/lds-scriptures.json';
 const url6 = 'https://raw.githubusercontent.com/rus19023/scripturechase/main/json/scripturechase.json';
 
 const url5 = [
     { ques: "Superman", ans: "Clark Kent" },
     { ques: "Wonder Woman", ans: "Diana Prince" },
-    { ques: "Batman", ans: "Bruce Wayne" },
-    { ques: "Flash", ans: "Barry Allen" },
-    { ques: "Cyborg", ans: "Victor Stone" },
-    { ques: "IronMan", ans: "Tony Stark" },
-    { ques: "Catwoman", ans: "Selena Kyle" },
-    { ques: "Riddler", ans: "Edward Nygma" },
-    { ques: "SpiderMan", ans: "Peter Parker" },
-    { ques: "Green Goblin", ans: "Norman Osborne" },
-    { ques: "Penguin", ans: "Oswald Cobblepot" },
-    { ques: "Scarecrow", ans: "Dr Jonathan Crane" },
-    { ques: "Dr Manhattan", ans: "Jonathan Osterman" },
-    { ques: "Rorschach", ans: "Walter Kovacs" },
-    { ques: "Gambit", ans: "Remy LeBeau" },
-    { ques: "Wolverine", ans: "James Logan" },
-    { ques: "Mystique", ans: "Raven Darkholme" },
-    { ques: "Magneto", ans: "Max Eisenhardt" },
-    { ques: "Professor X", ans: "Charles Xavier" },
-    { ques: "Phoenix", ans: "Jean Gray" },
-    { ques: "NightCrawler", ans: "Kurt Wagner" },
-    { ques: "Beast", ans: "Hank McCoy" },
-    { ques: "Storm", ans: "Ororo Munroe" },
-    { ques: "Rogue", ans: "Anna Marie DAncanto" },
-    { ques: "The Hulk", ans: "Bruce Banner" },
-    { ques: "Spider-man", ans: "Peter Parker" },
-    { ques: "Cyclops", ans: "Scott Summers" }
+    { ques: "Batman", ans: "Bruce Wayne" }
 ];
 
 console.log(url5);
@@ -49,9 +24,9 @@ var book = '';
 var chapter = '';
 var startverse = '';
 var endverse = '';
-//var langpref = util.qs('#langpref').value;
+//var langpref = qs('#langpref').value;
 
-const buildUrl = (volume, book, chapter, startverse, endverse) => {
+export const buildUrl = (volume, book, chapter, startverse, endverse) => {
     if (endverse.length > 0) {
         var verses = `${startverse}-${endverse}`;
     } else {
@@ -60,19 +35,40 @@ const buildUrl = (volume, book, chapter, startverse, endverse) => {
     return `${baseurl}/${volume}/${book}/${chapter}/${verses}?lang=${langpref}`;
 }
 
+const quizlist = [
+    {
+        "unitname":"ot",
+        "src":"../img/ot/mobile/adam_eve_altar-ot-tall.webp",
+        "alt": "Image of Adam and Eve at an altar"
+    },
+    {
+        "unitname":"nt",
+        "src":"../img/ot/mobile/jesus_at_the_door.webp",
+        "alt": "Image of Jesus Christ knocking at a door"
+    },
+    {
+        "unitname":"bom",
+        "src":"../img/ot/mobile/christ_appearing_nephites.webp",
+        "alt": "Image of Christ appearing to the Nephites after His Resurrection"
+    },
+    {
+        "unitname":"dc",
+        "src":"../img/ot/mobile/first_vision.webp",
+        "alt": "Image of Joseph Smith's First Vision"
+    }
+]
+
+// Todo: concatenate all unit questions into one array
+
+// get the questions from the units chosen in the home page
 const getQuiz = async (url) => {
     if (!('fetch' in window)) {
         console.log('Your browser does not support this app. Please use a modern browser such as Chrome, Safari, Opera, Brave, FireFox or Edge.');
         return;
-    }
-    // fetch(url6)
-    // .then(res => res.json())
-    // .then(quiz => {
-    //     view.start.addEventListener('click', () => game.start(quiz.questions), false);
-    //     view.response.addEventListener('click', (event) => game.check(event), false);
-    // });
+    } else { console.log('getQuiz() invoked'); }
     try {
         const response = await fetch(url);
+        console.log('fetch/try invoked');
         if (!response.ok) {
             throw Error(`${response.status} ${response.statusText}`);
         } else {
@@ -80,8 +76,15 @@ const getQuiz = async (url) => {
             let newArray = [];
             console.log(getQuizArray);
             getQuizArray.forEach(el => {
+                if ((quizunits.length > 0) && (quizunits.keywords.length > 0)) {
+                    newArray.push();
+                }
                 console.log(el);
             });
+            const quiz = getQuizArray.filter(quiz => quiz.type === 'multiple');
+            console.log(quiz);
+            view.start.addEventListener('click', () => game.start(quiz.questions), false);
+            view.response.addEventListener('click', (event) => game.check(event), false);
             // Create a new json file for the mastery scripture passages
             // getQuizArray.forEach(vol => {
             //         vol.bom.forEach(el => {
@@ -122,15 +125,15 @@ const getQuiz = async (url) => {
             //     a.click();
             //     a.remove();
             // });
-            const quiz = getQuizArray.filter(quiz => quiz.type === 'multiple');
-            view.start.addEventListener('click', () => game.start(quiz.questions), false);
-            view.response.addEventListener('click', (event) => game.check(event), false);
         }
         return response;
     } catch (error) {
         console.log('Looks like there was a problem: ', error);
     }
 };
+window.addEventListener("load", () => {
+    getQuiz(url6);
+});
 
 // const response = await getQuiz(url);
 //     if (response) {
@@ -157,23 +160,23 @@ function shuffle(array) {
         [array[i - 1], array[j]] = [array[j], array[i - 1]];
     }
 }
-
 const quiz = getQuiz(url6);
 console.log(quiz);
 
 // View Object
 const view = {
-    score: util.qs("#score strong"),
-    question: util.qs("#question"),
-    result: util.qs("#result"),
-    info: util.qs("#info"),
-    start: util.qs("#start"),
-    response: util.qs("#response"),
-    timer: util.qs('#timer strong'),
-    hiScore: util.qs('#hiScore strong'),
-    user: util.qs('#user strong'), // TODO: get username from firebase
+    score: qs("#score strong"),
+    question: qs("#question"),
+    result: qs("#result"),
+    info: qs("#info"),
+    start: qs("#start"),
+    response: qs("#response"),
+    timer: qs('#timer strong'),
+    hiScore: qs('#hiScore strong'),
+    user: qs('#user strong'), // TODO: get username from firebase
 
     render(target, content, attributes) {
+        console.log('render(target, content, attributes) invoked');
         //console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
         for (const key in attributes) {
             console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
@@ -183,14 +186,17 @@ const view = {
     },
 
     show(element) {
+        console.log('show(element) invoked');
         element.style.display = "block";
     },
 
     hide(element) {
+        console.log('hide(element) invoked');
         element.style.display = "none";
     },
 
     setup() {
+        console.log('setup() invoked');
         this.show(this.question);
         this.show(this.response);
         this.show(this.result);
@@ -207,6 +213,7 @@ const view = {
     },
 
     teardown() {
+        console.log('teardown() invoked');
         this.hide(this.question);
         this.hide(this.response);
         this.show(this.start);
@@ -228,6 +235,7 @@ const game = {
         this.ask();
         this.secondsRemaining = quiz.length * 8;
         this.timer = setInterval( this.countdown , 1000 );
+        console.log(quiz);
     },
 
     // {
@@ -268,7 +276,7 @@ const game = {
         if(this.questions.length > 2) {
             shuffle(this.questions);
             this.question = this.questions.pop();
-            const options = [this.questions[0].mastery_title, this.questions[1].mastery_title, this.questions[2].mastery_title, this.question.mastery_title];
+            const options = [this.questions[0].verse_title, this.questions[1].verse_title, this.questions[2].verse_title, this.question.verse_title];
             //console.log(options);
             shuffle(options);
             const question = `Clues: ${this.question.clues}`;
@@ -324,6 +332,7 @@ const game = {
     },
 
     countdown() {
+        console.log('countdown() invoked');
             game.secondsRemaining--;
             view.render(view.timer,game.secondsRemaining);
             if(game.secondsRemaining < 0) {
@@ -342,6 +351,7 @@ const game = {
     },
 
     hiScore() {
+        console.log('hiScore() invoked');
         const hi = localStorage.getItem('highScore') || 0;
         if(this.score > hi || hi === 0) {
             localStorage.setItem('highScore', this.score);

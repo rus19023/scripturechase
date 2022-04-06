@@ -1,6 +1,6 @@
-import Scriptures from "./Scriptures.js";
+import Units from "./Units.js";
 
 window.addEventListener("load", () => {
-    const myScripture = new Scriptures("scriptures");
-    myScripture.listAll();
+    const myUnits = new Units("#todos");
+    myUnits.listAll();
 });

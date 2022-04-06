@@ -1,7 +1,7 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
 
 // Firebase project configuration
-export const fireConfig = {
+export const fbConfig = {
     apiKey: "AIzaSyAn42KtGuMSwPZ-n-7duZScVYU01TK7IMk",
     authDomain: "scripturechase-46976.firebaseapp.com",
     projectId: "scripturechase-46976",
@@ -12,10 +12,10 @@ export const fireConfig = {
 };
 
 // Initialize Firebase
-export const firebase = initializeApp(fireConfig);
+export const fbApp = initializeApp(fbConfig);
 
-export const auth = getAuth(firebase);
+export const auth = getAuth(fbApp);
 //console.log(auth);
 
 //Sends verification emails in the same language as the language used in the user's device
-export const devlang = auth.useDeviceLanguage();
+export const langpref = auth.useDeviceLanguage();

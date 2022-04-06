@@ -44,8 +44,11 @@
         "mnum": 2,
         "description": "Adam fell that men might be.",
         "keywords": [
-            "",
-            ""
+            "Adam",
+            "innocence",
+            "joy",
+            "transgressed",
+            "Eden"
         ],
         "context": "",
         "": "",
@@ -506,13 +509,10 @@
         "mastery": true,
         "mnum": 19,
         "description": ". Jesus Christ suffered the will of the Father in all things.",
-        "keywords": [
-            "",
-            ""
-        ],
+        "keywords": ["Jesus","Christ","testified","bitter","glorified","beginning"],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Godhead"
     },
     {
         "volume_title": "Book of Mormon",
@@ -956,7 +956,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Old Testament",
@@ -1416,7 +1416,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "New Testament",
@@ -1551,12 +1551,14 @@
         "mnum": 13,
         "description": "We can only know the things of God through the Spirit.",
         "keywords": [
-            "",
-            ""
+            "wisdom",
+            "Spirit",
+            "revealed",
+            "faith"
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "New Testament",
@@ -1746,7 +1748,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "New Testament",
@@ -1761,12 +1763,15 @@
         "mnum": 20,
         "description": "God is the Father of our spirits.",
         "keywords": [
-            "",
-            ""
+            "fathers",
+            "flesh",
+            "subjection",
+            "reverence",
+            "live"
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Godhead"
     },
     {
         "volume_title": "New Testament",
@@ -1786,7 +1791,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "New Testament",
@@ -2536,10 +2541,10 @@
         "scripture_text": "For none of these iniquities come of the Lord; for he doeth that which is good among the children of men; and he doeth nothing save it be plain unto the children of men; and he inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free, male and female; and he remembereth the heathen; and all are alike unto God, both Jew and Gentile.","mastery":true,
         "mnum":5,
         "description":"All are alike unto God.",
-        "keywords":["",""], 
+        "keywords":["iniquities","good", "plain","inviteth", "partake", "alike"],
         "context":"",
         "":"",
-        "topic":""
+        "topic":"The Godhead"
     },
     {
         "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":28,"verse_number":"7-9","verse_title":"2 Nephi 28:7-9","verse_short_title":"2 Ne. 28:7-9","scripture_text":"Yea, and there shall be many which shall say: Eat, drink, and be merry, for tomorrow we die; and it shall be well with us. And there shall also be many which shall say: Eat, drink, and be merry; nevertheless, fear God--he will justify in committing a little sin; yea, lie a little, take the advantage of one because of his words, dig a pit for thy neighbor; there is no harm in this; and do all these things, for tomorrow we die; and if it so be that we are guilty, God will beat us with a few stripes, and at last we shall be saved in the kingdom of God. Yea, and there shall be many which shall teach after this manner, false and vain and foolish doctrines, and shall be puffed up in their hearts, and shall seek deep to hide their counsels from the Lord; and their works shall be in the dark.","mastery":true,"mnum":6,"description":"","keywords":["",""], "context":"","":"","topic":""
@@ -2552,16 +2557,16 @@
         "verse_number": 30,
         "verse_title": "2 Nephi 28:30",
         "verse_short_title": "2 Ne. 28:30",
-        "scripture_text": "For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for unto him that receiveth I will give more; and from them that shall say, We have enough, from them shall be taken away even that which they have.","mastery":true,"mnum":6,"description":"God gives knowledge line upon line.","keywords":["",""], "context":"","":"","topic":""
+        "scripture_text": "For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for unto him that receiveth I will give more; and from them that shall say, We have enough, from them shall be taken away even that which they have.","mastery":true,"mnum":6,"description":"God gives knowledge line upon line.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":31,"verse_number":"19-20","verse_title":"2 Nephi 31:19-20","verse_short_title":"2 Ne. 31:19","scripture_text":"And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save. Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.","mastery":true,"mnum":7,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":3,"verse_title":"2 Nephi 32:3","verse_short_title":"2 Ne. 32:3","scripture_text":"Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.","mastery":true,"mnum":8,"description":"If we feast upon the words of Christ, we can know all things that we should do.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":3,"verse_title":"2 Nephi 32:3","verse_short_title":"2 Ne. 32:3","scripture_text":"Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.","mastery":true,"mnum":8,"description":"If we feast upon the words of Christ, we can know all things that we should do.","keywords":["feast","words", "power", "Holy Ghost"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":"8-9","verse_title":"2 Nephi 32:8-9","verse_short_title":"2 Ne. 32:8-9","scripture_text":"And now, my beloved brethren, I perceive that ye ponder still in your hearts; and it grieveth me that I must speak concerning this thing. For if ye would hearken unto the Spirit which teacheth a man to pray, ye would know that ye must pray; for the evil spirit teacheth not a man to pray, but teacheth him that he must not pray. But behold, I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will consecrate thy performance unto thee, that thy performance may be for the welfare of thy soul.","mastery":true,"mnum":9,"description":"If we pray always, God will consecrate our performance for the welfare of our souls.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":"8-9","verse_title":"2 Nephi 32:8-9","verse_short_title":"2 Ne. 32:8-9","scripture_text":"And now, my beloved brethren, I perceive that ye ponder still in your hearts; and it grieveth me that I must speak concerning this thing. For if ye would hearken unto the Spirit which teacheth a man to pray, ye would know that ye must pray; for the evil spirit teacheth not a man to pray, but teacheth him that he must not pray. But behold, I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will consecrate thy performance unto thee, that thy performance may be for the welfare of thy soul.","mastery":true,"mnum":9,"description":"If we pray always, God will consecrate our performance for the welfare of our souls.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Book of Mormon","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":2,"verse_number":17,"verse_title":"Mosiah 2:17","verse_short_title":"Mosiah 2:17","scripture_text":"And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.","mastery":true,"mnum":10,"description":"By serving others we serve God.","keywords":["wisdom","service"], "context":"","":"","topic":""
@@ -2587,7 +2592,7 @@
         "verse_number": 9,
         "verse_title": "Mosiah 4:9",
         "verse_short_title": "Mosiah 4:9",
-        "scripture_text": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power, both in heaven and in earth; believe that man doth not comprehend all the things which the Lord can comprehend.","mastery":true,"mnum":12,"description":"Believe in God and that He has all wisdom","keywords":["",""], "context":"","":"","topic":""
+        "scripture_text": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power, both in heaven and in earth; believe that man doth not comprehend all the things which the Lord can comprehend.","mastery":true,"mnum":12,"description":"Believe in God and that He has all wisdom","keywords":["believe","created", "comprehend", "wisdom"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Book of Mormon","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":4,"verse_number":30,"verse_title":"Mosiah 4:30","verse_short_title":"Mosiah 4:30","scripture_text":"But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not.","mastery":true,"mnum":12,"description":"","keywords":["",""], "context":"","":"","topic":""
@@ -2641,10 +2646,10 @@
         "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.","mastery":true,"mnum":19,"description":". Jesus Christ suffered the will of the Father in all things.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":12,"verse_number":48,"verse_title":"3 Nephi 12:48","verse_short_title":"3 Ne. 12:48","scripture_text":"Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.","mastery":true,"mnum":19,"description":"Jesus Christ invites us to become perfect.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":12,"verse_number":48,"verse_title":"3 Nephi 12:48","verse_short_title":"3 Ne. 12:48","scripture_text":"Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.","mastery":true,"mnum":19,"description":"Jesus Christ invites us to become perfect.","keywords":["perfect","Father", "heaven"], "context":"","":"","topic":"The Godhead"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":18,"verse_number":"15, 20-21","verse_title":"3 Nephi 18:15, 20-21","verse_short_title":"3 Ne. 18:15, 20-21","scripture_text":"Verily, verily, I say unto you, ye must watch and pray always, lest ye be tempted by the devil, and ye be led away captive by him. And whatsoever ye shall ask the Father in my name, which is right, believing that ye shall receive, behold it shall be given unto you. Pray in your families unto the Father, always in my name, that your wives and your children may be blessed. ","mastery":true,"mnum":20,"description":"Watch and pray always in the name of Jesus Christ.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":18,"verse_number":"15, 20-21","verse_title":"3 Nephi 18:15, 20-21","verse_short_title":"3 Ne. 18:15, 20-21","scripture_text":"Verily, verily, I say unto you, ye must watch and pray always, lest ye be tempted by the devil, and ye be led away captive by him. And whatsoever ye shall ask the Father in my name, which is right, believing that ye shall receive, behold it shall be given unto you. Pray in your families unto the Father, always in my name, that your wives and your children may be blessed. ","mastery":true,"mnum":20,"description":"Watch and pray always in the name of Jesus Christ.","keywords":["pray","tempted","captive","believing","blessed"], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
@@ -2657,7 +2662,7 @@
         "scripture_text": "Now this is the commandment: Repent, all ye ends of the earth, and come unto me and be baptized in my name, that ye may be sanctified by the reception of the Holy Ghost, that ye may stand spotless before me at the last day.","mastery":true,"mnum":21,"description":"Be baptized and sanctified by receiving the Holy Ghost.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":6,"verse_title":"Ether 12:6","verse_short_title":"Ether 12:6","scripture_text":"And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.","mastery":true,"mnum":21,"description":"A witness comes after the trial of faith.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":6,"verse_title":"Ether 12:6","verse_short_title":"Ether 12:6","scripture_text":"And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.","mastery":true,"mnum":21,"description":"A witness comes after the trial of faith.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Book of Mormon","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":27,"verse_title":"Ether 12:27","verse_short_title":"Ether 12:27","scripture_text":"And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them.","mastery":true,"mnum":22,"description":"The Savior can make weak things strong.","keywords":["",""], "context":"","":"","topic":""
@@ -2669,7 +2674,7 @@
         "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":7,"verse_number":"45, 47-48","verse_title":"Moroni 7:45, 47-48","verse_short_title":"Moro. 7:45, 47-48","scripture_text":"And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all things, believeth all things, hopeth all things, endureth all things. But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him. Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.","mastery":true,"mnum":24,"description":" Charity is the pure love of Christ.","keywords":["charity","pure","love","Christ"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Old Testament","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["",""], "context":"","":"","topic":""
@@ -2935,10 +2940,10 @@
         "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":1,"verse_number":"37-38","verse_title":"Doctrine and Covenants 1:37-38","verse_short_title":"D&C 1:37-38","scripture_text":"Search these commandments, for they are true and faithful, and the prophecies and promises which are in them shall all be fulfilled. What I the Lord have spoken, I have spoken, and I excuse not myself; and though the heavens and the earth pass away, my word shall not pass away, but shall all be fulfilled, whether by mine own voice or by the voice of my servants, it is the same.","mastery":true,"mnum":2,"description":"The voice of the Lord and His servants is the same","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":6,"verse_number":36,"verse_title":"Doctrine and Covenants 6:36","verse_short_title":"D&C 6:36","scripture_text":"Look unto me in every thought; doubt not, fear not.","mastery":true,"mnum":3,"description":". Look unto Christ in every thought.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":6,"verse_number":36,"verse_title":"Doctrine and Covenants 6:36","verse_short_title":"D&C 6:36","scripture_text":"Look unto me in every thought; doubt not, fear not.","mastery":true,"mnum":3,"description":". Look unto Christ in every thought.","keywords":["thought","doubt", "fear"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":8,"verse_number":"2-3","verse_title":"Doctrine and Covenants 8:2-3","verse_short_title":"D&C 8:2-3","scripture_text":"Yea, behold, I will tell you in your mind and in your heart, by the Holy Ghost, which shall come upon you and which shall dwell in your heart. Now, behold, this is the spirit of revelation; behold, this is the spirit by which Moses brought the children of Israel through the Red Sea on dry ground.","mastery":true,"mnum":4,"description":"The Holy Ghost speaks to our minds and hearts.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":8,"verse_number":"2-3","verse_title":"Doctrine and Covenants 8:2-3","verse_short_title":"D&C 8:2-3","scripture_text":"Yea, behold, I will tell you in your mind and in your heart, by the Holy Ghost, which shall come upon you and which shall dwell in your heart. Now, behold, this is the spirit of revelation; behold, this is the spirit by which Moses brought the children of Israel through the Red Sea on dry ground.","mastery":true,"mnum":4,"description":"The Holy Ghost speaks to our minds and hearts.","keywords":["heart","revelation", "spirit", "dwell"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":10,"verse_number":5,"verse_title":"Doctrine and Covenants 10:5","verse_short_title":"D&C 10:5","scripture_text":"Pray always, that you may come off conqueror; yea, that you may conquer Satan, and that you may escape the hands of the servants of Satan that do uphold his work.","mastery":true,"mnum":5,"description":"","keywords":["",""], "context":"","":"","topic":""
@@ -3042,7 +3047,14 @@
         "verse_number": 118,
         "verse_title": "Doctrine and Covenants 88:118",
         "verse_short_title": "D&C 88:118",
-        "scripture_text": "And as all have not faith, seek ye diligently and teach one another words of wisdom; yea, seek ye out of the best books words of wisdom; seek learning, even by study and also by faith.","mastery":true,"mnum":20,"description":"Seek learning by study and faith.","keywords":["faith","study","wisdom"], "context":"","":"","topic":""
+        "scripture_text": "And as all have not faith, seek ye diligently and teach one another words of wisdom; yea, seek ye out of the best books words of wisdom; seek learning, even by study and also by faith.",
+        "mastery":true,
+        "mnum":20,
+        "description":"Seek learning by study and faith.",
+        "keywords":["faith","study","wisdom","books"], 
+        "context":"",
+        "":"",
+        "topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":88,"verse_number":124,"verse_title":"Doctrine and Covenants 88:124","verse_short_title":"D&C 88:124","scripture_text":"Cease to be idle; cease to be unclean; cease to find fault one with another; cease to sleep longer than is needful; retire to thy bed early, that ye may not be weary; arise early, that your bodies and your minds may be invigorated.","mastery":true,"mnum":20,"description":"","keywords":["",""], "context":"","":"","topic":""
