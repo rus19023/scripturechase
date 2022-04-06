@@ -1,4 +1,5 @@
-import { qs } from "./utilities.js";
+
+import { qs } from './utilities.js';
 const url1 = 'rus19023.github.io/scripturechase/json/lds-scriptures.json';
 const url6 = 'https://raw.githubusercontent.com/rus19023/scripturechase/main/json/scripturechase.json';
 
@@ -38,22 +39,22 @@ export const buildUrl = (volume, book, chapter, startverse, endverse) => {
 const quizlist = [
     {
         "unitname":"ot",
-        "src":"../img/ot/mobile/adam_eve_altar-ot-tall.webp",
+        "src":"src/img/ot/mobile/adam_eve_altar-ot-tall.webp",
         "alt": "Image of Adam and Eve at an altar"
     },
     {
         "unitname":"nt",
-        "src":"../img/ot/mobile/jesus_at_the_door.webp",
+        "src":"src/img/ot/mobile/jesus_at_the_door.webp",
         "alt": "Image of Jesus Christ knocking at a door"
     },
     {
         "unitname":"bom",
-        "src":"../img/ot/mobile/christ_appearing_nephites.webp",
+        "src":"src/img/ot/mobile/christ_appearing_nephites.webp",
         "alt": "Image of Christ appearing to the Nephites after His Resurrection"
     },
     {
         "unitname":"dc",
-        "src":"../img/ot/mobile/first_vision.webp",
+        "src":"src/img/ot/mobile/first_vision.webp",
         "alt": "Image of Joseph Smith's First Vision"
     }
 ]
@@ -73,60 +74,28 @@ const getQuiz = async (url) => {
             throw Error(`${response.status} ${response.statusText}`);
         } else {
             const getQuizArray = await response.json();
+            console.log(getQuizArray);
+            console.log('getQuizArray/try invoked');
             let newArray = [];
             console.log(getQuizArray);
+            let quizunits = ["ot", "nt", "bom", "dc"];
             getQuizArray.forEach(el => {
-                if ((quizunits.length > 0) && (quizunits.keywords.length > 0)) {
+                console.log(el.unit);
+                console.log(quizunits);
+                console.log(quizunits.includes(el.unit));
+                if (quizunits.includes(el.unit)) {
                     newArray.push();
+                    console.log(newArray);
                 }
-                console.log(el);
             });
-            const quiz = getQuizArray.filter(quiz => quiz.type === 'multiple');
+            const quiz = newArray;
             console.log(quiz);
+            this.quiz = quiz;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
-            // Create a new json file for the mastery scripture passages
-            // getQuizArray.forEach(vol => {
-            //         vol.bom.forEach(el => {
-            //             if (el.mastery) {
-            //                 console.log(el);
-            //                 newArray.push(el);
-            //             }
-            //         });
-            //         vol.ot.forEach(el => {
-            //             if (el.mastery) {
-            //                 console.log(el);
-            //                 newArray.push(el);
-            //             }
-            //         });
-            //         vol.nt.forEach(el => {
-            //             if (el.mastery) {
-            //                 console.log(el);
-            //                 newArray.push(el);
-            //             }
-            //         });
-            //         vol.dc.forEach(el => {
-            //             if (el.mastery) {
-            //                 console.log(el);
-            //                 newArray.push(el);
-            //             }
-            //         });
-            //     console.log(newArray);
-            //     const text = JSON.stringify(newArray);
-            //     const name = "sample.json";
-            //     const type = "text/plain";
-            //     // create file
-            //     const a = document.createElement("a");
-            //     const file = new Blob([text], { type: type });
-            //     a.href = URL.createObjectURL(file);
-                   //  auto download the json file
-            //     a.download = name;
-            //     document.body.appendChild(a);
-            //     a.click();
-            //     a.remove();
-            // });
         }
-        return response;
+        console.log(newArray);
+        return newArray;
     } catch (error) {
         console.log('Looks like there was a problem: ', error);
     }
@@ -160,8 +129,8 @@ function shuffle(array) {
         [array[i - 1], array[j]] = [array[j], array[i - 1]];
     }
 }
-const quiz = getQuiz(url6);
-console.log(quiz);
+//const quiz = getQuiz(url6);
+//console.log(quiz);
 
 // View Object
 const view = {
@@ -239,7 +208,7 @@ const game = {
     },
 
     // {
-    //     "volume_title": "Doctrine and Covenants",
+    //     "unit": "Doctrine and Covenants",
     //     "book_title": "Doctrine and Covenants",
     //     "book_short_title": "D&C",
     //     "chapter_number": 1,
@@ -251,7 +220,7 @@ const game = {
 
     // {
     //     "mastery_title": "full scripture reference",
-    //     "volume": "volume_title",
+    //     "volume": "unit",
     //     "book": "book_title",
     //     "chapter": 0,
     //     "v1": 1,

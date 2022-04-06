@@ -1,7 +1,6 @@
 import { fbApp, auth, langpref } from './fsconfig.js';
 import {  } from './signup.js';
 import {  } from './signin.js';
-import { quizlist } from './quiz.js';
 import {  } from './storage.js';
 import { qs } from './utilities.js';
 

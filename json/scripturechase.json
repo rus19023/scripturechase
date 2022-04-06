@@ -1,6 +1,7 @@
 [
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "1 Nephi",
         "book_short_title": "1 Ne.",
         "chapter_number": 3,
@@ -13,6 +14,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 2,
@@ -33,6 +35,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 2,
@@ -56,6 +59,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 2,
@@ -76,6 +80,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 9,
@@ -96,6 +101,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 25,
@@ -116,6 +122,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 26,
@@ -136,6 +143,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 28,
@@ -156,6 +164,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 28,
@@ -176,6 +185,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 31,
@@ -196,6 +206,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 32,
@@ -216,6 +227,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 32,
@@ -236,6 +248,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 2,
@@ -256,6 +269,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 2,
@@ -279,6 +293,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 3,
@@ -299,6 +314,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 4,
@@ -319,6 +335,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 4,
@@ -339,6 +356,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 18,
@@ -359,6 +377,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 7,
@@ -379,6 +398,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 32,
@@ -399,6 +419,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 34,
@@ -419,6 +440,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 37,
@@ -439,6 +461,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 39,
@@ -459,6 +482,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 41,
@@ -479,6 +503,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Helaman",
         "book_short_title": "Hel.",
         "chapter_number": 5,
@@ -499,6 +524,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 11,
@@ -516,6 +542,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 12,
@@ -536,6 +563,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 18,
@@ -556,6 +584,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 27,
@@ -576,6 +605,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Ether",
         "book_short_title": "Ether",
         "chapter_number": 12,
@@ -596,6 +626,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Ether",
         "book_short_title": "Ether",
         "chapter_number": 12,
@@ -616,6 +647,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Moroni",
         "book_short_title": "Moro.",
         "chapter_number": 7,
@@ -636,6 +668,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Moroni",
         "book_short_title": "Moro.",
         "chapter_number": 7,
@@ -658,6 +691,7 @@
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Moroni",
         "book_short_title": "Moro.",
         "chapter_number": 10,
@@ -1180,6 +1214,7 @@
     },
     {
         "volume_title": "Pearl of Great Price",
+        "unit":"dc",
         "book_title": "Moses",
         "book_short_title": "Moses",
         "chapter_number": 1,
@@ -1200,6 +1235,7 @@
     },
     {
         "volume_title": "Pearl of Great Price",
+        "unit":"dc",
         "book_title": "Moses",
         "book_short_title": "Moses",
         "chapter_number": 7,
@@ -1220,6 +1256,7 @@
     },
     {
         "volume_title": "Pearl of Great Price",
+        "unit":"dc",
         "book_title": "Abraham",
         "book_short_title": "Abr.",
         "chapter_number": 3,
@@ -1240,6 +1277,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 5,
@@ -1260,6 +1298,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 11,
@@ -1280,6 +1319,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 16,
@@ -1300,6 +1340,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 22,
@@ -1320,6 +1361,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 28,
@@ -1340,6 +1382,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 22,
@@ -1360,6 +1403,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Luke",
         "book_short_title": "Luke",
         "chapter_number": 24,
@@ -1380,6 +1424,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 3,
@@ -1400,6 +1445,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 7,
@@ -1420,6 +1466,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 14,
@@ -1440,6 +1487,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 14,
@@ -1460,6 +1508,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 15,
@@ -1480,6 +1529,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 17,
@@ -1500,6 +1550,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Acts",
         "book_short_title": "Acts",
         "chapter_number": 2,
@@ -1520,6 +1571,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Acts",
         "book_short_title": "Acts",
         "chapter_number": 3,
@@ -1540,6 +1592,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 2,
@@ -1562,6 +1615,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 6,
@@ -1582,6 +1636,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 11,
@@ -1602,6 +1657,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 15,
@@ -1622,6 +1678,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 15,
@@ -1642,6 +1699,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Galatians",
         "book_short_title": "Gal.",
         "chapter_number": 5,
@@ -1652,6 +1710,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Ephesians",
         "book_short_title": "Eph.",
         "chapter_number": 2,
@@ -1672,6 +1731,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Ephesians",
         "book_short_title": "Eph.",
         "chapter_number": 4,
@@ -1692,6 +1752,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Philippians",
         "book_short_title": "Philip.",
         "chapter_number": 4,
@@ -1712,6 +1773,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "2 Thessalonians",
         "book_short_title": "2 Thes.",
         "chapter_number": 2,
@@ -1732,6 +1794,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "2 Timothy",
         "book_short_title": "2 Tim.",
         "chapter_number": 3,
@@ -1752,6 +1815,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Hebrews",
         "book_short_title": "Heb.",
         "chapter_number": 12,
@@ -1775,6 +1839,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "James",
         "book_short_title": "James",
         "chapter_number": 1,
@@ -1795,6 +1860,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "James",
         "book_short_title": "James",
         "chapter_number": 2,
@@ -1815,6 +1881,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Peter",
         "book_short_title": "1 Pet.",
         "chapter_number": 4,
@@ -1835,6 +1902,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Revelation",
         "book_short_title": "Rev.",
         "chapter_number": 20,
@@ -1855,6 +1923,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 1,
@@ -1875,6 +1944,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 1,
@@ -1895,6 +1965,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 6,
@@ -1915,6 +1986,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 8,
@@ -1935,6 +2007,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 10,
@@ -1955,6 +2028,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 13,
@@ -1975,6 +2049,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 18,
@@ -1995,6 +2070,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 18,
@@ -2015,6 +2091,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 19,
@@ -2035,6 +2112,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 19,
@@ -2055,6 +2133,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 21,
@@ -2075,6 +2154,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 25,
@@ -2095,6 +2175,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 29,
@@ -2115,6 +2196,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 42,
@@ -2135,6 +2217,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 46,
@@ -2155,6 +2238,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 49,
@@ -2175,6 +2259,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 58,
@@ -2195,6 +2280,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 58,
@@ -2215,6 +2301,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 64,
@@ -2235,6 +2322,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 76,
@@ -2255,6 +2343,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 76,
@@ -2275,6 +2364,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 78,
@@ -2287,6 +2377,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 82,
@@ -2307,6 +2398,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 84,
@@ -2327,6 +2419,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 88,
@@ -2348,6 +2441,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 88,
@@ -2368,6 +2462,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 89,
@@ -2388,6 +2483,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 107,
@@ -2408,6 +2504,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 121,
@@ -2428,6 +2525,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 130,
@@ -2448,6 +2546,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 131,
@@ -2468,6 +2567,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 135,
@@ -2488,6 +2588,7 @@
     },
     {
         "volume_title": "Pearl of Great Price",
+        "unit":"dc",
         "book_title": "Joseph Smith--History",
         "book_short_title": "JS-H",
         "chapter_number": 1,
@@ -2507,10 +2608,13 @@
         "topic": ""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"1 Nephi","book_short_title":"1 Ne.","chapter_number":3,"verse_number":7,"verse_title":"1 Nephi 3:7","verse_short_title":"1 Ne. 3:7","scripture_text":"And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.","mastery":true,"mnum":1},{"volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":2,"verse_number":25,"verse_title":"2 Nephi 2:25","verse_short_title":"2 Ne. 2:25","scripture_text":"Adam fell that men might be; and men are, that they might have joy.","mastery":true,"mnum":2,"description":"The Lord prepares a way to obey His commandments","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"1 Nephi","book_short_title":"1 Ne.","chapter_number":3,"verse_number":7,"verse_title":"1 Nephi 3:7","verse_short_title":"1 Ne. 3:7","scripture_text":"And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.","mastery":true,"mnum":1},{"volume_title":"Book of Mormon",
+            "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":2,"verse_number":25,"verse_title":"2 Nephi 2:25","verse_short_title":"2 Ne. 2:25","scripture_text":"Adam fell that men might be; and men are, that they might have joy.","mastery":true,"mnum":2,"description":"The Lord prepares a way to obey His commandments","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 2,
@@ -2522,16 +2626,20 @@
         "mnum": 2,"description":"Adam fell that men might be.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":2,"verse_number":27,"verse_title":"2 Nephi 2:27","verse_short_title":"2 Ne. 2:27","scripture_text":"Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.","mastery":true,"mnum":3,"description":"We are free to choose","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":2,"verse_number":27,"verse_title":"2 Nephi 2:27","verse_short_title":"2 Ne. 2:27","scripture_text":"Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.","mastery":true,"mnum":3,"description":"We are free to choose","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":9,"verse_number":"28-29","verse_title":"2 Nephi 9:28-29","verse_short_title":"2 Ne. 9:28-29","scripture_text":"O that cunning plan of the evil one! O the vainness, and the frailties, and the foolishness of men! When they are learned they think they are wise, and they hearken not unto the counsel of God, for they set it aside, supposing they know of themselves, wherefore, their wisdom is foolishness and it profiteth them not. And they shall perish.","mastery":true,"mnum":4,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":9,"verse_number":"28-29","verse_title":"2 Nephi 9:28-29","verse_short_title":"2 Ne. 9:28-29","scripture_text":"O that cunning plan of the evil one! O the vainness, and the frailties, and the foolishness of men! When they are learned they think they are wise, and they hearken not unto the counsel of God, for they set it aside, supposing they know of themselves, wherefore, their wisdom is foolishness and it profiteth them not. And they shall perish.","mastery":true,"mnum":4,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":25,"verse_number":"23,26","verse_title":"2 Nephi 25:23, 26","verse_short_title":"2 Ne. 25:23, 26","scripture_text":"For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that it is by grace that we are saved, after all we can do. And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.","mastery":true,"mnum":5,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":25,"verse_number":"23,26","verse_title":"2 Nephi 25:23, 26","verse_short_title":"2 Ne. 25:23, 26","scripture_text":"For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that it is by grace that we are saved, after all we can do. And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.","mastery":true,"mnum":5,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 26,
@@ -2547,10 +2655,12 @@
         "topic":"The Godhead"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":28,"verse_number":"7-9","verse_title":"2 Nephi 28:7-9","verse_short_title":"2 Ne. 28:7-9","scripture_text":"Yea, and there shall be many which shall say: Eat, drink, and be merry, for tomorrow we die; and it shall be well with us. And there shall also be many which shall say: Eat, drink, and be merry; nevertheless, fear God--he will justify in committing a little sin; yea, lie a little, take the advantage of one because of his words, dig a pit for thy neighbor; there is no harm in this; and do all these things, for tomorrow we die; and if it so be that we are guilty, God will beat us with a few stripes, and at last we shall be saved in the kingdom of God. Yea, and there shall be many which shall teach after this manner, false and vain and foolish doctrines, and shall be puffed up in their hearts, and shall seek deep to hide their counsels from the Lord; and their works shall be in the dark.","mastery":true,"mnum":6,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":28,"verse_number":"7-9","verse_title":"2 Nephi 28:7-9","verse_short_title":"2 Ne. 28:7-9","scripture_text":"Yea, and there shall be many which shall say: Eat, drink, and be merry, for tomorrow we die; and it shall be well with us. And there shall also be many which shall say: Eat, drink, and be merry; nevertheless, fear God--he will justify in committing a little sin; yea, lie a little, take the advantage of one because of his words, dig a pit for thy neighbor; there is no harm in this; and do all these things, for tomorrow we die; and if it so be that we are guilty, God will beat us with a few stripes, and at last we shall be saved in the kingdom of God. Yea, and there shall be many which shall teach after this manner, false and vain and foolish doctrines, and shall be puffed up in their hearts, and shall seek deep to hide their counsels from the Lord; and their works shall be in the dark.","mastery":true,"mnum":6,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "2 Nephi",
         "book_short_title": "2 Ne.",
         "chapter_number": 28,
@@ -2560,19 +2670,24 @@
         "scripture_text": "For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for unto him that receiveth I will give more; and from them that shall say, We have enough, from them shall be taken away even that which they have.","mastery":true,"mnum":6,"description":"God gives knowledge line upon line.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":31,"verse_number":"19-20","verse_title":"2 Nephi 31:19-20","verse_short_title":"2 Ne. 31:19","scripture_text":"And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save. Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.","mastery":true,"mnum":7,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":31,"verse_number":"19-20","verse_title":"2 Nephi 31:19-20","verse_short_title":"2 Ne. 31:19","scripture_text":"And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save. Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.","mastery":true,"mnum":7,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":3,"verse_title":"2 Nephi 32:3","verse_short_title":"2 Ne. 32:3","scripture_text":"Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.","mastery":true,"mnum":8,"description":"If we feast upon the words of Christ, we can know all things that we should do.","keywords":["feast","words", "power", "Holy Ghost"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":3,"verse_title":"2 Nephi 32:3","verse_short_title":"2 Ne. 32:3","scripture_text":"Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.","mastery":true,"mnum":8,"description":"If we feast upon the words of Christ, we can know all things that we should do.","keywords":["feast","words", "power", "Holy Ghost"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":"8-9","verse_title":"2 Nephi 32:8-9","verse_short_title":"2 Ne. 32:8-9","scripture_text":"And now, my beloved brethren, I perceive that ye ponder still in your hearts; and it grieveth me that I must speak concerning this thing. For if ye would hearken unto the Spirit which teacheth a man to pray, ye would know that ye must pray; for the evil spirit teacheth not a man to pray, but teacheth him that he must not pray. But behold, I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will consecrate thy performance unto thee, that thy performance may be for the welfare of thy soul.","mastery":true,"mnum":9,"description":"If we pray always, God will consecrate our performance for the welfare of our souls.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"2 Nephi","book_short_title":"2 Ne.","chapter_number":32,"verse_number":"8-9","verse_title":"2 Nephi 32:8-9","verse_short_title":"2 Ne. 32:8-9","scripture_text":"And now, my beloved brethren, I perceive that ye ponder still in your hearts; and it grieveth me that I must speak concerning this thing. For if ye would hearken unto the Spirit which teacheth a man to pray, ye would know that ye must pray; for the evil spirit teacheth not a man to pray, but teacheth him that he must not pray. But behold, I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will consecrate thy performance unto thee, that thy performance may be for the welfare of thy soul.","mastery":true,"mnum":9,"description":"If we pray always, God will consecrate our performance for the welfare of our souls.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":2,"verse_number":17,"verse_title":"Mosiah 2:17","verse_short_title":"Mosiah 2:17","scripture_text":"And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.","mastery":true,"mnum":10,"description":"By serving others we serve God.","keywords":["wisdom","service"], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":2,"verse_number":17,"verse_title":"Mosiah 2:17","verse_short_title":"Mosiah 2:17","scripture_text":"And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.","mastery":true,"mnum":10,"description":"By serving others we serve God.","keywords":["wisdom","service"], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 2,
@@ -2582,10 +2697,12 @@
         "scripture_text": "And moreover, I would desire that ye should consider on the blessed and happy state of those that keep the commandments of God. For behold, they are blessed in all things, both temporal and spiritual; and if they hold out faithful to the end they are received into heaven, that thereby they may dwell with God in a state of never-ending happiness. O remember, remember that these things are true; for the Lord God hath spoken it.","mastery":true,"mnum":12,"description":"Obedience brings blessings and happiness.","keywords":["blessed","happiness", "faithful", "temporal", "spiritual"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":3,"verse_number":19,"verse_title":"Mosiah 3:19","verse_short_title":"Mosiah 3:19","scripture_text":"For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.","mastery":true,"mnum":11,"description":". Put off the natural man and become a Saint through the Atonement.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":3,"verse_number":19,"verse_title":"Mosiah 3:19","verse_short_title":"Mosiah 3:19","scripture_text":"For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.","mastery":true,"mnum":11,"description":". Put off the natural man and become a Saint through the Atonement.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 4,
@@ -2595,10 +2712,12 @@
         "scripture_text": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power, both in heaven and in earth; believe that man doth not comprehend all the things which the Lord can comprehend.","mastery":true,"mnum":12,"description":"Believe in God and that He has all wisdom","keywords":["believe","created", "comprehend", "wisdom"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":4,"verse_number":30,"verse_title":"Mosiah 4:30","verse_short_title":"Mosiah 4:30","scripture_text":"But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not.","mastery":true,"mnum":12,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":4,"verse_number":30,"verse_title":"Mosiah 4:30","verse_short_title":"Mosiah 4:30","scripture_text":"But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not.","mastery":true,"mnum":12,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 18,
@@ -2608,13 +2727,16 @@
         "scripture_text": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and are willing to bear one another's burdens, that they may be light; Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life-- Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, as a witness before him that ye have entered into a covenant with him, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?","mastery":true,"mnum":13,"description":"Through baptism we enter a covenant with God.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Alma","book_short_title":"Alma","chapter_number":7,"verse_number":"11-13","verse_title":"Alma 7:11-13","verse_short_title":"Alma 7:11-13","scripture_text":"And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people. And he will take upon him death, that he may loose the bands of death which bind his people; and he will take upon him their infirmities, that his bowels may be filled with mercy, according to the flesh, that he may know according to the flesh how to succor his people according to their infirmities. Now the Spirit knoweth all things; nevertheless the Son of God suffereth according to the flesh that he might take upon him the sins of his people, that he might blot out their transgressions according to the power of his deliverance; and now behold, this is the testimony which is in me.","mastery":true,"mnum":13,"description":"Jesus Christ experienced our pains and overcame sin and death.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":7,"verse_number":"11-13","verse_title":"Alma 7:11-13","verse_short_title":"Alma 7:11-13","scripture_text":"And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people. And he will take upon him death, that he may loose the bands of death which bind his people; and he will take upon him their infirmities, that his bowels may be filled with mercy, according to the flesh, that he may know according to the flesh how to succor his people according to their infirmities. Now the Spirit knoweth all things; nevertheless the Son of God suffereth according to the flesh that he might take upon him the sins of his people, that he might blot out their transgressions according to the power of his deliverance; and now behold, this is the testimony which is in me.","mastery":true,"mnum":13,"description":"Jesus Christ experienced our pains and overcame sin and death.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Alma","book_short_title":"Alma","chapter_number":32,"verse_number":21,"verse_title":"Alma 32:21","verse_short_title":"Alma 32:21","scripture_text":"And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true.","mastery":true,"mnum":14,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":32,"verse_number":21,"verse_title":"Alma 32:21","verse_short_title":"Alma 32:21","scripture_text":"And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true.","mastery":true,"mnum":14,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "Alma",
         "book_short_title": "Alma",
         "chapter_number": 34,
@@ -2624,19 +2746,24 @@
         "scripture_text": "For it is expedient that an atonement should be made; for according to the great plan of the Eternal God there must be an atonement made, or else all mankind must unavoidably perish; yea, all are hardened; yea, all are fallen and are lost, and must perish except it be through the atonement which it is expedient should be made. For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast, neither of any manner of fowl; for it shall not be a human sacrifice; but it must be an infinite and eternal sacrifice.","mastery":true,"mnum":15,"description":"There must be an Atonement made.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Alma","book_short_title":"Alma","chapter_number":37,"verse_number":35,"verse_title":"Alma 37:35","verse_short_title":"Alma 37:35","scripture_text":"O, remember, my son, and learn wisdom in thy youth; yea, learn in thy youth to keep the commandments of God.","mastery":true,"mnum":15,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":37,"verse_number":35,"verse_title":"Alma 37:35","verse_short_title":"Alma 37:35","scripture_text":"O, remember, my son, and learn wisdom in thy youth; yea, learn in thy youth to keep the commandments of God.","mastery":true,"mnum":15,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Alma","book_short_title":"Alma","chapter_number":39,"verse_number":9,"verse_title":"Alma 39:9","verse_short_title":"Alma 39:9","scripture_text":"Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.","mastery":true,"mnum":16,"description":". Go no more after the lust of your eyes.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":39,"verse_number":9,"verse_title":"Alma 39:9","verse_short_title":"Alma 39:9","scripture_text":"Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.","mastery":true,"mnum":16,"description":". Go no more after the lust of your eyes.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Alma","book_short_title":"Alma","chapter_number":41,"verse_number":10,"verse_title":"Alma 41:10","verse_short_title":"Alma 41:10","scripture_text":"Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness.","mastery":true,"mnum":17,"description":"0.Wickedness never was happiness","keywords":["wickedness","happiness"], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":41,"verse_number":10,"verse_title":"Alma 41:10","verse_short_title":"Alma 41:10","scripture_text":"Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness.","mastery":true,"mnum":17,"description":"0.Wickedness never was happiness","keywords":["wickedness","happiness"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Helaman","book_short_title":"Hel.","chapter_number":5,"verse_number":12,"verse_title":"Helaman 5:12","verse_short_title":"Hel. 5:12","scripture_text":"And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall.","mastery":true,"mnum":18,"description":"Build your foundation on Christ.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Helaman","book_short_title":"Hel.","chapter_number":5,"verse_number":12,"verse_title":"Helaman 5:12","verse_short_title":"Hel. 5:12","scripture_text":"And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall.","mastery":true,"mnum":18,"description":"Build your foundation on Christ.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 11,
@@ -2646,13 +2773,16 @@
         "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.","mastery":true,"mnum":19,"description":". Jesus Christ suffered the will of the Father in all things.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":12,"verse_number":48,"verse_title":"3 Nephi 12:48","verse_short_title":"3 Ne. 12:48","scripture_text":"Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.","mastery":true,"mnum":19,"description":"Jesus Christ invites us to become perfect.","keywords":["perfect","Father", "heaven"], "context":"","":"","topic":"The Godhead"
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":12,"verse_number":48,"verse_title":"3 Nephi 12:48","verse_short_title":"3 Ne. 12:48","scripture_text":"Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.","mastery":true,"mnum":19,"description":"Jesus Christ invites us to become perfect.","keywords":["perfect","Father", "heaven"], "context":"","":"","topic":"The Godhead"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":18,"verse_number":"15, 20-21","verse_title":"3 Nephi 18:15, 20-21","verse_short_title":"3 Ne. 18:15, 20-21","scripture_text":"Verily, verily, I say unto you, ye must watch and pray always, lest ye be tempted by the devil, and ye be led away captive by him. And whatsoever ye shall ask the Father in my name, which is right, believing that ye shall receive, behold it shall be given unto you. Pray in your families unto the Father, always in my name, that your wives and your children may be blessed. ","mastery":true,"mnum":20,"description":"Watch and pray always in the name of Jesus Christ.","keywords":["pray","tempted","captive","believing","blessed"], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":18,"verse_number":"15, 20-21","verse_title":"3 Nephi 18:15, 20-21","verse_short_title":"3 Ne. 18:15, 20-21","scripture_text":"Verily, verily, I say unto you, ye must watch and pray always, lest ye be tempted by the devil, and ye be led away captive by him. And whatsoever ye shall ask the Father in my name, which is right, believing that ye shall receive, behold it shall be given unto you. Pray in your families unto the Father, always in my name, that your wives and your children may be blessed. ","mastery":true,"mnum":20,"description":"Watch and pray always in the name of Jesus Christ.","keywords":["pray","tempted","captive","believing","blessed"], "context":"","":"","topic":""
     },
     {
         "volume_title": "Book of Mormon",
+        "unit":"bom",
         "book_title": "3 Nephi",
         "book_short_title": "3 Ne.",
         "chapter_number": 27,
@@ -2662,19 +2792,24 @@
         "scripture_text": "Now this is the commandment: Repent, all ye ends of the earth, and come unto me and be baptized in my name, that ye may be sanctified by the reception of the Holy Ghost, that ye may stand spotless before me at the last day.","mastery":true,"mnum":21,"description":"Be baptized and sanctified by receiving the Holy Ghost.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":6,"verse_title":"Ether 12:6","verse_short_title":"Ether 12:6","scripture_text":"And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.","mastery":true,"mnum":21,"description":"A witness comes after the trial of faith.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":6,"verse_title":"Ether 12:6","verse_short_title":"Ether 12:6","scripture_text":"And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.","mastery":true,"mnum":21,"description":"A witness comes after the trial of faith.","keywords":["",""], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":27,"verse_title":"Ether 12:27","verse_short_title":"Ether 12:27","scripture_text":"And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them.","mastery":true,"mnum":22,"description":"The Savior can make weak things strong.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Ether","book_short_title":"Ether","chapter_number":12,"verse_number":27,"verse_title":"Ether 12:27","verse_short_title":"Ether 12:27","scripture_text":"And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them.","mastery":true,"mnum":22,"description":"The Savior can make weak things strong.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":7,"verse_number":41,"verse_title":"Moroni 7:41","verse_short_title":"Moro. 7:41","scripture_text":"And what is it that ye shall hope for? Behold I say unto you that ye shall have hope through the atonement of Christ and the power of his resurrection, to be raised unto life eternal, and this because of your faith in him according to the promise.","mastery":true,"mnum":23,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":7,"verse_number":41,"verse_title":"Moroni 7:41","verse_short_title":"Moro. 7:41","scripture_text":"And what is it that ye shall hope for? Behold I say unto you that ye shall have hope through the atonement of Christ and the power of his resurrection, to be raised unto life eternal, and this because of your faith in him according to the promise.","mastery":true,"mnum":23,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":7,"verse_number":"45, 47-48","verse_title":"Moroni 7:45, 47-48","verse_short_title":"Moro. 7:45, 47-48","scripture_text":"And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all things, believeth all things, hopeth all things, endureth all things. But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him. Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.","mastery":true,"mnum":24,"description":" Charity is the pure love of Christ.","keywords":["charity","pure","love","Christ"], "context":"","":"","topic":""
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":7,"verse_number":"45, 47-48","verse_title":"Moroni 7:45, 47-48","verse_short_title":"Moro. 7:45, 47-48","scripture_text":"And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all things, believeth all things, hopeth all things, endureth all things. But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him. Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.","mastery":true,"mnum":24,"description":" Charity is the pure love of Christ.","keywords":["charity","pure","love","Christ"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Book of Mormon","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Book of Mormon",
+        "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Old Testament","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["",""], "context":"","":"","topic":""
@@ -2773,31 +2908,37 @@
         "volume_title":"Old Testament","book_title":"Malachi","book_short_title":"Mal.","chapter_number":4,"verse_number":"5-6","verse_title":"Malachi 4:5-6","verse_short_title":"Mal. 4:5-6","scripture_text":"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.","mastery":true,"mnum":25,"description":"Elijah will turn the hearts of fathers and children.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Pearl of Great Price","book_title":"Moses","book_short_title":"Moses","chapter_number":1,"verse_number":39,"verse_title":"Moses 1:39","verse_short_title":"Moses 1:39","scripture_text":"For behold, this is my work and my glory--to bring to pass the immortality and eternal life of man.","mastery":true,"mnum":1, "description": "God’s work and glory is to bring to pass the immortality and eternal life of man.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Pearl of Great Price", "unit":"dc", "book_title":"Moses","book_short_title":"Moses","chapter_number":1,"verse_number":39,"verse_title":"Moses 1:39","verse_short_title":"Moses 1:39","scripture_text":"For behold, this is my work and my glory--to bring to pass the immortality and eternal life of man.","mastery":true,"mnum":1, "description": "God’s work and glory is to bring to pass the immortality and eternal life of man.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Pearl of Great Price","book_title":"Moses","book_short_title":"Moses","chapter_number":7,"verse_number":18,"verse_title":"Moses 7:18","verse_short_title":"Moses 7:18","scripture_text":"And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.","mastery":true,"mnum":2,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Pearl of Great Price", "unit":"ot", "book_title":"Moses","book_short_title":"Moses","chapter_number":7,"verse_number":18,"verse_title":"Moses 7:18","verse_short_title":"Moses 7:18","scripture_text":"And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.","mastery":true,"mnum":2,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Pearl of Great Price","book_title":"Abraham","book_short_title":"Abr.","chapter_number":3,"verse_number":"22-23","verse_title":"Abraham 3:22-23","verse_short_title":"Abr. 3:22-23","scripture_text":"Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones; And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.","mastery":true,"mnum":3,"description":"Abraham was chosen before he was born.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"Pearl of Great Price", "unit":"dc", "book_title":"Abraham","book_short_title":"Abr.","chapter_number":3,"verse_number":"22-23","verse_title":"Abraham 3:22-23","verse_short_title":"Abr. 3:22-23","scripture_text":"Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones; And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.","mastery":true,"mnum":3,"description":"Abraham was chosen before he was born.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Matthew","book_short_title":"Matt.","chapter_number":5,"verse_number":"14-16","verse_title":"Matthew 5:14-16","verse_short_title":"Matt. 5:14-16","scripture_text":"Ye are the light of the world. A city that is set on an hill cannot be hid. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house. Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.","mastery":true,"mnum":1,"description":"Let your light so shine as an example to others.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":5,"verse_number":"14-16","verse_title":"Matthew 5:14-16","verse_short_title":"Matt. 5:14-16","scripture_text":"Ye are the light of the world. A city that is set on an hill cannot be hid. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house. Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.","mastery":true,"mnum":1,"description":"Let your light so shine as an example to others.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Matthew","book_short_title":"Matt.","chapter_number":11,"verse_number":"28-30","verse_title":"Matthew 11:28-30","verse_short_title":"Matt. 11:28-30","scripture_text":"Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.","mastery":true,"mnum":2,"description":"If we come unto Jesus Christ, He will ease our burdens and give us rest.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":11,"verse_number":"28-30","verse_title":"Matthew 11:28-30","verse_short_title":"Matt. 11:28-30","scripture_text":"Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.","mastery":true,"mnum":2,"description":"If we come unto Jesus Christ, He will ease our burdens and give us rest.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Matthew","book_short_title":"Matt.","chapter_number":16,"verse_number":"15-19","verse_title":"Matthew 16:15-19","verse_short_title":"Matt. 16:15-19","scripture_text":"He saith unto them, But whom say ye that I am? And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it. And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.","mastery":true,"mnum":3,"description":"Jesus Christ promised to build His Church and confer the keys of the kingdom.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":16,"verse_number":"15-19","verse_title":"Matthew 16:15-19","verse_short_title":"Matt. 16:15-19","scripture_text":"He saith unto them, But whom say ye that I am? And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it. And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.","mastery":true,"mnum":3,"description":"Jesus Christ promised to build His Church and confer the keys of the kingdom.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Matthew","book_short_title":"Matt.","chapter_number":22,"verse_number":"36-39","verse_title":"Matthew 22:36-39","verse_short_title":"Matt. 22:36-39","scripture_text":"Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.","mastery":true,"mnum":4,"description":" Love the Lord; love thy neighbor","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":22,"verse_number":"36-39","verse_title":"Matthew 22:36-39","verse_short_title":"Matt. 22:36-39","scripture_text":"Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.","mastery":true,"mnum":4,"description":" Love the Lord; love thy neighbor","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Matthew","book_short_title":"Matt.","chapter_number":28,"verse_number":"19-20","verse_title":"Matthew 28:19-20","verse_short_title":"Matt. 28:19-20","scripture_text":"Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.","mastery":true,"mnum":5,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":28,"verse_number":"19-20","verse_title":"Matthew 28:19-20","verse_short_title":"Matt. 28:19-20","scripture_text":"Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.","mastery":true,"mnum":5,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
         "chapter_number": 22,
@@ -2807,13 +2948,16 @@
         "scripture_text": "Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.","mastery":true,"mnum":8,"description":"Love the Lord; love thy neighbor","keywords":["neighbor","love"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Luke","book_short_title":"Luke","chapter_number":24,"verse_number":"36-39","verse_title":"Luke 24:36-39","verse_short_title":"Luke 24:36-39","scripture_text":"And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you. But they were terrified and affrighted, and supposed that they had seen a spirit. And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts? Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.","mastery":true,"mnum":6,"description":"Jesus Christ was resurrected with a body of flesh and bone","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Luke","book_short_title":"Luke","chapter_number":24,"verse_number":"36-39","verse_title":"Luke 24:36-39","verse_short_title":"Luke 24:36-39","scripture_text":"And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you. But they were terrified and affrighted, and supposed that they had seen a spirit. And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts? Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.","mastery":true,"mnum":6,"description":"Jesus Christ was resurrected with a body of flesh and bone","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"John","book_short_title":"John","chapter_number":3,"verse_number":5,"verse_title":"John 3:5","verse_short_title":"John 3:5","scripture_text":"Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.","mastery":true,"mnum":7,"description":"We must be born of water and of the Spirit to enter the kingdom of God","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":3,"verse_number":5,"verse_title":"John 3:5","verse_short_title":"John 3:5","scripture_text":"Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.","mastery":true,"mnum":7,"description":"We must be born of water and of the Spirit to enter the kingdom of God","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 7,
@@ -2823,13 +2967,16 @@
         "scripture_text": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself.","mastery":true,"mnum":10,"description":"Do God’s will to know His doctrine.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":6,"verse_title":"John 14:6","verse_short_title":"John 14:6","scripture_text":"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.","mastery":true,"mnum":8,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":6,"verse_title":"John 14:6","verse_short_title":"John 14:6","scripture_text":"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.","mastery":true,"mnum":8,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":15,"verse_title":"John 14:15","verse_short_title":"John 14:15","scripture_text":"If ye love me, keep my commandments.","mastery":true,"mnum":9,"description":"If ye love me, keep my commandments.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":15,"verse_title":"John 14:15","verse_short_title":"John 14:15","scripture_text":"If ye love me, keep my commandments.","mastery":true,"mnum":9,"description":"If ye love me, keep my commandments.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "John",
         "book_short_title": "John",
         "chapter_number": 15,
@@ -2839,16 +2986,20 @@
         "scripture_text": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.","mastery":true,"mnum":10,"description":". The Lord chooses and ordains apostles and prophets","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"John","book_short_title":"John","chapter_number":17,"verse_number":3,"verse_title":"John 17:3","verse_short_title":"John 17:3","scripture_text":"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.","mastery":true,"mnum":10,"description":"Eternal life is knowing God and Jesus Christ.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":17,"verse_number":3,"verse_title":"John 17:3","verse_short_title":"John 17:3","scripture_text":"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.","mastery":true,"mnum":10,"description":"Eternal life is knowing God and Jesus Christ.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Acts","book_short_title":"Acts","chapter_number":2,"verse_number":"36-38","verse_title":"Acts 2:36-38","verse_short_title":"Acts 2:36-38","scripture_text":"Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ. Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.","mastery":true,"mnum":11,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":2,"verse_number":"36-38","verse_title":"Acts 2:36-38","verse_short_title":"Acts 2:36-38","scripture_text":"Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ. Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.","mastery":true,"mnum":11,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Acts","book_short_title":"Acts","chapter_number":3,"verse_number":"19-21","verse_title":"Acts 3:19-21","verse_short_title":"Acts 3:19-21","scripture_text":"Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord; And he shall send Jesus Christ, which before was preached unto you: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.","mastery":true,"mnum":12,"description":". Peter prophesied of the Restoration.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":3,"verse_number":"19-21","verse_title":"Acts 3:19-21","verse_short_title":"Acts 3:19-21","scripture_text":"Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord; And he shall send Jesus Christ, which before was preached unto you: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.","mastery":true,"mnum":12,"description":". Peter prophesied of the Restoration.","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 2,
@@ -2858,10 +3009,12 @@
         "scripture_text": "That your faith should not stand in the wisdom of men, but in the power of God. But as it is written, Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him. But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God. For what man knoweth the things of a man, save the spirit of man which is in him? even so the things of God knoweth no man, but the Spirit of God.","mastery":true,"mnum":13,"description":"We can only know the things of God through the Spirit.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"1 Corinthians","book_short_title":"1 Cor.","chapter_number":6,"verse_number":"19-20","verse_title":"1 Corinthians 6:19-20","verse_short_title":"1 Cor. 6:19-20","scripture_text":"What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.","mastery":true,"mnum":13,"description":"Your body is a temple","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"1 Corinthians","book_short_title":"1 Cor.","chapter_number":6,"verse_number":"19-20","verse_title":"1 Corinthians 6:19-20","verse_short_title":"1 Cor. 6:19-20","scripture_text":"What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.","mastery":true,"mnum":13,"description":"Your body is a temple","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 11,
@@ -2872,6 +3025,7 @@
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "1 Corinthians",
         "book_short_title": "1 Cor.",
         "chapter_number": 15,
@@ -2883,14 +3037,17 @@
         "mnum": 13,"description":"In Christ shall all be resurrected.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"1 Corinthians","book_short_title":"1 Cor.","chapter_number":15,"verse_number":"40-42","verse_title":"1 Corinthians 15:40-42","verse_short_title":"1 Cor. 15:40-42","scripture_text":"There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another. There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory. So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:","mastery":true,"mnum":14
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"1 Corinthians","book_short_title":"1 Cor.","chapter_number":15,"verse_number":"40-42","verse_title":"1 Corinthians 15:40-42","verse_short_title":"1 Cor. 15:40-42","scripture_text":"There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another. There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory. So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:","mastery":true,"mnum":14
         ,"description":"There are three degrees of glory in the Resurrection.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Galatians","book_short_title":"Gal.","chapter_number":5,"verse_number":"22-24","verse_title":"Galatians 5:22-24","verse_short_title":"Gal. 5:22-24","scripture_text":"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law."
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Galatians","book_short_title":"Gal.","chapter_number":5,"verse_number":"22-24","verse_title":"Galatians 5:22-24","verse_short_title":"Gal. 5:22-24","scripture_text":"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law."
     },
     {
         "volume_title": "New Testament",
+        "unit":"nt",
         "book_title": "Ephesians",
         "book_short_title": "Eph.",
         "chapter_number": 2,
@@ -2900,34 +3057,44 @@
         "scripture_text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God; And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;","mastery":true,"mnum":15,"description":"The Lord’s Church is founded on apostles and prophets.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Ephesians","book_short_title":"Eph.","chapter_number":4,"verse_number":"11-14","verse_title":"Ephesians 4:11-14","verse_short_title":"Eph. 4:11-14","scripture_text":"And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;","mastery":true,"mnum":16,"description":"Apostles and prophets help perfect the Saints","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Ephesians","book_short_title":"Eph.","chapter_number":4,"verse_number":"11-14","verse_title":"Ephesians 4:11-14","verse_short_title":"Eph. 4:11-14","scripture_text":"And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;","mastery":true,"mnum":16,"description":"Apostles and prophets help perfect the Saints","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Philippians","book_short_title":"Philip.","chapter_number":4,"verse_number":13,"verse_title":"Philippians 4:13","verse_short_title":"Philip. 4:13","scripture_text":"I can do all things through Christ which strengtheneth me.","mastery":true,"mnum":17,"description":"","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Philippians","book_short_title":"Philip.","chapter_number":4,"verse_number":13,"verse_title":"Philippians 4:13","verse_short_title":"Philip. 4:13","scripture_text":"I can do all things through Christ which strengtheneth me.","mastery":true,"mnum":17,"description":"","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"2 Thessalonians","book_short_title":"2 Thes.","chapter_number":2,"verse_number":"1-3","verse_title":"2 Thessalonians 2:1-3","verse_short_title":"2 Thes. 2:1-3","scripture_text":"Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;","mastery":true,"mnum":18,"description":"Apostasy was foretold.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"2 Thessalonians","book_short_title":"2 Thes.","chapter_number":2,"verse_number":"1-3","verse_title":"2 Thessalonians 2:1-3","verse_short_title":"2 Thes. 2:1-3","scripture_text":"Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;","mastery":true,"mnum":18,"description":"Apostasy was foretold.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"2 Timothy","book_short_title":"2 Tim.","chapter_number":3,"verse_number":"15-17","verse_title":"2 Timothy 3:15-17","verse_short_title":"2 Tim. 3:15-17","scripture_text":"And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works.","mastery":true,"mnum":19,"description":"Scriptures can make you wise unto salvation","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"2 Timothy","book_short_title":"2 Tim.","chapter_number":3,"verse_number":"15-17","verse_title":"2 Timothy 3:15-17","verse_short_title":"2 Tim. 3:15-17","scripture_text":"And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works.","mastery":true,"mnum":19,"description":"Scriptures can make you wise unto salvation","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Hebrews","book_short_title":"Heb.","chapter_number":12,"verse_number":9,"verse_title":"Hebrews 12:9","verse_short_title":"Heb. 12:9","scripture_text":"Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live?","mastery":true,"mnum":20,"description":"God is the Father of our spirits.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Hebrews","book_short_title":"Heb.","chapter_number":12,"verse_number":9,"verse_title":"Hebrews 12:9","verse_short_title":"Heb. 12:9","scripture_text":"Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live?","mastery":true,"mnum":20,"description":"God is the Father of our spirits.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"James","book_short_title":"James","chapter_number":1,"verse_number":"5-6","verse_title":"James 1:5-6","verse_short_title":"James 1:5-6","scripture_text":"If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him. But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.","mastery":true,"mnum":21,"description":"If you lack wisdom, ask God.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"James","book_short_title":"James","chapter_number":1,"verse_number":"5-6","verse_title":"James 1:5-6","verse_short_title":"James 1:5-6","scripture_text":"If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him. But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.","mastery":true,"mnum":21,"description":"If you lack wisdom, ask God.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"James","book_short_title":"James","chapter_number":2,"verse_number":"17-18","verse_title":"James 2:17-18","verse_short_title":"James 2:17-18","scripture_text":"Even so faith, if it hath not works, is dead, being alone. Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.","mastery":true,"mnum":23,"description":"Faith without works is dead.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"James","book_short_title":"James","chapter_number":2,"verse_number":"17-18","verse_title":"James 2:17-18","verse_short_title":"James 2:17-18","scripture_text":"Even so faith, if it hath not works, is dead, being alone. Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.","mastery":true,"mnum":23,"description":"Faith without works is dead.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"1 Peter","book_short_title":"1 Pet.","chapter_number":4,"verse_number":6,"verse_title":"1 Peter 4:6","verse_short_title":"1 Pet. 4:6","scripture_text":"For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.","mastery":true,"mnum":24,"description":"The gospel is preached to the dead.","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"1 Peter","book_short_title":"1 Pet.","chapter_number":4,"verse_number":6,"verse_title":"1 Peter 4:6","verse_short_title":"1 Pet. 4:6","scripture_text":"For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.","mastery":true,"mnum":24,"description":"The gospel is preached to the dead.","keywords":["",""], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament","book_title":"Revelation","book_short_title":"Rev.","chapter_number":20,"verse_number":12,"verse_title":"Revelation 20:12","verse_short_title":"Rev. 20:12","scripture_text":"And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.","mastery":true,"mnum":25,"description":"Each person will stand before God to be judged","keywords":["",""], "context":"","":"","topic":""
+        "volume_title":"New Testament",
+        "unit":"nt","book_title":"Revelation","book_short_title":"Rev.","chapter_number":20,"verse_number":12,"verse_title":"Revelation 20:12","verse_short_title":"Rev. 20:12","scripture_text":"And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.","mastery":true,"mnum":25,"description":"Each person will stand before God to be judged","keywords":["",""], "context":"","":"","topic":""
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 1,
@@ -2966,6 +3133,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 21,
@@ -2979,6 +3147,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 29,
@@ -2989,6 +3158,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 42,
@@ -3002,6 +3172,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 49,
@@ -3031,6 +3202,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 84,
@@ -3041,6 +3213,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 88,
@@ -3076,6 +3249,7 @@
     },
     {
         "volume_title": "Doctrine and Covenants",
+        "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 135,

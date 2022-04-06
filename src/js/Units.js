@@ -1,5 +1,6 @@
 import { } from "./app.js";
 
+
 // // make some waves.
 // var ocean = document.getElementById("ocean"),
 //     waveWidth = 10,
@@ -46,7 +47,7 @@ export default class Units {
     // a class needs a constructor
     constructor(parentId) {
         this.parentId = parentId;
-        this.todoList = this.getUnits();
+        this.todoList = quizlist;
         this.todo_error = error;
         this.sort = this.sortItems();
         this.sortval = 'time';
@@ -266,39 +267,25 @@ export default class Units {
         this.checkBtn();
     }
 
-
     checkBtn() {
         let btnitems = Array.from(document.querySelectorAll('.chkbtn'));
         console.log(btnitems);
+        let quizunits = [];
         btnitems.forEach(function (item) {
             item.addEventListener('touchend', function(e) {
                 let btnid = e.target.getAttribute('id');
                 console.log(btnid);
                 // check if the event is a checkbox
                 if (e.target.type === 'checkbox') {
-                    // get id from button id value and toggle the state
+                    // get id from button id value
                     console.log(btnid);
-                    markDone(btnid);
-                    this.listActive();
+                    // add unit to quizunits
+                    quizunits.push(btnid);
+                    // send quizunits list to quiz.html
+                    this.getUnits(quizunits);
+                    console.log(quizunits);
+
                 }
-                // check if that is a delete-button
-                if (e.target.classList.contains('delbtn')) {
-                    // get id from button id value and delete it
-                    btnid = btnid.substring(3, btnid.length);
-                    console.log(btnid);
-                    //console.log(e.target.getAttribute('id').substring(3, id.length));
-                    deleteTodo(btnid);
-                    this.listActive();
-                }
-                if (e.target.classList.contains('editbtn')) {
-                    // get id from button id value and delete it
-                    btnid = btnid.substring(4, btnid.length);
-                    console.log(btnid);
-                    //console.log(e.target.getAttribute('id').substring(3, id.length));
-                    editTodo(btnid);
-                    this.listActive();
-                }
-                //console.log(item);
             });
         });
     }
