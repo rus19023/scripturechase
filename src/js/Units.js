@@ -268,7 +268,7 @@ export default class Units {
 
 
     checkBtn() {
-        let btnitems = Array.from(qs('.chkbtn'));
+        let btnitems = Array.from(document.querySelectorAll('.chkbtn'));
         console.log(btnitems);
         btnitems.forEach(function (item) {
             item.addEventListener('touchend', function(e) {

@@ -12,90 +12,103 @@
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/custom.css" />
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
         <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
-
         <title>Home | Scripture Chase</title>
     </head>
 
     <body>
         <h1 class="title">Scripture Chase | Home</h1>
-            <h2 class="title">Select one or more of the categories:</h2>
+            <h2 class="title">Click or tap one or more of the categories:</h2>
             <!-- <input type="number" name="token" id="token" inputmode="numeric" pattern="[0-9]*"   autocomplete="one-time-code" />
-            TODO: dropdown list of the four main categories
-            TODO: add optional custom categories with their images, if any have been saved by user
-             -->
-        <div id="highScores" class="flex-center flex-column">
-            <h1 id="finalScore">High Scores</h1>
-            <table id="highScoresList"></table>
-        </div>
+            TODO: selection of any combination of the four main categories
+            TODO: add optional custom categories with their images, if any have been saved by user  -->
         <div class="container">
-            <div class="select-game">
-                <form id="chooseUnit" action="POST" action="home.html">
-                    <select class="box" name="unitChoice" id="unitChoice" onChange="selectUnit()" multiple>
-                            <option selected value="default">What do you want to study?</option>
-                            <option value="241-FINAL.json">Old Testament</option>
-                            <option value="270-FINAL.json">New Testament</option>
-                            <option value="325-FINAL.json">Book of Mormon</option>
-                            <option value="352-FINAL.json">Doctrine and Covenants</option>
-                            <!-- <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=easy">TRIVIA-EASY</option>
-                            <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=medium">TRIVIA-MEDIUM</option>
-                            <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=hard">TRIVIA-HARD</option> -->
-                    </select>
-                </form>
+            <div id="todos"></div>
+            <div id="get-unit">
+                <div id="ot2">
+                    <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1">
+                    <label for="myCheckbox1" class="normal-text slider-label todo-bordered">
+                        <h2 class="subtitle">Old Testament</h2>
+                        <!-- <div id="slider-ot" class="sc-slider-ot"></div> -->
+                        <img src="../img/ot/mobile/adam_eve_altar-ot-tall.webp" alt="Image of Adam and Eve at an altar">
+                    </label>
+                </div>
+                <div id="nt2">
+                    <input type="checkbox" class="chkbtn hide" name="nt" id="myCheckbox2">
+                    <label for="myCheckbox2" class="normal-text slider-label todo-bordered">
+                        <h2 class="subtitle">New Testament</h2>
+                        <!-- <div id="slider-nt" class="sc-slider-nt"></div> -->
+                        <img src="../img/nt/mobile/jesus_at_the_door.webp" alt="Image of Jesus Christ knocking at a door">
+                    </label>
+                </div>
+                <div id="bom2">
+                    <input type="checkbox" class="chkbtn hide" name="bom" id="myCheckbox3">
+                    <label for="myCheckbox3" class="normal-text slider-label todo-bordered">
+                        <h2 class="subtitle">Book of Mormon</h2>
+                        <!-- <div id="slider-bom" class="sc-slider-bom"></div> -->
+                        <img src="../img/bom/mobile/christ_appearing_nephites.webp" alt="Image of Christ appearing to the Nephites after His Resurrection">
+                    </label>
+                </div>
+                <div id="dc2">
+                    <input type="checkbox" class="chkbtn hide" name="dc" id="myCheckbox4">
+                    <label for="myCheckbox4" class="normal-text slider-label todo-bordered">
+                        <h2 class="subtitle">Doctrine & Covenants</h2>
+                        <!-- <div id="slider-dc" class="sc-slider-dc"></div> -->
+                        <img src="../img/dc/mobile/first_vision.webp" alt="Image of Joseph Smith's First Vision">
+                    </label>
+                </div>
+                    <!-- <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=easy">TRIVIA-EASY</option>
+                    <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=medium">TRIVIA-MEDIUM</option>
+                    <option value="https://opentdb.com/api.php?amount=30&category=9&difficulty=hard">TRIVIA-HARD</option> -->
+            </div>
+            <div id="highScores" class="title">
+                <h1 id="finalScore">High Scores</h1>
+                <table id="highScoresList"></table>
             </div>
             <div class="col2">
                 <div class="">
-                    <h2 class="subtitle">Old Testament</h2>
-                    <div id="slider-ot" class="sc-slider-ot"></div>
                 </div>
                 <div class="">
-                    <h2 class="subtitle">New Testament</h2>
-                    <div id="slider-nt" class="sc-slider-nt"></div>
                 </div>
                 <div class="">
-                    <h2 class="subtitle">Book of Mormon</h2>
-                    <div id="slider-bom" class="sc-slider-bom"></div>
                 </div>
                 <div class="">
-                    <h2 class="subtitle">Doctrine & Covenants</h2>
-                    <div id="slider-dc" class="sc-slider-dc"></div>
                 </div>
             </div>
-            <select type="checkbox" name="catschosen" id="catschosen"></select>
         </div>
 
-        <ul id="reflist" class="normal-text">Question Category List displays here</ul>
-        <div class="progress-bar"></div>
+        <!-- <ul id="reflist" class="normal-text">Question Category List displays here</ul>
+        <div class="progress-bar"></div> -->
         <!-- <button type="button" id="previousBtn">Previous</button>
         <button type="button" id="nextBtn">Next</button> -->
-        <footer class="title">
+        <footer class="title ">
             <div class="container col5">
                 <div class="">
-                    <a href="./src/pages/home.html">
-                        <img src="../src/img/icons/icons8-home-96.png" alt="home icon" class="icon whitebg">
+                    <a href="./home.html">
+                        <img src="../img/icons/icons8-home-96.png" alt="home icon" class="icon whitebg">
                         Home
                     </a>
                 </div>
                 <div class="">
-                    <a href="./src/pages/profile.html">
-                        <img src="../src/img/icons/icons8-user-64.png" alt="profile icon" class="icon whitebg">
+                    <a href="./profile.html">
+                        <img src="../img/icons/icons8-user-64.png" alt="profile icon" class="icon whitebg">
                         Profile
                     </a>
                 </div>
                 <div class="">
-                    <a href="./src/pages/flipcards.html">
-                        <img src="../src/img/icons/icons8-flashcards-90.png" alt="flashcards icon" class="icon whitebg">
+                    <a href="./flipcards.html">
+                        <img src="../img/icons/icons8-flashcards-90.png" alt="flashcards icon" class="icon whitebg">
                         Flipcard
                     </a>
                 </div>
                 <div class="">
-                    <a href="./src/pages/quiz.html">
-                        <img src="../src/img/icons/icons8-quiz-66.png" alt="quiz icon" class="icon whitebg">
+                    <a href="./quiz.html">
+                        <img src="../img/icons/icons8-quiz-66.png" alt="quiz icon" class="icon whitebg">
                         Quiz
                     </a>
                 </div>
-                <div class="">
+                <div id="loggedin" class="">
                     <a href="/">
-                        <img src="../src/img/icons/icons8-login-50.png" alt="menu icon" class="icon whitebg">
+                        <img src="../img/icons/icons8-login-50.png" alt="menu icon" class="icon whitebg">
                         Login
                     </a>
                 </div>
@@ -103,6 +116,6 @@
         </footer>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="../js/app.js" type="module"></script>
+        <script src="../js/main.js" type="module"></script>
     </body>
 </html>
