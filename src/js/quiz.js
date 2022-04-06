@@ -78,16 +78,23 @@ const getQuiz = async (url) => {
             console.log('getQuizArray/try invoked');
             let newArray = [];
             console.log(getQuizArray);
-            let quizunits = ["ot", "dc"];
+            // todo: get the quizunits from home page
+            let quizunits = ["ot", "bom"];
             getQuizArray.forEach(el => {
-                console.log(el.unit);
-                console.log(quizunits);
-                console.log(quizunits.includes(el.unit));
-                if (quizunits.includes(el.unit)) {
-                    newArray.push();
+                let notDef = el.keywords;
+                console.log(notDef, el.verse_title);
+                if ((quizunits.includes(el.unit)) && (typeof el.keywords !== 'undefined') && (el.keywords.length > 0)) {
+                    console.log(el);
+                    console.log(el.unit);
+                    console.log(quizunits);
+                    console.log(quizunits.includes(el.unit));
+                    console.log(el.keywords);
+                    let ans = el.verse_title;
+                    let ques = el.keywords;
+                    newArray.push(`["ques":"${ques}","ans":"${ans}"]`);
                     console.log(newArray);
                 }
-            });
+                });
             const quiz = newArray;
             console.log(quiz);
             this.quiz = newArray;
