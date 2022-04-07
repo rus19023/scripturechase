@@ -2,7 +2,7 @@ import {  } from './fsconfig.js';
 import {  } from './signup.js';
 import {  } from './signin.js';
 import {  } from './storage.js';
-import { qs } from './utilities.js';
+import {  } from './utilities.js';
 import {  } from './flipcard.js';
 
 //const quiz = JSON.stringify(getQuiz());
@@ -23,6 +23,7 @@ const logged = () => {
     console.log(loggedIn);
     if (loggedIn) {    // function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass)
         const logoutLink =         createLMNT('a', '', 'loggedOut', 'Logout', 'show');
+        console.log(logoutLink);
         logoutLink.href = './src/pages/sign-out.html';
         const logoutIcon =         createLMNT('img', '', 'logout1', '', 'icon bgwhite');
         logoutIcon.setAttribute('src', 'src/img/icons/icons8-logout-64.png');
@@ -35,6 +36,7 @@ const logged = () => {
         });
     } else {
         const loginLink =          createLMNT('a', '', 'loggedIn', 'Login', 'show');
+        console.log(loginLink);
         loginLink.href = './src/pages/sign-in.html';
         const loginIcon =          createLMNT('img', '', 'login1', '', 'icon bgwhite');
         loginIcon.setAttribute('src', 'src/img/icons/icons8-login-50.png');
@@ -47,7 +49,9 @@ const logged = () => {
         });
     }
 };
-logged();
+if (isElement(qs('#loggedinorout'))) {
+    logged();
+}
 
 // onTouch('#get-unit', () => {
 //     const unit = qs('.chkbtn').value;

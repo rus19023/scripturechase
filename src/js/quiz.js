@@ -115,16 +115,18 @@ const getQuiz = async (url) => {
                     //console.log(el.unit);
                     //console.log(quizunits);
                     //console.log(quizunits.includes(el.unit));
-                    console.log('KEYWORDS:  ' + el.keywords);
+                    //console.log('KEYWORDS:  ' + el.keywords);
                     let obj = {
                         ques: el.keywords,
-                        ans: el.verse_title
+                        ans: el.verse_title,
+                        hint1: el.description,
+                        hint2: el.context
                     };
                     console.log(obj);
                     questions.push(obj);
                 }
                 quiz = { "questions": questions };
-                console.log(quiz);
+                //console.log(quiz);
             });
             console.log(quiz);
             //this.quiz = newArray;
