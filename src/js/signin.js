@@ -1,5 +1,5 @@
-import {} from './fsconfig';
-import { getAuth, signInWithEmailFunction } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
+import { auth, langpref } from './fsconfig';
+import { signInWithEmailFunction } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
 import * as util from './utilities';
 
 // TODO: check for logged in user on page load, if logged in, show navbar & profile

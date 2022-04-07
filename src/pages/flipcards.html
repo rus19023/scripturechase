@@ -26,28 +26,33 @@
             <br> concatenate all chosen lists
             <br> Question Category List displays here to get url for API -->
         </ul>
-        <div class="gridcontainer">
+        <div id="gridcontainer">
 
-            <div id="flipcontainer">
-                <div id="flipcard" class="flipcard">
-                    <div id="front">
-                        <h2 class="title">Front text</h2>
+            <h1 class="title">Scripture Chase Flipcards</h1>
+            <div class="flip-card centered">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h4 id="fquestion" class="title">Keywords and scripture text here</h4>
+                        <h5>more hints show here</h5>
                     </div>
-                    <div id="back">
-                        <h2 class="title">Back text</h2>
+                    <div class="flip-card-back">
+                        <h2 id="answer" class="title">ans here</h2>
+                        <!-- <img src="ans-img here" alt="" style="width:300px;height:300px;"> -->
                     </div>
                 </div>
             </div>
+                <button id="start" class="todo-buttons startbtn centered">Start</button>
 
-            <div class="centered">
-                <button class="todo-buttons">Next</button>
+            <div class="centered hide">
+                <button id="next" class="todo-buttons">Next</button>
+                <button id="hints" class="todo-buttons">More hints</button>
             </div>
             <div class="progress-bar"></div>
         </div>
         <footer class="title">
             <div class="container col5">
                 <div class="">
-                    <a href="./home.html">
+                    <a href="/">
                         <img src="../img/icons/icons8-home-96.png" alt="home icon" class="icon whitebg">
                         Home
                     </a>

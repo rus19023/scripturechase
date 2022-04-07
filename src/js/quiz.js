@@ -9,7 +9,7 @@ const url5 = [
     { ques: "Batman", ans: "Bruce Wayne" }
 ];
 
-console.log(url5);
+//console.log(url5);
 
 //  https://abn.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2018/doctrinal-mastery-passages/doctrinal-mastery-passages-by-topic-and-course?lang=eng
 
@@ -57,31 +57,11 @@ const quizlist = [
         "src":"src/img/ot/mobile/first_vision.webp",
         "alt": "Image of Joseph Smith's First Vision"
     }
-]
+];
+
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card
 
 // Todo: concatenate all unit questions into one array
-
-$.ajax({
-    url: url6,
-    cache: false
-  })
-    .done(function( html ) {
-      $( "#results" ).append( html );
-    });
-
-// $(document).ready(function() {
-//     //$("button").click(function(){
-//         $.ajax({
-//             url: url6,
-//             error: function(xhr) {
-//                 console.log("An error occured: " + xhr.status + " " + xhr.statusText);
-//             }
-//             .done(function( html ) {
-//               $( "#results" ).append( html );
-//             })
-//         });
-//     //});
-// });
 
 // get the questions from the units chosen in the home page
 const getQuiz = async (url) => {
@@ -100,8 +80,8 @@ const getQuiz = async (url) => {
             console.log('getQuizArray/try invoked');
             const questions = [];
             let quiz = { "questions": questions };
-            console.log(getQuizArray);
-            // todo: get the quizunits from home page
+            //console.log(getQuizArray);
+            // todo: get the quizunits from home page checkboxes as string
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn').selectedOptions).map(option => option.value);
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn'));
             let quizunits = ["ot", "bom"];
@@ -111,18 +91,23 @@ const getQuiz = async (url) => {
                 //console.log(notDef, el.verse_title);
                 // Push only the questions that are in the units selected to the quiz array
                 if ((quizunits.includes(el.unit)) && (typeof el.keywords !== 'undefined') && (el.keywords.length > 0)) {
-                    console.log(el);
+                    //console.log(el);
                     //console.log(el.unit);
                     //console.log(quizunits);
                     //console.log(quizunits.includes(el.unit));
                     //console.log('KEYWORDS:  ' + el.keywords);
                     let obj = {
-                        ques: el.keywords,
+                        ques: 'What scripture reference contains the following: <br>' + el.keywords[0],
+                        hint1: el.keywords[1],
+                        hint2: el.keywords[2],
+                        hint3: el.keywords[3],
+                        hint4: el.keywords[4],
                         ans: el.verse_title,
-                        hint1: el.description,
-                        hint2: el.context
+                        text: el.scripture_text,
+                        hint6: el.description,
+                        hint5: el.context
                     };
-                    console.log(obj);
+                    //console.log(obj);
                     questions.push(obj);
                 }
                 quiz = { "questions": questions };
@@ -131,6 +116,7 @@ const getQuiz = async (url) => {
             console.log(quiz);
             //this.quiz = newArray;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
+            view.hint.addEventListener('click', () => game.hint(quiz.questions.keywords), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
         }
         //return quiz;
@@ -142,17 +128,6 @@ const getQuiz = async (url) => {
 window.addEventListener("load", () => {
     getQuiz(url6);
 });
-
-// const response = await getQuiz(url);
-//     if (response) {
-//         // Read the response as json.
-//         console.log(await response.json()
-//         .then(quiz => {
-//             view.start.addEventListener('click', () => game.start(quiz.questions), false);
-//             view.response.addEventListener('click', (event) => game.check(event), false);
-//         })
-
-//     }
 
 function random(a, b=1) {
     // if only 1 argument is provided, we need to swap the values of a and b
@@ -168,8 +143,6 @@ function shuffle(array) {
         [array[i - 1], array[j]] = [array[j], array[i - 1]];
     }
 }
-//const quiz = getQuiz(url6);
-//console.log(quiz);
 
 // View Object
 const view = {
@@ -178,13 +151,15 @@ const view = {
     result: qs("#result"),
     info: qs("#info"),
     start: qs("#start"),
+    next: qs("#next"),
+    hint: qs("#hint"),
     response: qs("#response"),
     timer: qs('#timer strong'),
     hiScore: qs('#hiScore strong'),
     user: qs('#user strong'), // TODO: get username from firebase
 
     render(target, content, attributes) {
-        console.log('render(target, content, attributes) invoked');
+        //console.log('render(target, content, attributes) invoked');
         //console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
         for (const key in attributes) {
             console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
@@ -194,12 +169,12 @@ const view = {
     },
 
     show(element) {
-        console.log('show(element) invoked');
+        console.log('show(' + element + ') invoked');
         element.style.display = "block";
     },
 
     hide(element) {
-        console.log('hide(element) invoked');
+        console.log('hide(' + element + ') invoked');
         element.style.display = "none";
     },
 
@@ -209,6 +184,8 @@ const view = {
         this.show(this.response);
         this.show(this.result);
         this.hide(this.start);
+        this.show(this.next);
+        this.show(this.hint);
         this.render(this.score, game.score);
         this.render(this.result, "");
         this.render(this.info, "");
@@ -224,8 +201,10 @@ const view = {
         console.log('teardown() invoked');
         this.hide(this.question);
         this.hide(this.response);
+        this.hide(this.next);
+        this.hide(this.hint);
         this.show(this.start);
-        this.render(this.hiScore, game.hiScore(), {'class':'bghotpink'});
+        this.render(this.hiScore, game.hiScore(), {'class':'normal-text'});
     },
 };
 
@@ -238,39 +217,18 @@ const game = {
         this.consecutive = 0;
         this.correct = 0;
         this.cbonus = 0;
+        this.hintcount = 0;
         this.questions = [...quiz];
+        console.log(this.questions);
         view.setup();
         this.ask();
         this.secondsRemaining = quiz.length * 8;
         this.timer = setInterval( this.countdown , 1000 );
         console.log(quiz);
     },
-
-    // {
-    //     "unit": "Doctrine and Covenants",
-    //     "book_title": "Doctrine and Covenants",
-    //     "book_short_title": "D&C",
-    //     "chapter_number": 1,
-    //     "verse_number": 1,
-    //     "verse_title": "Doctrine and Covenants 1:1",
-    //     "verse_short_title": "D&C 1:1",
-    //     "scripture_text": "Hearken, O ye people of my church, saith the voice of him who dwells on high, and whose eyes are upon all men; yea, verily I say: Hearken ye people from afar; and ye that are upon the islands of the sea, listen together."
-    // },
-
-    // {
-    //     "mastery_title": "full scripture reference",
-    //     "volume": "unit",
-    //     "book": "book_title",
-    //     "chapter": 0,
-    //     "v1": 1,
-    //     "v2": 2,
-    //     "v3": 3,
-    //     "v4": 4,
-    //     "v5": 5,
-    //     "v6": 6,
     //     TODO: start with 1 clue, button to give more clues
     //     "clues": ["clue 1", "clue 2", "clue 3", "clue 4", "clue 5", "clue 6"],
-    //     TODO: toggle? to choose which type of quiz: ["clues", "context", "principle", "keywords", "memorization"]
+    //     TODO: toggle? to choose which type of quiz: ["clues", "context", "topic", "keywords", "scripture_text"]
     //     "context": "context",
     //     "principle": "principle"
     //     "keywords": ["keyword 1", "keyword 2", "keyword 3", "keyword 4", "keyword 5", "keyword 6"],
@@ -281,13 +239,14 @@ const game = {
 
     ask(ques) {
         console.log('ask() invoked');
-        if(this.questions.length > 2) {
+        this.hintcount = 0;
+        if (this.questions.length > 2) {
             shuffle(this.questions);
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
             //console.log(options);
             shuffle(options);
-            const question = `What scripture contains these key phrases? ${this.question.ques}`;
+            const question = this.question.ques;  //  + this.gametype
             view.render(view.question, question);
             //console.log(view.buttons(options));
             view.render(view.response, view.buttons(options), {'class':'buttonbox'});
@@ -295,6 +254,34 @@ const game = {
             this.gameOver();
         }
     },
+
+    hint() {
+        console.log('hint() invoked');
+        this.hintcount += 1;
+        switch (this.hintcount) {
+            case 1:
+                qs('#question').innerHTML += `<br> ${this.question.hint1}`;
+                break;
+            case 2:
+                qs('#question').innerHTML += `<br> ${this.question.hint2}`;
+                break;
+            case 3:
+                qs('#question').innerHTML += `<br> ${this.question.hint3}`;
+                break;
+            case 4:
+                qs('#question').innerHTML += `<br> ${this.question.hint4}`;
+                break;
+            case 5:
+                qs('#question').innerHTML += `<br> ${this.question.hint5}`;
+                break;
+            case 6:
+                qs('#question').innerHTML += `<br> ${this.question.hint6}`;
+                break;
+            default:
+                break;
+        }
+    },
+
 
     check(event) {
         console.log('check(event) invoked');
@@ -327,7 +314,7 @@ const game = {
             } else if (this.consecutive > 49) {
                 this.cbonus = 100;
             }
-            this.bonus += (this.cbonus * this.consecutive);
+            this.bonus = (this.cbonus * this.consecutive);
             console.log(`CBonus: ${this.cbonus}, consecutive: ${this.consecutive}, bonus: ${this.bonus}`);
             console.log (`score: ${this.score}`);
             this.score += this.bonus;
@@ -341,11 +328,11 @@ const game = {
 
     countdown() {
         console.log('countdown() invoked');
-            game.secondsRemaining--;
-            view.render(view.timer,game.secondsRemaining);
-            if(game.secondsRemaining < 0) {
-                game.gameOver();
-            }
+        game.secondsRemaining--;
+        view.render(view.timer,game.secondsRemaining);
+        if(game.secondsRemaining < 0) {
+            game.gameOver();
+        }
     },
 
     gameOver() {

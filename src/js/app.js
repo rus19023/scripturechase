@@ -1,9 +1,8 @@
-import {  } from './fsconfig.js';
 import {  } from './signup.js';
 import {  } from './signin.js';
 import {  } from './storage.js';
 import {  } from './utilities.js';
-import {  } from './flipcard.js';
+import {  } from './quiz.js';
 
 //const quiz = JSON.stringify(getQuiz());
 console.log(quiz);

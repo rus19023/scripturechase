@@ -1,6 +1,6 @@
-import { } from './fsconfig';
+import { auth } from './fsconfig';
 //import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
-import { getAuth, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
+import { createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
 import * as util from './utilities.js';
 
 const emailField = util.qs('#userSIEmail');

@@ -5,23 +5,52 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- For Sharing buttons -->
+        <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+        <title id="wdd330todoapptitle" class="title"> Scripture Chase</title>
+        <meta property="og:url" content="https://rus19023.github.io/scripturechase/"/>
+        <meta property="og:title" content="'Gamified' Scripture Chase WebApp, built by Doris Rush-Lopez. If you have a few moments, please give me feedback on any aspect of the app. Thanks!"/>
+        <meta property="og:description" content="Use flipcards to memorize scriptures, quiz to test on keywords, description, context, stats, leaderboard."/>
+        <meta property="og:site_name" content="Scripture Chase WebApp"/>
+        <meta property=”og:image" content="/images/og/default.jpg"/>
+
+        <!-- Bootstrap CSS
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
         <!-- Custom CSS -->
-        <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/custom.css" />
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
-        
+        <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
         <title>Home | Scripture Chase</title>
     </head>
 
     <body>
-        <h1 class="title">Scripture Chase | Home</h1>
-            <h2 class="title">Click or tap one or more of the categories:</h2>
+        <header>
+            <h1 class="title">Scripture Chase | Home</h1>
+            <div>
+                <div id="social-share">
+                    <h3 class="title">Share: </h3>
+                    <div class="sharer"
+                        data-sharer="facebook"
+                        data-url="https://rus19023.github.io/scripturechase/"
+                        data-hashtags="#ScriptureChaseApp #BonnieSitesDotSolutions #DorisRushLopez #BYU-Idaho"
+                        data-quote="If you have a few moments, please give me feedback on any aspect of the app. Thanks!">
+                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-facebook-96.png" alt="">
+                    </div>
+                    <div class="sharer"
+                        data-sharer="linkedin"
+                        data-url="https://rus19023.github.io/scripturechase/"
+                        data-hashtags="#ScriptureChaseApp #BonnieSitesDotSolutions #DorisRushLopez #BYU-Idaho"
+                        data-quote="If you have a few moments, please give me feedback on any aspect of the app. Thanks!"
+                        >
+                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-linkedin-96.png" alt="">
+                    </div>
+            </div>
+        </header>
+        <div class="container">
+            <h2 class="title">Click or tap one or more of the categories, then choose Flipcards or Quiz game below:</h2>
             <!-- <input type="number" name="token" id="token" inputmode="numeric" pattern="[0-9]*"   autocomplete="one-time-code" />
             TODO: selection of any combination of the four main categories
             TODO: add optional custom categories with their images, if any have been saved by user  -->
-        <div class="container">
             <div id="todos"></div>
             <div>
                 <form  id="get-unit" method="GET" action="quiz.html">
