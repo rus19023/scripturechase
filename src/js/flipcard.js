@@ -1,10 +1,9 @@
 // https://jefferson-cuartas.medium.com/how-to-create-a-flip-card-effect-using-javascript-767dd945210c
 
+const flipcard = qs('#flipcard');
 
-const card = util.qs('.card');
-
-card.addEventListener('click', () => {
-    card.classList.toggle('flipcard');
+flipcard.addEventListener('click', () => {
+    flipcard.classList.toggle('flipcard');
 });
 
 

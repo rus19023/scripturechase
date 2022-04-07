@@ -27,15 +27,20 @@
             <br> Question Category List displays here to get url for API -->
         </ul>
         <div class="gridcontainer">
-            <div class="maincontainer">
-                <div id="card" class="card">
-                    <div class="front">
+
+            <div id="flipcontainer">
+                <div id="flipcard" class="flipcard">
+                    <div id="front">
                         <h2 class="title">Front text</h2>
                     </div>
-                    <div class="back">
+                    <div id="back">
                         <h2 class="title">Back text</h2>
                     </div>
                 </div>
+            </div>
+
+            <div class="centered">
+                <button class="todo-buttons">Next</button>
             </div>
             <div class="progress-bar"></div>
         </div>
@@ -76,6 +81,5 @@
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="../js/app.js" type="module"></script>
-        <script src="../js/flipcard.js" type="module"></script>
     </body>
 </html>

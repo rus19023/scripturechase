@@ -1,8 +1,9 @@
-import { fbApp, auth, langpref } from './fsconfig.js';
+import {  } from './fsconfig.js';
 import {  } from './signup.js';
 import {  } from './signin.js';
 import {  } from './storage.js';
 import { qs } from './utilities.js';
+import {  } from './flipcard.js';
 
 //const quiz = JSON.stringify(getQuiz());
 console.log(quiz);
@@ -15,6 +16,38 @@ getUnits.addEventListener('click', () => {
     const unit = qs('.chkbtn').value;
     console.log(unit);
 });
+
+//  get login status from google API, if logged in, show logout button, else show login button
+const logged = () => {
+    const loggedIn = auth.currentUser;
+    console.log(loggedIn);
+    if (loggedIn) {    // function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass)
+        const logoutLink =         createLMNT('a', '', 'loggedOut', 'Logout', 'show');
+        logoutLink.href = './src/pages/sign-out.html';
+        const logoutIcon =         createLMNT('img', '', 'logout1', '', 'icon bgwhite');
+        logoutIcon.setAttribute('src', 'src/img/icons/icons8-logout-64.png');
+        logoutIcon.setAttribute('alt', 'logout icon');
+        logoutLink.appendChild(logoutIcon);
+        qs('#loggedinorout').appendChild(logoutLink);
+        logout.addEventListener('click', () => {
+            auth.signOut();
+            console.log('logged out');
+        });
+    } else {
+        const loginLink =          createLMNT('a', '', 'loggedIn', 'Login', 'show');
+        loginLink.href = './src/pages/sign-in.html';
+        const loginIcon =          createLMNT('img', '', 'login1', '', 'icon bgwhite');
+        loginIcon.setAttribute('src', 'src/img/icons/icons8-login-50.png');
+        loginLink.setAttribute('alt', 'login icon');
+        loginLink.appendChild(loginIcon);
+        qs('#loggedinorout').appendChild(loginLink);
+        login.addEventListener('click', () => {
+            auth.signIn();
+            console.log('logged in');
+        });
+    }
+};
+logged();
 
 // onTouch('#get-unit', () => {
 //     const unit = qs('.chkbtn').value;

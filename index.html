@@ -11,7 +11,7 @@
         <!-- Custom CSS -->
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/custom.css" />
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
-        <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
+        
         <title>Home | Scripture Chase</title>
     </head>
 
@@ -23,8 +23,8 @@
             TODO: add optional custom categories with their images, if any have been saved by user  -->
         <div class="container">
             <div id="todos"></div>
-            <div id="get-unit">
-                <form method="GET" action="quiz.html">
+            <div>
+                <form  id="get-unit" method="GET" action="quiz.html">
                     <div id="ot2">
                         <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1" value="no" onClick="cbChange(this)">
                         <label for="myCheckbox1" class="normal-text slider-label todo-bordered">
@@ -84,36 +84,31 @@
         <button type="button" id="nextBtn">Next</button> -->
         <footer class="title ">
             <div class="container col5">
-                <div class="">
+                <div class="col1">
                     <a href="./src/pages/highscores.html">
-                        <img src="./src/img/icons/icons8-rating-circled-96.png" alt="home icon" class="icon whitebg">
+                        <img src="./src/img/icons/icons8-rating-circled-96.png" alt="rating icon" class="icon whitebg">
                         Stats
                     </a>
                 </div>
-                <div class="">
+                <div class="col1">
                     <a href="./src/pages/profile.html">
                         <img src="./src/img/icons/icons8-user-64.png" alt="profile icon" class="icon whitebg">
                         Profile
                     </a>
                 </div>
-                <div class="">
+                <div class="col1">
                     <a href="./src/pages/flipcards.html">
                         <img src="./src/img/icons/icons8-flashcards-90.png" alt="flashcards icon" class="icon whitebg">
                         Flipcard
                     </a>
                 </div>
-                <div class="">
+                <div class="col1">
                     <a href="./src/pages/quiz.html?quizu=quizunits">
                         <img src="src/img/icons/icons8-quiz-66.png" alt="quiz icon" class="icon whitebg">
                         Quiz
                     </a>
                 </div>
-                <div id="loggedin" class="">
-                    <a href="./sign-out.html">
-                        <img src="./lds-scriptures-2020.12.08.zip" alt="menu icon" class="icon whitebg">
-                        Login
-                    </a>
-                </div>
+                <div id="loggedinorout" class="col1"></div>
             </div>
         </footer>
         <!-- jQuery -->
