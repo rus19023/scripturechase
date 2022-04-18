@@ -85,7 +85,7 @@ const getQuiz = async (url) => {
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn').selectedOptions).map(option => option.value);
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn'));
             let quizunits = ["ot", "bom"];
-            console.log(quizunits);
+            //console.log(quizunits);
             getQuizArray.forEach(el => {
                 let notDef = el.keywords;
                 //console.log(notDef, el.verse_title);
@@ -97,15 +97,15 @@ const getQuiz = async (url) => {
                     //console.log(quizunits.includes(el.unit));
                     //console.log('KEYWORDS:  ' + el.keywords);
                     let obj = {
-                        ques: 'What scripture reference contains the following: <br>' + el.keywords[0],
+                        ques: 'What scripture reference contains the following: <br><br>' + el.keywords[0],
                         hint1: el.keywords[1],
                         hint2: el.keywords[2],
                         hint3: el.keywords[3],
                         hint4: el.keywords[4],
                         ans: el.verse_title,
                         text: el.scripture_text,
-                        hint6: el.description,
-                        hint5: el.context
+                        hint5: el.description,
+                        hint6: el.context
                     };
                     //console.log(obj);
                     questions.push(obj);
@@ -113,7 +113,7 @@ const getQuiz = async (url) => {
                 quiz = { "questions": questions };
                 //console.log(quiz);
             });
-            console.log(quiz);
+            //console.log(quiz);
             //this.quiz = newArray;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
             //view.startflip.addEventListener('click', () => game.startflip(quiz.questions), false);
@@ -149,14 +149,15 @@ function shuffle(array) {
 // View Object
 const view = {
     score: qs("#score strong"),
-    question: qs("#question"),
-    result: qs("#result"),
-    info: qs("#info"),
     start: qs("#start"),
     next: qs("#next"),
     hint: qs("#hint"),
+    question: qs("#question"),
+    result: qs("#result"),
+    info: qs("#info"),
     response: qs("#response"),
     timer: qs('#timer strong'),
+
     hiScore: qs('#hiScore strong'),
     user: qs('#user strong'), // TODO: get username from firebase
 
@@ -164,7 +165,7 @@ const view = {
         //console.log('render(target, content, attributes) invoked');
         //console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
         for (const key in attributes) {
-            console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
+            //console.log('target: ' + target + ' content: ' + content + ' attributes: ' + attributes);
             target.setAttribute(key, attributes[key]);
         }
         target.innerHTML = content;
@@ -172,12 +173,18 @@ const view = {
 
     show(element) {
         console.log('show(' + element + ') invoked');
-        element.style.display = "block";
+        // element.style.display = "flexbox";
+        // element.style.border = "1px solid white";
+        // element.style.backgroundColor = "white";
+        console.log(element.classList);
+        element.classList.remove("hide");
+        element.classList.add("todo-bordered");
     },
 
     hide(element) {
         console.log('hide(' + element + ') invoked');
-        element.style.display = "none";
+        element.classList.add("hide");
+        element.classList.remove("todo-bordered");
     },
 
     setup() {
@@ -195,7 +202,7 @@ const view = {
     },
 
     buttons(array) {
-        console.log(array.map(value => `<button>${value}</button>`).join(''));
+        //console.log(array.map(value => `<button>${value}</button>`).join(''));
         return array.map(value => `<button class="quizbutton">${value}</button>`).join('');
     },
 
@@ -222,12 +229,12 @@ const game = {
         this.cbonus = 0;
         this.hintcount = 0;
         this.questions = [...quiz];
-        console.log(this.questions);
+        //console.log(this.questions);
         view.setup();
         this.ask();
         this.secondsRemaining = quiz.length * 8;
         this.timer = setInterval( this.countdown , 1000 );
-        console.log(quiz);
+        console.log(quiz + " quiz.js, line 234 ");
     },
     //     TODO: start with 1 clue, button to give more clues
     //     "clues": ["clue 1", "clue 2", "clue 3", "clue 4", "clue 5", "clue 6"],
@@ -339,7 +346,7 @@ const game = {
     },
 
     countdown() {
-        console.log('countdown() invoked');
+        //console.log('countdown() invoked');
         game.secondsRemaining--;
         view.render(view.timer,game.secondsRemaining);
         if(game.secondsRemaining < 0) {
