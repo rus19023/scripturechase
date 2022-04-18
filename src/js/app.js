@@ -3,6 +3,7 @@ import {  } from './signin.js';
 import {  } from './storage.js';
 import {  } from './utilities.js';
 import {  } from './quiz.js';
+import {  } from './highscores.js';
 
 //const quiz = JSON.stringify(getQuiz());
 console.log(quiz);

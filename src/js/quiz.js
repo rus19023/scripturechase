@@ -116,7 +116,9 @@ const getQuiz = async (url) => {
             console.log(quiz);
             //this.quiz = newArray;
             view.start.addEventListener('click', () => game.start(quiz.questions), false);
+            //view.startflip.addEventListener('click', () => game.startflip(quiz.questions), false);
             view.hint.addEventListener('click', () => game.hint(quiz.questions.keywords), false);
+            view.next.addEventListener('click', () => game.next(quiz.questions), false);
             view.response.addEventListener('click', (event) => game.check(event), false);
         }
         //return quiz;
@@ -193,7 +195,7 @@ const view = {
     },
 
     buttons(array) {
-        //console.log(array.map(value => `<button>${value}</button>`).join(''));
+        console.log(array.map(value => `<button>${value}</button>`).join(''));
         return array.map(value => `<button class="quizbutton">${value}</button>`).join('');
     },
 
@@ -210,6 +212,7 @@ const view = {
 
 const game = {
     start(quiz) {
+        this.gametype = 'quiz';
         console.log('start() invoked');
         this.score = 0;
         this.bonus = 0;
@@ -249,7 +252,16 @@ const game = {
             const question = this.question.ques;  //  + this.gametype
             view.render(view.question, question);
             //console.log(view.buttons(options));
-            view.render(view.response, view.buttons(options), {'class':'buttonbox'});
+            if (this.gametype === "flip") {
+                // render flipcard
+                view.render(view.response, view.buttons(options), {'class':'buttonbox'});
+            } else if (this.gametype === "scramble") {
+                // render scrambled words
+                view.render(view.response, view.buttons(options), {'class':'buttonbox'});
+            } else if (this.gametype === "quiz") {
+                // render quiz
+                view.render(view.response, view.buttons(options), {'class':'buttonbox'});
+            }
         } else {
             this.gameOver();
         }

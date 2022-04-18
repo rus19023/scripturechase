@@ -7,7 +7,7 @@
 
         <!-- CSS -->
         <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
-        <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
+        <!-- x -->
 
         <!-- For Sharing buttons -->
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
@@ -17,7 +17,7 @@
         <meta property="og:description" content="Use flipcards to memorize scriptures, quiz to test on keywords, description, context, stats, leaderboard."/>
         <meta property="og:site_name" content="Scripture Chase WebApp"/>
         <meta property=”og:image" content="/images/og/default.jpg"/>
-        
+
         <title>Home | Scripture Chase</title>
     </head>
 
@@ -32,7 +32,7 @@
                         data-url="https://rus19023.github.io/scripturechase/"
                         data-hashtags="#ScriptureChaseApp #BonnieSitesDotSolutions #DorisRushLopez #BYU-Idaho"
                         data-quote="If you have a few moments, please give me feedback on any aspect of the app. Thanks!">
-                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-facebook-96.png" alt="">
+                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-facebook-96.png" alt="Facebook icon">
                     </div>
                     <div class="sharer"
                         data-sharer="linkedin"
@@ -40,7 +40,7 @@
                         data-hashtags="#ScriptureChaseApp #BonnieSitesDotSolutions #DorisRushLopez #BYU-Idaho"
                         data-quote="If you have a few moments, please give me feedback on any aspect of the app. Thanks!"
                         >
-                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-linkedin-96.png" alt="">
+                        <img class="centered icons" src="https://rus19023.github.io/ToDoApp/img/icons/icons8-linkedin-96.png" alt="LinkedIn icon">
                     </div>
             </div>
         </header>
@@ -49,39 +49,39 @@
             <!-- <input type="number" name="token" id="token" inputmode="numeric" pattern="[0-9]*"   autocomplete="one-time-code" />
             TODO: selection of any combination of the four main categories
             TODO: add optional custom categories with their images, if any have been saved by user  -->
-            <div id="todos"></div>
-            <div>
+            <!-- <div id="todos"></div> -->
                 <form  id="get-unit" method="GET" action="quiz.html">
                     <div id="ot2">
-                        <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1" value="no" onClick="cbChange(this)">
+                        <input type="checkbox" class="chkbtn hide" name="ot" id="myCheckbox1" value="no" onClick="cbChange(this)"">
                         <label for="myCheckbox1" class="normal-text slider-label todo-bordered">
-                            <h2 class="subtitle">Old Testament</h2>
+                            <h2 class="centered subtitle">Old Testament</h2>
                             <!-- <div id="slider-ot" class="sc-slider-ot"></div> -->
-                            <img src="./src/img/ot/mobile/adam_eve_altar-ot-tall.webp" alt="Image of Adam and Eve at an altar">
+                            <img class="centerimg" src="./src/img/ot/mobile/adam_eve_altar-ot-tall.webp" alt="Image of Adam and Eve at an altar">
                         </label>
                     </div>
                     <div id="nt2">
                         <input type="checkbox" class="chkbtn hide" name="nt" id="myCheckbox2" value="no" onClick="cbChange(this)">
-                        <label for="myCheckbox2" class="normal-text slider-label todo-bordered">
-                            <h2 class="subtitle">New Testament</h2>
+                        <label for="myCheckbox2" class="centered normal-text slider-label todo-bordered">
+                            <h2 class="centered subtitle">New Testament</h2>
                             <!-- <div id="slider-nt" class="sc-slider-nt"></div> -->
-                            <img src="./src/img/nt/mobile/jesus_at_the_door.webp" alt="Image of Jesus Christ knocking at a door">
+                            <img class="centerimg" src="./src/img/nt/mobile/jesus_at_the_door.webp" alt="Image of Jesus Christ knocking at a door">
                         </label>
                     </div>
                     <div id="bom2">
                         <input type="checkbox" class="chkbtn hide" name="bom" id="myCheckbox3" value="no" onClick="cbChange(this)">
-                        <label for="myCheckbox3" class="normal-text slider-label todo-bordered">
-                            <h2 class="subtitle">Book of Mormon</h2>
-                            <!-- <div id="slider-bom" class="sc-slider-bom"></div> -->
-                            <img src="./src/img/bom/mobile/christ_appearing_nephites.webp" alt="Image of Christ appearing to the Nephites after His Resurrection">
-                        </label>
+                            <label for="myCheckbox3" class="normal-text slider-label todo-bordered">
+                                <h2 class="centered subtitle">Book of Mormon</h2>
+                                <!-- <div id="slider-bom" class="sc-slider-bom"></div> -->
+                                <img  class="centerimg" src="./src/img/bom/mobile/christ_appearing_nephites.webp" alt="Image of Christ appearing to the Nephites after His Resurrection">
+                            </label>
+                        </input>
                     </div>
                     <div id="dc2">
                         <input type="checkbox" class="chkbtn hide" name="dc" id="myCheckbox4" value="no" onClick="cbChange(this)">
                         <label for="myCheckbox4" class="normal-text slider-label todo-bordered">
-                            <h2 class="subtitle">Doctrine & Covenants</h2>
+                            <h2 class="centered subtitle">Doctrine & Covenants</h2>
                             <!-- <div id="slider-dc" class="sc-slider-dc"></div> -->
-                            <img src="./src/img/dc/mobile/first_vision.webp" alt="Image of Joseph Smith's First Vision">
+                            <img class="centerimg" src="./src/img/dc/mobile/first_vision.webp" alt="Image of Joseph Smith's First Vision">
                         </label>
                     </div>
                 </form>
@@ -105,10 +105,7 @@
             </div> -->
         </div>
 
-        <!-- <ul id="reflist" class="normal-text">Question Category List displays here</ul>
-        <div class="progress-bar"></div> -->
-        <!-- <button type="button" id="previousBtn">Previous</button>
-        <button type="button" id="nextBtn">Next</button> -->
+        <ul id="reflist" class="normal-text">Question Category List displays here</ul>
         <footer class="title ">
             <div class="container col5">
                 <div class="col1">
