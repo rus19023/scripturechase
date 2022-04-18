@@ -62,7 +62,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -76,7 +76,7 @@
         "scripture_text": "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.",
         "mastery": true,
         "mnum": 11,
-        "description": ". Put off the natural man and become a Saint through the Atonement.",
+        "description": "Put off the natural man and become a Saint through the Atonement.",
         "keywords": [],
         "context": "",
         "": "",
@@ -98,7 +98,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -112,8 +112,8 @@
         "scripture_text": "But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not.",
         "mastery": true,
         "mnum": 12,
-        "description": "",
-        "keywords": [],
+        "description": "Watch yourselves, continue in the faith, or perish",
+        "keywords": ["watch", "thoughts", "deeds", "observe", "faith"],
         "context": "",
         "": "",
         "topic": ""
@@ -202,11 +202,11 @@
         "scripture_text": "O, remember, my son, and learn wisdom in thy youth; yea, learn in thy youth to keep the commandments of God.",
         "mastery": true,
         "mnum": 15,
-        "description": "",
-        "keywords": [],
+        "description": "Learn while young the wisdom of obedience",
+        "keywords": ["remember", "wisdom", "youth", "keep", "commandments"],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -220,7 +220,7 @@
         "scripture_text": "Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.",
         "mastery": true,
         "mnum": 16,
-        "description": ". Go no more after the lust of your eyes.",
+        "description": "Go no more after the lust of your eyes.",
         "keywords": [],
         "context": "",
         "": "",
@@ -238,7 +238,7 @@
         "scripture_text": "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness.",
         "mastery": true,
         "mnum": 17,
-        "description": "0.Wickedness never was happiness",
+        "description": "Wickedness never was happiness",
         "keywords": [
             "wickedness",
             "happiness"
@@ -263,7 +263,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -277,7 +277,7 @@
         "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.",
         "mastery": true,
         "mnum": 19,
-        "description": ". Jesus Christ suffered the will of the Father in all things.",
+        "description": "Jesus Christ suffered the will of the Father in all things.",
         "keywords": ["Jesus","Christ","testified","bitter","glorified","beginning"],
         "context": "",
         "": "",
@@ -317,7 +317,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -353,7 +353,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -371,7 +371,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Book of Mormon",
@@ -426,11 +426,11 @@
         "scripture_text": "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.",
         "mastery": true,
         "mnum": 25,
-        "description": ". The Holy Ghost reveals truth to those who ask God with real intent.",
+        "description": "The Holy Ghost reveals truth to those who ask God with real intent.",
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Old Testament",
@@ -486,7 +486,7 @@
         "scripture_text": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
         "mastery": true,
         "mnum": 5,
-        "description": ". Husband and wife are to be one.",
+        "description": "Husband and wife are to be one.",
         "keywords": [
             "man",
             "leave",
@@ -678,7 +678,7 @@
         "scripture_text": "Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
         "mastery": true,
         "mnum": 14,
-        "description": ". Trust in the Lord with all thine heart, and He shall direct thy paths.",
+        "description": "Trust in the Lord with all thine heart, and He shall direct thy paths.",
         "keywords": [],
         "context": "",
         "": "",
@@ -743,11 +743,11 @@
         "scripture_text": "Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.",
         "mastery": true,
         "mnum": 17,
-        "description": ". The Restoration is a marvelous work and a wonder",
+        "description": "The Restoration is a marvelous work and a wonder",
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "Old Testament",
@@ -813,7 +813,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Sabbath"
     },
     {
         "volume_title": "Old Testament",
@@ -879,7 +879,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "Old Testament",
@@ -897,7 +897,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "Old Testament",
@@ -1094,7 +1094,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "New Testament",
@@ -1136,7 +1136,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Missionary Work"
     },
     {
         "volume_title": "New Testament",
@@ -1157,7 +1157,7 @@
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Love"
     },
     {
         "volume_title": "New Testament",
@@ -1266,7 +1266,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": ["Love", "Commandments"]
     },
     {
         "volume_title": "New Testament",
@@ -1280,7 +1280,7 @@
         "scripture_text": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.",
         "mastery": true,
         "mnum": 10,
-        "description": ". The Lord chooses and ordains apostles and prophets",
+        "description": "The Lord chooses and ordains apostles and prophets",
         "keywords": [
             "chosen",
             "ordained",
@@ -1308,7 +1308,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Eternal Life"
     },
     {
         "volume_title": "New Testament",
@@ -1326,7 +1326,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Ordinances and Covenants"
     },
     {
         "volume_title": "New Testament",
@@ -1341,10 +1341,10 @@
         "mastery": true,
         "mnum": 12,
         "description": "Peter prophesied of the Restoration.",
-        "keywords": [],
+        "keywords": ["blotted out", "repent", "converted", "mouth of all His holy prophets", "restoration"],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "New Testament",
@@ -1399,7 +1399,7 @@
         "scripture_text": "Nevertheless neither is the man without the woman, neither the woman without the man, in the Lord.",
         "mastery": true,
         "mnum": 13,
-        "description": ". Only together can a man and a woman fulfill the Lord’s plan.",
+        "description": "Only together can a man and a woman fulfill the Lord’s plan.",
         "keywords": [
             "man",
             "woman",
@@ -1522,7 +1522,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "New Testament",
@@ -1540,7 +1540,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "New Testament",
@@ -1684,11 +1684,11 @@
         "scripture_text": "And also those to whom these commandments were given, might have power to lay the foundation of this church, and to bring it forth out of obscurity and out of darkness, the only true and living church upon the face of the whole earth, with which I, the Lord, am well pleased, speaking unto the church collectively and not individually--",
         "mastery": true,
         "mnum": 3,
-        "description": ". The only true and living church",
+        "description": "The only true and living church",
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -1726,11 +1726,11 @@
         "scripture_text": "Look unto me in every thought; doubt not, fear not.",
         "mastery": true,
         "mnum": 3,
-        "description": ". Look unto Christ in every thought.",
+        "description": "Look unto Christ in every thought.",
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -1748,7 +1748,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -1766,7 +1766,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -1856,7 +1856,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -1973,7 +1973,7 @@
         "mastery": true,
         "mnum": 13,
         "description": "Marriage between a man and a woman is ordained of God.",
-        "keywords": [],
+        "keywords": ["marriage"],
         "context": "",
         "": "",
         "topic": ""
@@ -2073,24 +2073,6 @@
         "unit":"dc",
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
-        "chapter_number": 82,
-        "verse_number": 10,
-        "verse_title": "Doctrine and Covenants 82:10",
-        "verse_short_title": "D&C 82:10",
-        "scripture_text": "I, the Lord, am bound when ye do what I say; but when ye do not what I say, ye have no promise.",
-        "mastery": true,
-        "mnum": 19,
-        "description": ". The Lord is bound when we do what He says.",
-        "keywords": [],
-        "context": "",
-        "": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "Doctrine and Covenants",
-        "unit":"dc",
-        "book_title": "Doctrine and Covenants",
-        "book_short_title": "D&C",
         "chapter_number": 84,
         "verse_number": "20-22",
         "verse_title": "Doctrine and Covenants 84:20-22",
@@ -2120,11 +2102,12 @@
         "keywords": [
             "faith",
             "study",
-            "wisdom"
+            "wisdom",
+            "learning"
         ],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -2142,7 +2125,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -2160,7 +2143,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "Acquiring Spiritual Knowledge"
     },
     {
         "volume_title": "Doctrine and Covenants",
@@ -2257,7 +2240,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title": "Pearl of Great Price",
@@ -2275,7 +2258,7 @@
         "keywords": [],
         "context": "",
         "": "",
-        "topic": ""
+        "topic": "The Restoration"
     },
     {
         "volume_title":"Book of Mormon",
@@ -2373,7 +2356,7 @@
     },
     {
         "volume_title":"Book of Mormon",
-        "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":3,"verse_number":19,"verse_title":"Mosiah 3:19","verse_short_title":"Mosiah 3:19","scripture_text":"For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.","mastery":true,"mnum":11,"description":". Put off the natural man and become a Saint through the Atonement.","keywords":["natural","enemy","enticings","child","submit"], "context":"","":"","topic":"The Atonement of Jesus Christ"
+        "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":3,"verse_number":19,"verse_title":"Mosiah 3:19","verse_short_title":"Mosiah 3:19","scripture_text":"For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.","mastery":true,"mnum":11,"description":"Put off the natural man and become a Saint through the Atonement.","keywords":["natural","enemy","enticings","child","submit"], "context":"","":"","topic":"The Atonement of Jesus Christ"
     },
     {
         "volume_title": "Book of Mormon",
@@ -2426,7 +2409,7 @@
     },
     {
         "volume_title":"Book of Mormon",
-        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":39,"verse_number":9,"verse_title":"Alma 39:9","verse_short_title":"Alma 39:9","scripture_text":"Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.","mastery":true,"mnum":16,"description":". Go no more after the lust of your eyes.","keywords":["repent","forsake","lusts","inherit","remember"], "context":"","":"","topic":"Marriage and Family"
+        "unit":"bom","book_title":"Alma","book_short_title":"Alma","chapter_number":39,"verse_number":9,"verse_title":"Alma 39:9","verse_short_title":"Alma 39:9","scripture_text":"Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.","mastery":true,"mnum":16,"description":"Go no more after the lust of your eyes.","keywords":["repent","forsake","lusts","inherit","remember"], "context":"","":"","topic":"Marriage and Family"
     },
     {
         "volume_title":"Book of Mormon",
@@ -2445,7 +2428,7 @@
         "verse_number": "10-11",
         "verse_title": "3 Nephi 11:10-11",
         "verse_short_title": "3 Ne. 11:10-11",
-        "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.","mastery":true,"mnum":19,"description":". Jesus Christ suffered the will of the Father in all things.","keywords":[], "context":"","":"","topic":""
+        "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.","mastery":true,"mnum":19,"description":"Jesus Christ suffered the will of the Father in all things.","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title":"Book of Mormon",
@@ -2484,7 +2467,7 @@
     },
     {
         "volume_title":"Book of Mormon",
-        "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":". The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "unit":"bom","book_title":"Moroni","book_short_title":"Moro.","chapter_number":10,"verse_number":"4-5","verse_title":"Moroni 10:4-5","verse_short_title":"Moro. 10:4-5","scripture_text":"And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost. And by the power of the Holy Ghost ye may know the truth of all things.","mastery":true,"mnum":25,"description":"The Holy Ghost reveals truth to those who ask God with real intent.","keywords":["exhort","Eternal", "true", "manifest", "truth"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Old Testament",
@@ -2503,7 +2486,7 @@
     },
     {
         "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":2,"verse_number":24,"verse_title":"Genesis 2:24","verse_short_title":"Gen. 2:24","scripture_text":"Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.","mastery":true,"mnum":5,"description":". Husband and wife are to be one.","keywords":[], "context":"","":"","topic":""
+        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":2,"verse_number":24,"verse_title":"Genesis 2:24","verse_short_title":"Gen. 2:24","scripture_text":"Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.","mastery":true,"mnum":5,"description":"Husband and wife are to be one.","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title":"Old Testament",
@@ -2539,7 +2522,7 @@
     },
     {
         "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Proverbs","book_short_title":"Prov.","chapter_number":3,"verse_number":"5-6","verse_title":"Proverbs 3:5-6","verse_short_title":"Prov. 3:5-6","scripture_text":"Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.","mastery":true,"mnum":14,"description":". Trust in the Lord with all thine heart, and He shall direct thy paths.","keywords":[], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "unit":"ot","book_title":"Proverbs","book_short_title":"Prov.","chapter_number":3,"verse_number":"5-6","verse_title":"Proverbs 3:5-6","verse_short_title":"Prov. 3:5-6","scripture_text":"Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.","mastery":true,"mnum":14,"description":"Trust in the Lord with all thine heart, and He shall direct thy paths.","keywords":[], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Old Testament",
@@ -2551,7 +2534,7 @@
     },
     {
         "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":29,"verse_number":"13-14","verse_title":"Isaiah 29:13-14","verse_short_title":"Isa. 29:13-14","scripture_text":"Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.","mastery":true,"mnum":17,"description":". The Restoration is a marvelous work and a wonder","keywords":["draw near","lips","removed","precept of men","marvellous"], "context":"","":"","topic":"The Restoration"
+        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":29,"verse_number":"13-14","verse_title":"Isaiah 29:13-14","verse_short_title":"Isa. 29:13-14","scripture_text":"Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.","mastery":true,"mnum":17,"description":"The Restoration is a marvelous work and a wonder","keywords":["draw near","lips","removed","precept of men","marvellous"], "context":"","":"","topic":"The Restoration"
     },
     {
         "volume_title":"Old Testament",
@@ -2683,7 +2666,7 @@
         "verse_number": 16,
         "verse_title": "John 15:16",
         "verse_short_title": "John 15:16",
-        "scripture_text": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.","mastery":true,"mnum":10,"description":". The Lord chooses and ordains apostles and prophets","keywords":[], "context":"","":"","topic":""
+        "scripture_text": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.","mastery":true,"mnum":10,"description":"The Lord chooses and ordains apostles and prophets","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title":"New Testament",
@@ -2695,7 +2678,7 @@
     },
     {
         "volume_title":"New Testament",
-        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":3,"verse_number":"19-21","verse_title":"Acts 3:19-21","verse_short_title":"Acts 3:19-21","scripture_text":"Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord; And he shall send Jesus Christ, which before was preached unto you: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.","mastery":true,"mnum":12,"description":". Peter prophesied of the Restoration.","keywords":["Repent","converted","sins","blotted out","restitution","prophets"], "context":"","":"","topic":"The Restoration"
+        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":3,"verse_number":"19-21","verse_title":"Acts 3:19-21","verse_short_title":"Acts 3:19-21","scripture_text":"Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord; And he shall send Jesus Christ, which before was preached unto you: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.","mastery":true,"mnum":12,"description":"Peter prophesied of the Restoration.","keywords":["Repent","converted","sins","blotted out","restitution","prophets"], "context":"","":"","topic":"The Restoration"
     },
     {
         "volume_title": "New Testament",
@@ -2721,7 +2704,7 @@
         "verse_number": 11,
         "verse_title": "1 Corinthians 11:11",
         "verse_short_title": "1 Cor. 11:11",
-        "scripture_text": "Nevertheless neither is the man without the woman, neither the woman without the man, in the Lord.","mastery":true,"mnum":13,"description":". Only together can a man and a woman fulfill the Lord’s plan.","keywords":[], "context":"","":"","topic":""
+        "scripture_text": "Nevertheless neither is the man without the woman, neither the woman without the man, in the Lord.","mastery":true,"mnum":13,"description":"Only together can a man and a woman fulfill the Lord’s plan.","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title": "New Testament",
@@ -2801,13 +2784,13 @@
         "verse_number": 30,
         "verse_title": "Doctrine and Covenants 1:30",
         "verse_short_title": "D&C 1:30",
-        "scripture_text": "And also those to whom these commandments were given, might have power to lay the foundation of this church, and to bring it forth out of obscurity and out of darkness, the only true and living church upon the face of the whole earth, with which I, the Lord, am well pleased, speaking unto the church collectively and not individually--","mastery":true,"mnum":3,"description":". The only true and living church","keywords":["commandments","foundation","church","true","living"], "context":"","":"","topic":"The Restoration"
+        "scripture_text": "And also those to whom these commandments were given, might have power to lay the foundation of this church, and to bring it forth out of obscurity and out of darkness, the only true and living church upon the face of the whole earth, with which I, the Lord, am well pleased, speaking unto the church collectively and not individually--","mastery":true,"mnum":3,"description":"The only true and living church","keywords":["commandments","foundation","church","true","living"], "context":"","":"","topic":"The Restoration"
     },
     {
         "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":1,"verse_number":"37-38","verse_title":"Doctrine and Covenants 1:37-38","verse_short_title":"D&C 1:37-38","scripture_text":"Search these commandments, for they are true and faithful, and the prophecies and promises which are in them shall all be fulfilled. What I the Lord have spoken, I have spoken, and I excuse not myself; and though the heavens and the earth pass away, my word shall not pass away, but shall all be fulfilled, whether by mine own voice or by the voice of my servants, it is the same.","mastery":true,"mnum":2,"description":"The voice of the Lord and His servants is the same","keywords":["search","true and faithful","I have spoken","fulfilled","voice of my servants"], "context":"","":"","topic":""
     },
     {
-        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":6,"verse_number":36,"verse_title":"Doctrine and Covenants 6:36","verse_short_title":"D&C 6:36","scripture_text":"Look unto me in every thought; doubt not, fear not.","mastery":true,"mnum":3,"description":". Look unto Christ in every thought.","keywords":["thought","doubt", "fear","look"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
+        "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":6,"verse_number":36,"verse_title":"Doctrine and Covenants 6:36","verse_short_title":"D&C 6:36","scripture_text":"Look unto me in every thought; doubt not, fear not.","mastery":true,"mnum":3,"description":"Look unto Christ in every thought.","keywords":["thought","doubt", "fear","look"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
     },
     {
         "volume_title":"Doctrine and Covenants","book_title":"Doctrine and Covenants","book_short_title":"D&C","chapter_number":8,"verse_number":"2-3","verse_title":"Doctrine and Covenants 8:2-3","verse_short_title":"D&C 8:2-3","scripture_text":"Yea, behold, I will tell you in your mind and in your heart, by the Holy Ghost, which shall come upon you and which shall dwell in your heart. Now, behold, this is the spirit of revelation; behold, this is the spirit by which Moses brought the children of Israel through the Red Sea on dry ground.","mastery":true,"mnum":4,"description":"The Holy Ghost speaks to our minds and hearts.","keywords":["heart","revelation", "spirit", "dwell"], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
