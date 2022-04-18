@@ -84,7 +84,7 @@ const getQuiz = async (url) => {
             // todo: get the quizunits from home page checkboxes as string
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn').selectedOptions).map(option => option.value);
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn'));
-            let quizunits = ["ot", "bom"];
+            let quizunits = ["ot", "nt"];
             //console.log(quizunits);
             getQuizArray.forEach(el => {
                 let notDef = el.keywords;
@@ -131,7 +131,7 @@ window.addEventListener("load", () => {
     getQuiz(url6);
 });
 
-function random(a, b=1) {
+const random = (a, b=1) => {
     // if only 1 argument is provided, we need to swap the values of a and b
     if (b === 1) {
         [a, b] = [b, a];
@@ -139,7 +139,7 @@ function random(a, b=1) {
     return Math.floor((b - a + 1) * Math.random()) + a;
 }
 
-function shuffle(array) {
+const shuffle = (array) => {
     for (let i = array.length; i; i--) {
         let j = random(i)-1;
         [array[i - 1], array[j]] = [array[j], array[i - 1]];
