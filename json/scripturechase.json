@@ -88,24 +88,6 @@
         "book_title": "Mosiah",
         "book_short_title": "Mosiah",
         "chapter_number": 4,
-        "verse_number": 9,
-        "verse_title": "Mosiah 4:9",
-        "verse_short_title": "Mosiah 4:9",
-        "scripture_text": "Believe in God; believe that he is, and that he created all things, both in heaven and in earth; believe that he has all wisdom, and all power, both in heaven and in earth; believe that man doth not comprehend all the things which the Lord can comprehend.",
-        "mastery": true,
-        "mnum": 12,
-        "description": "Believe in God and that He has all wisdom",
-        "keywords": [],
-        "context": "",
-        "": "",
-        "topic": "Acquiring Spiritual Knowledge"
-    },
-    {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
-        "book_title": "Mosiah",
-        "book_short_title": "Mosiah",
-        "chapter_number": 4,
         "verse_number": 30,
         "verse_title": "Mosiah 4:30",
         "verse_short_title": "Mosiah 4:30",
@@ -114,24 +96,6 @@
         "mnum": 12,
         "description": "Watch yourselves, continue in the faith, or perish",
         "keywords": ["watch", "thoughts", "deeds", "observe", "faith"],
-        "context": "",
-        "": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
-        "book_title": "Mosiah",
-        "book_short_title": "Mosiah",
-        "chapter_number": 18,
-        "verse_number": "8-10",
-        "verse_title": "Mosiah 18:8-10",
-        "verse_short_title": "Mosiah 18:8-10",
-        "scripture_text": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and are willing to bear one another's burdens, that they may be light; Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life-- Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, as a witness before him that ye have entered into a covenant with him, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?",
-        "mastery": true,
-        "mnum": 13,
-        "description": "Through baptism we enter a covenant with God.",
-        "keywords": [],
         "context": "",
         "": "",
         "topic": ""
@@ -167,24 +131,6 @@
         "mastery": true,
         "mnum": 14,
         "description": "",
-        "keywords": [],
-        "context": "",
-        "": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
-        "book_title": "Alma",
-        "book_short_title": "Alma",
-        "chapter_number": 34,
-        "verse_number": "9-10",
-        "verse_title": "Alma 34:9-10",
-        "verse_short_title": "Alma 34:9-10",
-        "scripture_text": "For it is expedient that an atonement should be made; for according to the great plan of the Eternal God there must be an atonement made, or else all mankind must unavoidably perish; yea, all are hardened; yea, all are fallen and are lost, and must perish except it be through the atonement which it is expedient should be made. For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast, neither of any manner of fowl; for it shall not be a human sacrifice; but it must be an infinite and eternal sacrifice.",
-        "mastery": true,
-        "mnum": 15,
-        "description": "There must be an Atonement made.",
         "keywords": [],
         "context": "",
         "": "",
@@ -241,7 +187,10 @@
         "description": "Wickedness never was happiness",
         "keywords": [
             "wickedness",
-            "happiness"
+            "happiness",
+            "restored",
+            "sin",
+            "never was"
         ],
         "context": "",
         "": "",
@@ -322,24 +271,6 @@
     {
         "volume_title": "Book of Mormon",
         "unit":"bom",
-        "book_title": "3 Nephi",
-        "book_short_title": "3 Ne.",
-        "chapter_number": 27,
-        "verse_number": 20,
-        "verse_title": "3 Nephi 27:20",
-        "verse_short_title": "3 Ne. 27:20",
-        "scripture_text": "Now this is the commandment: Repent, all ye ends of the earth, and come unto me and be baptized in my name, that ye may be sanctified by the reception of the Holy Ghost, that ye may stand spotless before me at the last day.",
-        "mastery": true,
-        "mnum": 21,
-        "description": "Be baptized and sanctified by receiving the Holy Ghost.",
-        "keywords": [],
-        "context": "",
-        "": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
         "book_title": "Ether",
         "book_short_title": "Ether",
         "chapter_number": 12,
@@ -405,10 +336,11 @@
         "mnum": 24,
         "description": " Charity is the pure love of Christ.",
         "keywords": [
-            "charity",
-            "pure",
-            "love",
-            "Christ"
+            "endureth forever",
+            "be like Him",
+            "energy of heart",
+            "true followers",
+            "no evil"
         ],
         "context": "",
         "": "",
@@ -431,30 +363,6 @@
         "context": "",
         "": "",
         "topic": "Acquiring Spiritual Knowledge"
-    },
-    {
-        "volume_title": "Old Testament",
-        "unit":"ot",
-        "book_title": "Genesis",
-        "book_short_title": "Gen.",
-        "chapter_number": 1,
-        "verse_number": "26-27",
-        "verse_title": "Genesis 1:26-27",
-        "verse_short_title": "Gen. 1:26-27",
-        "scripture_text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.",
-        "mastery": true,
-        "mnum": 4,
-        "description": "God created man in His own image.",
-        "keywords": [
-            "image",
-            "likeness",
-            "dominion",
-            "earth",
-            "created"
-        ],
-        "context": "",
-        "": "",
-        "topic": "Marriage and Family"
     },
     {
         "volume_title": "Old Testament",
@@ -583,7 +491,7 @@
         "mastery": true,
         "mnum": 9,
         "description": "Choose you this day whom ye will serve.",
-        "keywords": [],
+        "keywords":["serve","choose","flood","dwell","Lord"],
         "context": "",
         "": "",
         "topic": ""
@@ -744,7 +652,7 @@
         "mastery": true,
         "mnum": 17,
         "description": "The Restoration is a marvelous work and a wonder",
-        "keywords": [],
+        "keywords":["draw near","lips","removed","precept of men","marvellous"],
         "context": "",
         "": "",
         "topic": "The Restoration"
@@ -876,7 +784,7 @@
         "mastery": true,
         "mnum": 22,
         "description": "The Bible and the Book of Mormon are joined together.",
-        "keywords": [],
+        "keywords":["stick","Judah","Joseph","one","write"],
         "context": "",
         "": "",
         "topic": "The Restoration"
@@ -894,7 +802,7 @@
         "mastery": true,
         "mnum": 98,
         "description": "God’s kingdom shall stand forever.",
-        "keywords": [],
+        "keywords":["kings","kingdom","never destroyed","break","stand"],
         "context": "",
         "": "",
         "topic": "The Restoration"
@@ -1409,24 +1317,6 @@
         "context": "",
         "": "",
         "topic": "Marriage and Family"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "1 Corinthians",
-        "book_short_title": "1 Cor.",
-        "chapter_number": 15,
-        "verse_number": "20-22",
-        "verse_title": "1 Corinthians 15:20-22",
-        "verse_short_title": "1 Cor. 15:20-22",
-        "scripture_text": "But now is Christ risen from the dead, and become the firstfruits of them that slept. For since by man came death, by man came also the resurrection of the dead. For as in Adam all die, even so in Christ shall all be made alive.",
-        "mastery": true,
-        "mnum": 13,
-        "description": "In Christ shall all be resurrected.",
-        "keywords": [],
-        "context": "",
-        "": "",
-        "topic": ""
     },
     {
         "volume_title": "New Testament",
@@ -2344,17 +2234,6 @@
         "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":2,"verse_number":17,"verse_title":"Mosiah 2:17","verse_short_title":"Mosiah 2:17","scripture_text":"And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.","mastery":true,"mnum":10,"description":"By serving others we serve God.","keywords":["wisdom","service","fellow beings", "service of your God"], "context":"","":"","topic":"Commandments"
     },
     {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
-        "book_title": "Mosiah",
-        "book_short_title": "Mosiah",
-        "chapter_number": 2,
-        "verse_number": 41,
-        "verse_title": "Mosiah 2:41",
-        "verse_short_title": "Mosiah 2:41",
-        "scripture_text": "And moreover, I would desire that ye should consider on the blessed and happy state of those that keep the commandments of God. For behold, they are blessed in all things, both temporal and spiritual; and if they hold out faithful to the end they are received into heaven, that thereby they may dwell with God in a state of never-ending happiness. O remember, remember that these things are true; for the Lord God hath spoken it.","mastery":true,"mnum":12,"description":"Obedience brings blessings and happiness.","keywords":["blessed","happiness", "faithful", "temporal", "spiritual"], "context":"","":"","topic":"Commandments"
-    },
-    {
         "volume_title":"Book of Mormon",
         "unit":"bom","book_title":"Mosiah","book_short_title":"Mosiah","chapter_number":3,"verse_number":19,"verse_title":"Mosiah 3:19","verse_short_title":"Mosiah 3:19","scripture_text":"For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.","mastery":true,"mnum":11,"description":"Put off the natural man and become a Saint through the Atonement.","keywords":["natural","enemy","enticings","child","submit"], "context":"","":"","topic":"The Atonement of Jesus Christ"
     },
@@ -2420,17 +2299,6 @@
         "unit":"bom","book_title":"Helaman","book_short_title":"Hel.","chapter_number":5,"verse_number":12,"verse_title":"Helaman 5:12","verse_short_title":"Hel. 5:12","scripture_text":"And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall.","mastery":true,"mnum":18,"description":"Build your foundation on Christ.","keywords":["rock","Redeemer","whirlwind","misery","foundation"], "context":"","":"","topic":"The Atonement of Jesus Christ"
     },
     {
-        "volume_title": "Book of Mormon",
-        "unit":"bom",
-        "book_title": "3 Nephi",
-        "book_short_title": "3 Ne.",
-        "chapter_number": 11,
-        "verse_number": "10-11",
-        "verse_title": "3 Nephi 11:10-11",
-        "verse_short_title": "3 Ne. 11:10-11",
-        "scripture_text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world. And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.","mastery":true,"mnum":19,"description":"Jesus Christ suffered the will of the Father in all things.","keywords":[], "context":"","":"","topic":""
-    },
-    {
         "volume_title":"Book of Mormon",
         "unit":"bom","book_title":"3 Nephi","book_short_title":"3 Ne.","chapter_number":12,"verse_number":48,"verse_title":"3 Nephi 12:48","verse_short_title":"3 Ne. 12:48","scripture_text":"Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.","mastery":true,"mnum":19,"description":"Jesus Christ invites us to become perfect.","keywords":["perfect","Father", "heaven"], "context":"","":"","topic":"The Godhead"
     },
@@ -2471,18 +2339,7 @@
     },
     {
         "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["image","dominion","earth", "created", "male", "female"], "context":"","":"","topic":"The Plan of Salvation"
-    },
-    {
-        "volume_title": "Old Testament",
-        "unit":"ot",
-        "book_title": "Genesis",
-        "book_short_title": "Gen.",
-        "chapter_number": 1,
-        "verse_number": 28,
-        "verse_title": "Genesis 1:28",
-        "verse_short_title": "Gen. 1:28",
-        "scripture_text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.","mastery": true,"mnum":99,"description":"Multiply and replenish the earth.","keywords":[], "context":"","":"","topic":""
+        "unit":"ot","book_title":"Genesis","book_short_title":"Gen.","chapter_number":1,"verse_number":"26-27","verse_title":"Genesis 1:26-27","verse_short_title":"Gen. 1:26-27","scripture_text":"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them.","mastery":true,"mnum":4,"description":"God created man in His own image.","keywords":["image","dominion","created", "male", "female"], "context":"","":"","topic":"The Plan of Salvation"
     },
     {
         "volume_title":"Old Testament",
@@ -2499,105 +2356,6 @@
     {
         "volume_title":"Old Testament",
         "unit":"ot","book_title":"Exodus","book_short_title":"Ex.","chapter_number":20,"verse_number":"3-17","verse_title":"Exodus 20:3-17","verse_short_title":"Ex. 20:3-17","scripture_text":"Thou shalt have no other gods before me. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth: Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; And shewing mercy unto thousands of them that love me, and keep my commandments. Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain. Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it. Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee. Thou shalt not kill. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbour. Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.","mastery":true,"mnum":8,"description":"God revealed the Ten Commandments","keywords":["commandments",""], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Joshua","book_short_title":"Josh.","chapter_number":24,"verse_number":15,"verse_title":"Joshua 24:15","verse_short_title":"Josh. 24:15","scripture_text":"And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.","mastery":true,"mnum":9,"description":"Choose you this day whom ye will serve.","keywords":["serve","choose","flood","dwell","Lord"], "context":"","":"","topic":"The Plan of Salvation"
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"1 Samuel","book_short_title":"1 Sam.","chapter_number":16,"verse_number":7,"verse_title":"1 Samuel 16:7","verse_short_title":"1 Sam. 16:7","scripture_text":"But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.","mastery":true,"mnum":10,"description":"","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":24,"verse_number":"3-4","verse_title":"Psalms 24:3-4","verse_short_title":"Ps. 24:3-4","scripture_text":"Who shall ascend into the hill of the Lord? or who shall stand in his holy place? He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.","mastery":true,"mnum":11,"description":"To stand worthy in the Lord’s presence, we must have clean hands and a pure heart.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":119,"verse_number":105,"verse_title":"Psalms 119:105","verse_short_title":"Ps. 119:105","scripture_text":"Thy word is a lamp unto my feet, and a light unto my path.","mastery":true,"mnum":12,"description":"","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Psalms","book_short_title":"Ps.","chapter_number":127,"verse_number":3,"verse_title":"Psalms 127:3","verse_short_title":"Ps. 127:3","scripture_text":"Lo, children are an heritage of the Lord: and the fruit of the womb is his reward.","mastery":true,"mnum":13,"description":"","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Proverbs","book_short_title":"Prov.","chapter_number":3,"verse_number":"5-6","verse_title":"Proverbs 3:5-6","verse_short_title":"Prov. 3:5-6","scripture_text":"Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.","mastery":true,"mnum":14,"description":"Trust in the Lord with all thine heart, and He shall direct thy paths.","keywords":[], "context":"","":"","topic":"Acquiring Spiritual Knowledge"
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":1,"verse_number":18,"verse_title":"Isaiah 1:18","verse_short_title":"Isa. 1:18","scripture_text":"Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.","mastery":true,"mnum":15,"description":"If we repent, our sins shall be as white as snow.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":5,"verse_number":20,"verse_title":"Isaiah 5:20","verse_short_title":"Isa. 5:20","scripture_text":"Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!","mastery":true,"mnum":16,"description":"Woe unto them that call evil good, and good evil.","keywords":["darkness","light", "good", "evil"], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":29,"verse_number":"13-14","verse_title":"Isaiah 29:13-14","verse_short_title":"Isa. 29:13-14","scripture_text":"Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.","mastery":true,"mnum":17,"description":"The Restoration is a marvelous work and a wonder","keywords":["draw near","lips","removed","precept of men","marvellous"], "context":"","":"","topic":"The Restoration"
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":53,"verse_number":"3-5","verse_title":"Isaiah 53:3-5","verse_short_title":"Isa. 53:3-5","scripture_text":"He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.","mastery":true,"mnum":18,"description":"Jesus Christ bore our griefs and suffered for our sins.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"6-7","verse_title":"Isaiah 58:6-7","verse_short_title":"Isa. 58:6-7","scripture_text":"Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke? Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?","mastery":true,"mnum":19,"description":" Fasting helps us to loose the bands of wickedness, undo heavy burdens, and provide for the poor.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Isaiah","book_short_title":"Isa.","chapter_number":58,"verse_number":"13-14","verse_title":"Isaiah 58:13-14","verse_short_title":"Isa. 58:13-14","scripture_text":"If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the Lord, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in the Lord; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the Lord hath spoken it.","mastery":true,"mnum":20,"description":"The Sabbath is the Lord’s holy day","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Jeremiah","book_short_title":"Jer.","chapter_number":1,"verse_number":"4-5","verse_title":"Jeremiah 1:4-5","verse_short_title":"Jer. 1:4-5","scripture_text":"Then the word of the Lord came unto me, saying, Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.","mastery":true,"mnum":21,"description":"Jeremiah was foreordained to be a prophet.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title": "Old Testament",
-        "unit":"ot",
-        "book_title": "Ezekiel",
-        "book_short_title": "Ezek.",
-        "chapter_number": 3,
-        "verse_number": "16-17",
-        "verse_title": "Ezekiel 3:16-17",
-        "verse_short_title": "Ezek. 3:16-17",
-        "scripture_text": "And it came to pass at the end of seven days, that the word of the Lord came unto me, saying, Son of man, I have made thee a watchman unto the house of Israel: therefore hear the word at my mouth, and give them warning from me.","mastery":true,"mnum":22,"description":"The Lord’s watchmen give warnings from Him.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Ezekiel","book_short_title":"Ezek.","chapter_number":37,"verse_number":"15-17","verse_title":"Ezekiel 37:15-17","verse_short_title":"Ezek. 37:15-17","scripture_text":"The word of the Lord came again unto me, saying, Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions: And join them one to another into one stick; and they shall become one in thine hand.","mastery":true,"mnum":22,"description":"The Bible and the Book of Mormon are joined together.","keywords":["stick","Judah","Joseph","one","write"], "context":"","":"","topic":"The Restoration"
-    },
-    {
-        "volume_title": "Old Testament",
-        "unit":"ot",
-        "book_title": "Daniel",
-        "book_short_title": "Dan.",
-        "chapter_number": 2,
-        "verse_number": 44,
-        "verse_title": "Daniel 2:44",
-        "verse_short_title": "Dan. 2:44",
-        "scripture_text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.","mastery":true,"mnum":98,"description":"God’s kingdom shall stand forever.","keywords":["kings","kingdom","never destroyed","break","stand"], "context":"","":"","topic":"The Restoration"
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Amos","book_short_title":"Amos","chapter_number":3,"verse_number":7,"verse_title":"Amos 3:7","verse_short_title":"Amos 3:7","scripture_text":"Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.","mastery":true,"mnum":23,"description":"God reveals His secret to His prophets.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Malachi","book_short_title":"Mal.","chapter_number":3,"verse_number":"8-10","verse_title":"Malachi 3:8-10","verse_short_title":"Mal. 3:8-10","scripture_text":"Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings. Ye are cursed with a curse: for ye have robbed me, even this whole nation. Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the Lord of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.","mastery":true,"mnum":24,"description":"Paying tithing brings blessings.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Malachi","book_short_title":"Mal.","chapter_number":4,"verse_number":"5-6","verse_title":"Malachi 4:5-6","verse_short_title":"Mal. 4:5-6","scripture_text":"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.","mastery":true,"mnum":25,"description":"Elijah will turn the hearts of fathers and children.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Pearl of Great Price", "unit":"dc", "book_title":"Moses","book_short_title":"Moses","chapter_number":1,"verse_number":39,"verse_title":"Moses 1:39","verse_short_title":"Moses 1:39","scripture_text":"For behold, this is my work and my glory--to bring to pass the immortality and eternal life of man.","mastery":true,"mnum":1, "description": "God’s work and glory is to bring to pass the immortality and eternal life of man.","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Pearl of Great Price", "unit":"ot", "book_title":"Moses","book_short_title":"Moses","chapter_number":7,"verse_number":18,"verse_title":"Moses 7:18","verse_short_title":"Moses 7:18","scripture_text":"And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.","mastery":true,"mnum":2,"description":"","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title":"Pearl of Great Price", "unit":"dc", "book_title":"Abraham","book_short_title":"Abr.","chapter_number":3,"verse_number":"22-23","verse_title":"Abraham 3:22-23","verse_short_title":"Abr. 3:22-23","scripture_text":"Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones; And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.","mastery":true,"mnum":3,"description":"Abraham was chosen before he was born.","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title":"New Testament",
@@ -2677,10 +2435,6 @@
         "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":2,"verse_number":"36-38","verse_title":"Acts 2:36-38","verse_short_title":"Acts 2:36-38","scripture_text":"Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ. Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.","mastery":true,"mnum":11,"description":"","keywords":[], "context":"","":"","topic":""
     },
     {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":3,"verse_number":"19-21","verse_title":"Acts 3:19-21","verse_short_title":"Acts 3:19-21","scripture_text":"Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord; And he shall send Jesus Christ, which before was preached unto you: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.","mastery":true,"mnum":12,"description":"Peter prophesied of the Restoration.","keywords":["Repent","converted","sins","blotted out","restitution","prophets"], "context":"","":"","topic":"The Restoration"
-    },
-    {
         "volume_title": "New Testament",
         "unit":"nt",
         "book_title": "1 Corinthians",
@@ -2727,17 +2481,6 @@
     {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"Galatians","book_short_title":"Gal.","chapter_number":5,"verse_number":"22-24","verse_title":"Galatians 5:22-24","verse_short_title":"Gal. 5:22-24","scripture_text":"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.","mastery":true,"mnum":16,"description":"Fruits of the Spirit","keywords":[], "context":"","":"","topic":""
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "Ephesians",
-        "book_short_title": "Eph.",
-        "chapter_number": 2,
-        "verse_number": "19-20",
-        "verse_title": "Ephesians 2:19-20",
-        "verse_short_title": "Eph. 2:19-20",
-        "scripture_text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God; And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;","mastery":true,"mnum":15,"description":"The Lord’s Church is founded on apostles and prophets.","keywords":[], "context":"","":"","topic":""
     },
     {
         "volume_title":"New Testament",

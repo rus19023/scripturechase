@@ -357,9 +357,7 @@ const game = {
     gameOver() {
         console.log('gameOver() invoked');
         view.render(
-        view.info,
-        `Session Over, you scored ${this.score} point${this.score !== 1 ? "s" : ""}`
-        );
+        view.info, `Game Over! You scored ${this.score} point${this.score !== 1 ? "s" : ""}` );
         view.teardown();
         clearInterval(this.timer);
     },
