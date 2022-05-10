@@ -1544,24 +1544,6 @@
         "book_title": "Doctrine and Covenants",
         "book_short_title": "D&C",
         "chapter_number": 1,
-        "verse_number": 30,
-        "verse_title": "Doctrine and Covenants 1:30",
-        "verse_short_title": "D&C 1:30",
-        "scripture_text": "And also those to whom these commandments were given, might have power to lay the foundation of this church, and to bring it forth out of obscurity and out of darkness, the only true and living church upon the face of the whole earth, with which I, the Lord, am well pleased, speaking unto the church collectively and not individually--",
-        "mastery": true,
-        "mnum": 3,
-        "description": "The only true and living church",
-        "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": "The Restoration"
-    },
-    {
-        "volume_title": "Doctrine and Covenants",
-        "unit":"dc",
-        "book_title": "Doctrine and Covenants",
-        "book_short_title": "D&C",
-        "chapter_number": 1,
         "verse_number": "37-38",
         "verse_title": "Doctrine and Covenants 1:37-38",
         "verse_short_title": "D&C 1:37-38",
@@ -2345,34 +2327,12 @@
         "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":3,"verse_number":5,"verse_title":"John 3:5","verse_short_title":"John 3:5","scripture_text":"Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.","mastery":true,"mnum":7,"description":"We must be born of water and of the Spirit to enter the kingdom of God","keywords":[], "context":"","img":"","topic":""
     },
     {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "John",
-        "book_short_title": "John",
-        "chapter_number": 7,
-        "verse_number": 17,
-        "verse_title": "John 7:17",
-        "verse_short_title": "John 7:17",
-        "scripture_text": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself.","mastery":true,"mnum":10,"description":"Do God’s will to know His doctrine.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":6,"verse_title":"John 14:6","verse_short_title":"John 14:6","scripture_text":"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.","mastery":true,"mnum":8,"description":"","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":15,"verse_title":"John 14:15","verse_short_title":"John 14:15","scripture_text":"If ye love me, keep my commandments.","mastery":true,"mnum":9,"description":"If ye love me, keep my commandments.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "John",
-        "book_short_title": "John",
-        "chapter_number": 15,
-        "verse_number": 16,
-        "verse_title": "John 15:16",
-        "verse_short_title": "John 15:16",
-        "scripture_text": "Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.","mastery":true,"mnum":10,"description":"The Lord chooses and ordains apostles and prophets","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title":"New Testament",
@@ -2383,30 +2343,8 @@
         "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":2,"verse_number":"36-38","verse_title":"Acts 2:36-38","verse_short_title":"Acts 2:36-38","scripture_text":"Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ. Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.","mastery":true,"mnum":11,"description":"","keywords":[], "context":"","img":"","topic":""
     },
     {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "1 Corinthians",
-        "book_short_title": "1 Cor.",
-        "chapter_number": 2,
-        "verse_number": "5,9-11",
-        "verse_title": "1 Corinthians 2:5,9-11",
-        "verse_short_title": "1 Cor. 2:5,9-11",
-        "scripture_text": "That your faith should not stand in the wisdom of men, but in the power of God. But as it is written, Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him. But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God. For what man knoweth the things of a man, save the spirit of man which is in him? even so the things of God knoweth no man, but the Spirit of God.","mastery":true,"mnum":13,"description":"We can only know the things of God through the Spirit.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"1 Corinthians","book_short_title":"1 Cor.","chapter_number":6,"verse_number":"19-20","verse_title":"1 Corinthians 6:19-20","verse_short_title":"1 Cor. 6:19-20","scripture_text":"What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.","mastery":true,"mnum":13,"description":"Your body is a temple","keywords":[], "context":"","img":"","topic":"The Plan of Salvation"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "1 Corinthians",
-        "book_short_title": "1 Cor.",
-        "chapter_number": 11,
-        "verse_number": 11,
-        "verse_title": "1 Corinthians 11:11",
-        "verse_short_title": "1 Cor. 11:11",
-        "scripture_text": "Nevertheless neither is the man without the woman, neither the woman without the man, in the Lord.","mastery":true,"mnum":13,"description":"Only together can a man and a woman fulfill the Lord’s plan.","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title": "New Testament",
