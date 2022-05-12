@@ -84,7 +84,7 @@ const getQuiz = async (url) => {
             // todo: get the quizunits from home page checkboxes as string
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn').selectedOptions).map(option => option.value);
             //let quizunits = Array.from(document.querySelectorAll('.chkbtn'));
-            let quizunits = ["ot", "nt"];
+            let quizunits = ["ot", "nt", "bom", "dc"];
             //console.log(quizunits);
             getQuizArray.forEach(el => {
                 let notDef = el.keywords;
@@ -156,6 +156,8 @@ const view = {
     result: qs("#result"),
     info: qs("#info"),
     response: qs("#response"),
+    front: qs("#front"),
+    back: qs("back"),
     timer: qs('#timer strong'),
 
     hiScore: qs('#hiScore strong'),
@@ -206,6 +208,16 @@ const view = {
         return array.map(value => `<button class="quizbutton">${value}</button>`).join('');
     },
 
+    front() {
+        if (isElement()) {
+
+        }
+    },
+
+    back() {
+
+    },
+
     teardown() {
         console.log('teardown() invoked');
         this.hide(this.question);
@@ -254,17 +266,19 @@ const game = {
             shuffle(this.questions);
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
+            const keywords = this.questions[0].keyword[0] + ", " + this.questions[0].keyword[1] + ", " + this.questions[0].keyword[2] + ", " + this.questions[0].keyword[3] + ", " + this.questions[0].keyword[4];
             //console.log(options);
+            //console.log(keywords);
             shuffle(options);
             const question = this.question.ques;  //  + this.gametype
             view.render(view.question, question);
             //console.log(view.buttons(options));
             if (this.gametype === "flip") {
                 // render flipcard
-                view.render(view.response, view.buttons(options), {'class':'buttonbox'});
+                view.render(view.front, view.front(question), {'class':'flip-card-front'});
+                view.render(view.back, view.back(keywords), {'class':'flip-card-back'});
             } else if (this.gametype === "scramble") {
                 // render scrambled words
-                view.render(view.response, view.buttons(options), {'class':'buttonbox'});
             } else if (this.gametype === "quiz") {
                 // render quiz
                 view.render(view.response, view.buttons(options), {'class':'buttonbox'});
@@ -301,6 +315,9 @@ const game = {
         }
     },
 
+    next() {
+        
+    },
 
     check(event) {
         console.log('check(event) invoked');
