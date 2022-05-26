@@ -967,24 +967,6 @@
         "unit":"nt",
         "book_title": "Matthew",
         "book_short_title": "Matt.",
-        "chapter_number": 16,
-        "verse_number": "15-19",
-        "verse_title": "Matthew 16:15-19",
-        "verse_short_title": "Matt. 16:15-19",
-        "scripture_text": "He saith unto them, But whom say ye that I am? And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it. And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
-        "mastery": true,
-        "mnum": 3,
-        "description": "Jesus Christ promised to build His Church and confer the keys of the kingdom.",
-        "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": "The Restoration"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "Matthew",
-        "book_short_title": "Matt.",
         "chapter_number": 22,
         "verse_number": "36-39",
         "verse_title": "Matthew 22:36-39",
@@ -1021,27 +1003,6 @@
         "context": "",
         "img": "",
         "topic": "Missionary Work"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "Matthew",
-        "book_short_title": "Matt.",
-        "chapter_number": 22,
-        "verse_number": "36-39",
-        "verse_title": "Matthew 22:36-39",
-        "verse_short_title": "Matt. 22:36-39",
-        "scripture_text": "Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.",
-        "mastery": true,
-        "mnum": 8,
-        "description": "Love the Lord; love thy neighbor",
-        "keywords": [
-            "neighbor",
-            "love"
-        ],
-        "context": "",
-        "img": "",
-        "topic": "Love"
     },
     {
         "volume_title": "New Testament",
@@ -1179,24 +1140,6 @@
     {
         "volume_title": "New Testament",
         "unit":"nt",
-        "book_title": "John",
-        "book_short_title": "John",
-        "chapter_number": 17,
-        "verse_number": 3,
-        "verse_title": "John 17:3",
-        "verse_short_title": "John 17:3",
-        "scripture_text": "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.",
-        "mastery": true,
-        "mnum": 10,
-        "description": "Eternal life is knowing God and Jesus Christ.",
-        "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": "Eternal Life"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
         "book_title": "Acts",
         "book_short_title": "Acts",
         "chapter_number": 2,
@@ -1207,7 +1150,7 @@
         "mastery": true,
         "mnum": 11,
         "description": "",
-        "keywords": [],
+        "keywords": ["pricked", "repent", "baptism", "receive", "gift", "Holy Ghost"],
         "context": "",
         "img": "",
         "topic": "Ordinances and Covenants"
@@ -1297,31 +1240,22 @@
     {
         "volume_title": "New Testament",
         "unit":"nt",
-        "book_title": "1 Corinthians",
-        "book_short_title": "1 Cor.",
-        "chapter_number": 15,
-        "verse_number": "40-42",
-        "verse_title": "1 Corinthians 15:40-42",
-        "verse_short_title": "1 Cor. 15:40-42",
-        "scripture_text": "There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another. There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory. So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:",
-        "mastery": true,
-        "mnum": 14,
-        "description": "There are three degrees of glory in the Resurrection.",
-        "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
         "book_title": "Galatians",
         "book_short_title": "Gal.",
         "chapter_number": 5,
         "verse_number": "22-24",
         "verse_title": "Galatians 5:22-24",
         "verse_short_title": "Gal. 5:22-24",
-        "scripture_text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law."
+        "scripture_text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+        "mastery": true,
+        "mnum": 15,
+        "description": ".",
+        "keywords": [
+            
+        ],
+        "context": "",
+        "img": "",
+        "topic": "Prophets and Revelation"
     },
     {
         "volume_title": "New Testament",
@@ -1389,24 +1323,6 @@
         "context": "",
         "img": "",
         "topic": "Acquiring Spiritual Knowledge"
-    },
-    {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "2 Thessalonians",
-        "book_short_title": "2 Thes.",
-        "chapter_number": 2,
-        "verse_number": "1-3",
-        "verse_title": "2 Thessalonians 2:1-3",
-        "verse_short_title": "2 Thes. 2:1-3",
-        "scripture_text": "Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;",
-        "mastery": true,
-        "mnum": 18,
-        "description": "Apostasy was foretold.",
-        "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": "The Restoration"
     },
     {
         "volume_title": "New Testament",
@@ -1804,24 +1720,6 @@
         "mnum": 12,
         "description": "",
         "keywords": [],
-        "context": "",
-        "img": "",
-        "topic": ""
-    },
-    {
-        "volume_title": "Doctrine and Covenants",
-        "unit":"dc",
-        "book_title": "Doctrine and Covenants",
-        "book_short_title": "D&C",
-        "chapter_number": 49,
-        "verse_number": "15-17",
-        "verse_title": "Doctrine and Covenants 49:15-17",
-        "verse_short_title": "D&C 49:15-17",
-        "scripture_text": "And again, verily I say unto you, that whoso forbiddeth to marry is not ordained of God, for marriage is ordained of God unto man. Wherefore, it is lawful that he should have one wife, and they twain shall be one flesh, and all this that the earth might answer the end of its creation; And that it might be filled with the measure of man, according to his creation before the world was made.",
-        "mastery": true,
-        "mnum": 13,
-        "description": "Marriage between a man and a woman is ordained of God.",
-        "keywords": ["marriage"],
         "context": "",
         "img": "",
         "topic": ""
@@ -2284,63 +2182,16 @@
         "unit":"ot","book_title":"Exodus","book_short_title":"Ex.","chapter_number":19,"verse_number":"5-6","verse_title":"Exodus 19:5-6","verse_short_title":"Ex. 19:5-6","scripture_text":"Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine: And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.","mastery":true,"mnum":7,"description":" Keep my covenant and ye shall be a holy nation.","keywords":[], "context":"","img":"","topic":""
     },
     {
-        "volume_title":"Old Testament",
-        "unit":"ot","book_title":"Exodus","book_short_title":"Ex.","chapter_number":20,"verse_number":"3-17","verse_title":"Exodus 20:3-17","verse_short_title":"Ex. 20:3-17","scripture_text":"Thou shalt have no other gods before me. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth: Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; And shewing mercy unto thousands of them that love me, and keep my commandments. Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain. Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates: For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it. Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee. Thou shalt not kill. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbour. Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.","mastery":true,"mnum":8,"description":"God revealed the Ten Commandments","keywords":["commandments",""], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":5,"verse_number":"14-16","verse_title":"Matthew 5:14-16","verse_short_title":"Matt. 5:14-16","scripture_text":"Ye are the light of the world. A city that is set on an hill cannot be hid. Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house. Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.","mastery":true,"mnum":1,"description":"Let your light so shine as an example to others.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":11,"verse_number":"28-30","verse_title":"Matthew 11:28-30","verse_short_title":"Matt. 11:28-30","scripture_text":"Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.","mastery":true,"mnum":2,"description":"If we come unto Jesus Christ, He will ease our burdens and give us rest.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":16,"verse_number":"15-19","verse_title":"Matthew 16:15-19","verse_short_title":"Matt. 16:15-19","scripture_text":"He saith unto them, But whom say ye that I am? And Simon Peter answered and said, Thou art the Christ, the Son of the living God. And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven. And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it. And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.","mastery":true,"mnum":3,"description":"Jesus Christ promised to build His Church and confer the keys of the kingdom.","keywords":["revealed","Father","rock","prevail","bind", "loose"], "context":"","img":"","topic":"Priesthood and Priesthood Keys"
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":22,"verse_number":"36-39","verse_title":"Matthew 22:36-39","verse_short_title":"Matt. 22:36-39","scripture_text":"Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.","mastery":true,"mnum":4,"description":" Love the Lord; love thy neighbor","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"Matthew","book_short_title":"Matt.","chapter_number":28,"verse_number":"19-20","verse_title":"Matthew 28:19-20","verse_short_title":"Matt. 28:19-20","scripture_text":"Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.","mastery":true,"mnum":5,"description":"","keywords":[], "context":"","img":"","topic":""
     },
     {
-        "volume_title": "New Testament",
-        "unit":"nt",
-        "book_title": "Matthew",
-        "book_short_title": "Matt.",
-        "chapter_number": 22,
-        "verse_number": "36-39",
-        "verse_title": "Matthew 22:36-39",
-        "verse_short_title": "Matt. 22:36-39",
-        "scripture_text": "Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself.","mastery":true,"mnum":8,"description":"Love the Lord; love thy neighbor","keywords":["neighbor","love"], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Luke","book_short_title":"Luke","chapter_number":24,"verse_number":"36-39","verse_title":"Luke 24:36-39","verse_short_title":"Luke 24:36-39","scripture_text":"And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you. But they were terrified and affrighted, and supposed that they had seen a spirit. And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts? Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.","mastery":true,"mnum":6,"description":"Jesus Christ was resurrected with a body of flesh and bone","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":3,"verse_number":5,"verse_title":"John 3:5","verse_short_title":"John 3:5","scripture_text":"Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.","mastery":true,"mnum":7,"description":"We must be born of water and of the Spirit to enter the kingdom of God","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":6,"verse_title":"John 14:6","verse_short_title":"John 14:6","scripture_text":"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.","mastery":true,"mnum":8,"description":"","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":14,"verse_number":15,"verse_title":"John 14:15","verse_short_title":"John 14:15","scripture_text":"If ye love me, keep my commandments.","mastery":true,"mnum":9,"description":"If ye love me, keep my commandments.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
         "volume_title":"New Testament",
         "unit":"nt","book_title":"John","book_short_title":"John","chapter_number":17,"verse_number":3,"verse_title":"John 17:3","verse_short_title":"John 17:3","scripture_text":"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.","mastery":true,"mnum":10,"description":"Eternal life is knowing God and Jesus Christ.","keywords":["life","eternal","God","sent", "Christ"], "context":"","img":"","topic":"The Plan of Salvation"
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Acts","book_short_title":"Acts","chapter_number":2,"verse_number":"36-38","verse_title":"Acts 2:36-38","verse_short_title":"Acts 2:36-38","scripture_text":"Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ. Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.","mastery":true,"mnum":11,"description":"","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title":"New Testament",
@@ -2366,27 +2217,7 @@
     },
     {
         "volume_title":"New Testament",
-        "unit":"nt","book_title":"Galatians","book_short_title":"Gal.","chapter_number":5,"verse_number":"22-24","verse_title":"Galatians 5:22-24","verse_short_title":"Gal. 5:22-24","scripture_text":"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.","mastery":true,"mnum":16,"description":"Fruits of the Spirit","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Ephesians","book_short_title":"Eph.","chapter_number":4,"verse_number":"11-14","verse_title":"Ephesians 4:11-14","verse_short_title":"Eph. 4:11-14","scripture_text":"And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;","mastery":true,"mnum":16,"description":"Apostles and prophets help perfect the Saints","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Philippians","book_short_title":"Philip.","chapter_number":4,"verse_number":13,"verse_title":"Philippians 4:13","verse_short_title":"Philip. 4:13","scripture_text":"I can do all things through Christ which strengtheneth me.","mastery":true,"mnum":17,"description":"","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
         "unit":"nt","book_title":"2 Thessalonians","book_short_title":"2 Thes.","chapter_number":2,"verse_number":"1-3","verse_title":"2 Thessalonians 2:1-3","verse_short_title":"2 Thes. 2:1-3","scripture_text":"Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;","mastery":true,"mnum":18,"description":"Apostasy was foretold.","keywords":["gathering","troubled","deceive","falling away","son of perdition"], "context":"","img":"","topic":"The Restoration"
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"2 Timothy","book_short_title":"2 Tim.","chapter_number":3,"verse_number":"15-17","verse_title":"2 Timothy 3:15-17","verse_short_title":"2 Tim. 3:15-17","scripture_text":"And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works.","mastery":true,"mnum":19,"description":"Scriptures can make you wise unto salvation","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Hebrews","book_short_title":"Heb.","chapter_number":12,"verse_number":9,"verse_title":"Hebrews 12:9","verse_short_title":"Heb. 12:9","scripture_text":"Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live?","mastery":true,"mnum":20,"description":"God is the Father of our spirits.","keywords":[], "context":"","img":"","topic":""
     },
     {
         "volume_title":"New Testament",

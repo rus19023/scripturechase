@@ -208,15 +208,15 @@ const view = {
         return array.map(value => `<button class="quizbutton">${value}</button>`).join('');
     },
 
-    front() {
-        if (isElement()) {
+    // front() {
+    //     if (isElement()) {
 
-        }
-    },
+    //     }
+    // },
 
-    back() {
+    // back() {
 
-    },
+    // },
 
     teardown() {
         console.log('teardown() invoked');
@@ -264,11 +264,12 @@ const game = {
         this.hintcount = 0;
         if (this.questions.length > 2) {
             shuffle(this.questions);
+            console.log(this.questions);
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
             const keywords = this.questions[0].keyword[0] + ", " + this.questions[0].keyword[1] + ", " + this.questions[0].keyword[2] + ", " + this.questions[0].keyword[3] + ", " + this.questions[0].keyword[4];
-            //console.log(options);
-            //console.log(keywords);
+            console.log(options);
+            console.log(keywords);
             shuffle(options);
             const question = this.question.ques;  //  + this.gametype
             view.render(view.question, question);
