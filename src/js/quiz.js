@@ -70,12 +70,12 @@ const getQuiz = async (url) => {
         return;
     } else { console.log('getQuiz() invoked'); }
     try {
-        const response = await fetch(url);
+        const fetchResponse = await fetch(url);
         console.log('fetch/try invoked');
-        if (!response.ok) {
-            throw Error(`${response.status} ${response.statusText}`);
+        if (!fetchResponse.ok) {
+            throw Error(`${fetchResponse.status} ${fetchResponse.statusText}`);
         } else {
-            const getQuizArray = await response.json();
+            const getQuizArray = await fetchResponse.json();
             //console.log(getQuizArray);
             console.log('getQuizArray/try invoked');
             const questions = [];
@@ -98,16 +98,17 @@ const getQuiz = async (url) => {
                     //console.log('KEYWORDS:  ' + el.keywords);
                     let obj = {
                         ques: 'What scripture reference contains the following: <br><br>' + el.keywords[0],
+                        ans: el.verse_title,
                         hint1: el.keywords[1],
                         hint2: el.keywords[2],
                         hint3: el.keywords[3],
                         hint4: el.keywords[4],
-                        ans: el.verse_title,
-                        text: el.scripture_text,
-                        hint5: el.description,
-                        hint6: el.context
+                        hint5: el.keywords[5],
+                        hint6: el.context,
+                        hint7: el.description,
+                        hint8: el.scripture_text,
                     };
-                    //console.log(obj);
+                    console.log(obj);
                     questions.push(obj);
                 }
                 quiz = { "questions": questions };
@@ -267,9 +268,10 @@ const game = {
             console.log(this.questions);
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
-            const keywords = this.questions[0].keyword[0] + ", " + this.questions[0].keyword[1] + ", " + this.questions[0].keyword[2] + ", " + this.questions[0].keyword[3] + ", " + this.questions[0].keyword[4];
+            console.log(this.questions[0].ques);
+            //const keywords = this.questions[0].hint1 + ", " + this.questions[0].hint2 + ", " + this.questions[0].keyword[2] + ", " + this.questions[0].keyword[3] + ", " + this.questions[0].keyword[4];
             console.log(options);
-            console.log(keywords);
+           //console.log(keywords);
             shuffle(options);
             const question = this.question.ques;  //  + this.gametype
             view.render(view.question, question);
@@ -294,22 +296,22 @@ const game = {
         this.hintcount += 1;
         switch (this.hintcount) {
             case 1:
-                qs('#question').innerHTML += `<br> ${this.question.hint1}`;
+                qs('#question').innerHTML += `, ${this.question.hint1}`;
                 break;
             case 2:
-                qs('#question').innerHTML += `<br> ${this.question.hint2}`;
+                qs('#question').innerHTML += `, ${this.question.hint2}`;
                 break;
             case 3:
-                qs('#question').innerHTML += `<br> ${this.question.hint3}`;
+                qs('#question').innerHTML += `, ${this.question.hint3}`;
                 break;
             case 4:
-                qs('#question').innerHTML += `<br> ${this.question.hint4}`;
+                qs('#question').innerHTML += `, ${this.question.hint4}`;
                 break;
             case 5:
-                qs('#question').innerHTML += `<br> ${this.question.hint5}`;
+                qs('#question').innerHTML += `, ${this.question.hint5}`;
                 break;
             case 6:
-                qs('#question').innerHTML += `<br> ${this.question.hint6}`;
+                qs('#question').innerHTML += `, ${this.question.hint6}`;
                 break;
             default:
                 break;
@@ -317,7 +319,8 @@ const game = {
     },
 
     next() {
-        
+        console.log('next() invoked');
+        this.ask();
     },
 
     check(event) {

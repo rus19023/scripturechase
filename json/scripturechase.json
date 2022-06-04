@@ -2220,22 +2220,6 @@
         "unit":"nt","book_title":"2 Thessalonians","book_short_title":"2 Thes.","chapter_number":2,"verse_number":"1-3","verse_title":"2 Thessalonians 2:1-3","verse_short_title":"2 Thes. 2:1-3","scripture_text":"Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand. Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;","mastery":true,"mnum":18,"description":"Apostasy was foretold.","keywords":["gathering","troubled","deceive","falling away","son of perdition"], "context":"","img":"","topic":"The Restoration"
     },
     {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"James","book_short_title":"James","chapter_number":1,"verse_number":"5-6","verse_title":"James 1:5-6","verse_short_title":"James 1:5-6","scripture_text":"If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him. But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.","mastery":true,"mnum":21,"description":"If you lack wisdom, ask God.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"James","book_short_title":"James","chapter_number":2,"verse_number":"17-18","verse_title":"James 2:17-18","verse_short_title":"James 2:17-18","scripture_text":"Even so faith, if it hath not works, is dead, being alone. Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.","mastery":true,"mnum":23,"description":"Faith without works is dead.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"1 Peter","book_short_title":"1 Pet.","chapter_number":4,"verse_number":6,"verse_title":"1 Peter 4:6","verse_short_title":"1 Pet. 4:6","scripture_text":"For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.","mastery":true,"mnum":24,"description":"The gospel is preached to the dead.","keywords":[], "context":"","img":"","topic":""
-    },
-    {
-        "volume_title":"New Testament",
-        "unit":"nt","book_title":"Revelation","book_short_title":"Rev.","chapter_number":20,"verse_number":12,"verse_title":"Revelation 20:12","verse_short_title":"Rev. 20:12","scripture_text":"And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.","mastery":true,"mnum":25,"description":"Each person will stand before God to be judged","keywords":[], "context":"","img":"","topic":""
-    },
-    {
         "volume_title": "Doctrine and Covenants",
         "unit":"dc",
         "book_title": "Doctrine and Covenants",
