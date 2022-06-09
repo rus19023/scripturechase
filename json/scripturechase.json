@@ -112,8 +112,8 @@
         "scripture_text": "And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true.",
         "mastery": true,
         "mnum": 14,
-        "description": "",
-        "keywords": [],
+        "description": "faith is not perfect knowledge, but hope",
+        "keywords": ["faith","hope","things","true", "perfect knowledge"],
         "context": "",
         "img": "",
         "topic": ""
@@ -485,7 +485,7 @@
         "mastery": true,
         "mnum": 10,
         "description": "",
-        "keywords": [],
+        "keywords": ["countenance", "stature", "heart", "as man seeth", "outward appearance"],
         "context": "",
         "img": "",
         "topic": ""
@@ -2113,7 +2113,14 @@
         "verse_number": "8-10",
         "verse_title": "Mosiah 18:8-10",
         "verse_short_title": "Mosiah 18:8-10",
-        "scripture_text": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and are willing to bear one another's burdens, that they may be light; Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life-- Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, as a witness before him that ye have entered into a covenant with him, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?","mastery":true,"mnum":13,"description":"Through baptism we enter a covenant with God.","keywords":["waters","mourn","redeemed","resurrection","baptism"], "context":"","img":"","topic":"Ordinances and Covenants"
+        "scripture_text": "And it came to pass that he said unto them: Behold, here are the waters of Mormon (for thus were they called) and now, as ye are desirous to come into the fold of God, and to be called his people, and are willing to bear one another's burdens, that they may be light; Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life-- Now I say unto you, if this be the desire of your hearts, what have you against being baptized in the name of the Lord, as a witness before him that ye have entered into a covenant with him, that ye will serve him and keep his commandments, that he may pour out his Spirit more abundantly upon you?",
+        "mastery":true,
+        "mnum":13,
+        "description":"Through baptism we enter a covenant with God.",
+        "keywords":["waters","mourn","redeemed","resurrection","baptism"],
+        "context":"",
+        "img":"",
+        "topic":"Ordinances and Covenants"
     },
     {
         "volume_title":"Book of Mormon",

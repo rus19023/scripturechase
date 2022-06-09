@@ -8,12 +8,12 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/scriptures.ico"/>
 
         <!-- CSS -->
-        <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
         <link type="text/css" rel="stylesheet" href="http://127.0.0.1:5501/css/styles.css" />
+        <link type="text/css" rel="stylesheet" href="https://rus19023.github.io/myportfolio/css/styles.css" />
 
         <!-- For Sharing buttons -->
         <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
-        <title id="wdd330todoapptitle" class="title"> Scripture Chase</title>
+        <title id="wdd330todoapptitle" class="title">Scripture Chase</title>
         <meta property="og:url" content="https://rus19023.github.io/scripturechase/"/>
         <meta property="og:title" content="'Gamified' Scripture Chase WebApp, built by Doris Rush-Lopez. If you have a few moments, please give me feedback on any aspect of the app. Thanks!"/>
         <meta property="og:description" content="Use flipcards to memorize scriptures, quiz to test on keywords, description, context, stats, leaderboard."/>
@@ -35,16 +35,45 @@
             <section class="dojo">
                 <div class="quiz-body">
                     <header class="title quizhead">
-                        <div id='timer'>Time: <strong>0</strong></div>
-                        <div id='score'>Score: <strong>0</strong></div>
-                        <div id='hiScore'>High Score: <strong>0</strong></div>
+                        <div class="quizcol">
+                            <div class="left-align">Time Left:</div>
+                            <div id="timer" class="left-align"><strong>0</strong></div>
+
+                            <div class="left-align">Current Score: </div>
+                            <div id="score" class="left-align"><strong>0</strong></div>
+
+                            <div class="left-align">High Score: </div>
+                            <div id="hiScore" class="left-align"><strong>0</strong></div>
+                        </div>
+                        <div class="quizcol">
+                            <div class="left-align">Current Time Used:</div>
+                            <div id="tused" class="left-align"> <strong>0</strong></div>
+
+                            <div class="left-align">Current Hints Used:</div>
+                            <div id="hused" class="left-align"> <strong>0</strong></div>
+
+                            <div class="left-align">Current Consecutive Correct:</div>
+                            <div id="ccc" class="left-align"><strong>0</strong></div>
+                        </div>
+                        <div class="quizcol">
+                            <div class="left-align">Current Time Bonus:</div>
+                            <div id="tbonus" class="left-align"><strong>0</strong></div>
+
+                            <div class="left-align">Current Hint Bonus:</div>
+                            <div id="hbonus" class="left-align"><strong>0</strong></div>
+
+                            <div class="left-align">Current Consecutive Bonus:</div>
+                            <div id="cbonus" class="left-align"><strong>0</strong></div>
+                        </div>
                     </header>
-                    <h2 class="title">Scripture Chase Quiz</h2>
-                    <div id="info" class="normal-text"></div>
+
+                    <div id="info" class="normal-text padit">Each correct answer scores 100 points. You get a maximum of 8 hints possible per question. The fewer hints you use, the higher your Hint Bonus. The more consecutive answers you get correct, the higher your Consecutive Bonus. The more time is left on the timer, the higher your Time Bonus.
+                    </div>
                     <div>
                         <button id="start" class="centered todo-buttons">Start</button>
                         <button id="next" class="centered todo-buttons hide">Next</button>
-                        <button id="hint" class="centered todo-buttons hide">Hint</button></div>
+                        <button id="hint" class="centered todo-buttons hide">Hint</button>
+                    </div>
                     <div> <p id="question" class="normal-text"></p></div>
                     <div id="response" class="normal-text"></div>
                     <div id="result" class="normal-text"></div>
@@ -54,25 +83,25 @@
         </div>
         <footer class="">
             <div class="container col5">
-                <div class="">
+                <div class="col1">
                     <a href="./">
                         <img src="../img/icons/icons8-home-96.png" alt="home icon" class="icon whitebg">
                         Home
                     </a>
                 </div>
-                <div class="">
-                    <a href="./#nav">
+                <div class="col1">
+                    <a href="./">
                         <img src="../img/icons/icons8-menu-384.png" alt="menu icon" class="icon whitebg">
-                        Menu
+                        Scramble
                     </a>
                 </div>
-                <div class="">
+                <div class="col1">
                     <a href="./flipcards.html">
                         <img src="../img/icons/icons8-flashcards-90.png" alt="flipcards icon" class="icon whitebg">
                         Flipcard
                     </a>
                 </div>
-                <div class="">
+                <div class="col1">
                     <a href="./quiz.html">
                         <img src="../img/icons/icons8-quiz-66.png" alt="quiz icon" class="icon whitebg">
                         Quiz
@@ -81,7 +110,6 @@
                 <div id="loggedinorout" class="col1"></div>
             </div>
         </footer>
-        <button id="next" class=""></button>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <!-- <script src="../js/app.js" type="module"></script> -->

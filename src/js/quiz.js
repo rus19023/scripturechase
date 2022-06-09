@@ -97,7 +97,7 @@ const getQuiz = async (url) => {
                     //console.log(quizunits.includes(el.unit));
                     //console.log('KEYWORDS:  ' + el.keywords);
                     let obj = {
-                        ques: 'What scripture reference contains the following: <br><br>' + el.keywords[0],
+                        ques: 'What scripture reference contains the following? <br><br>' + el.keywords[0],
                         ans: el.verse_title,
                         hint1: el.keywords[1],
                         hint2: el.keywords[2],
@@ -108,7 +108,7 @@ const getQuiz = async (url) => {
                         hint7: el.description,
                         hint8: el.scripture_text,
                     };
-                    console.log(obj);
+                    //console.log(obj);
                     questions.push(obj);
                 }
                 quiz = { "questions": questions };
@@ -158,8 +158,14 @@ const view = {
     info: qs("#info"),
     response: qs("#response"),
     front: qs("#front"),
-    back: qs("back"),
+    back: qs("#back"),
     timer: qs('#timer strong'),
+    hused: qs("#hused"),
+    tused: qs("#tused"),
+    ccc: qs("#ccc"),
+    tbonus: qs("#tbonus strong"),
+    hbonus: qs("#hbonus strong"),
+    cbonus: qs("#cbonus"),
 
     hiScore: qs('#hiScore strong'),
     user: qs('#user strong'), // TODO: get username from firebase
@@ -175,11 +181,11 @@ const view = {
     },
 
     show(element) {
-        console.log('show(' + element + ') invoked');
+        // console.log('show(' + element + ') invoked');
         // element.style.display = "flexbox";
         // element.style.border = "1px solid white";
         // element.style.backgroundColor = "white";
-        console.log(element.classList);
+        // console.log(element.classList);
         element.classList.remove("hide");
         element.classList.add("todo-bordered");
     },
@@ -200,8 +206,14 @@ const view = {
         this.show(this.hint);
         this.render(this.score, game.score);
         this.render(this.result, "");
-        this.render(this.info, "");
+        this.render(this.info, "Each correct answer scores 100 points. You get a maximum of 8 hints possible per question. The fewer hints you use, the higher your Hint Bonus. The more consecutive answers you get correct, the higher your Consecutive Bonus. The more time is left on the timer, the higher your Time Bonus. ");
         this.render(this.hiScore, game.hiScore(), '');
+        this.render(this.hbonus, game.hbonus, '');
+        this.render(this.tbonus, game.tbonus, '');
+        this.render(this.cbonus, game.cbonus, '');
+        this.render(this.tused, game.secondsRemaining, '');
+        this.render(this.hused, game.hintsUsed, '');
+        this.render(this.ccc, game.consecutive, '');
     },
 
     buttons(array) {
@@ -239,18 +251,20 @@ const game = {
         this.isConsecutive = false;
         this.consecutive = 0;
         this.correct = 0;
-        this.cbonus = 0;
+        this.hintsUsed = 0;
         this.hintcount = 0;
+        this.cbonus = 0;
+        this.hbonus = 0;
+        this.tbonus = 0;
         this.questions = [...quiz];
         //console.log(this.questions);
         view.setup();
         this.ask();
-        this.secondsRemaining = quiz.length * 8;
+        this.length = quiz.length;
+        this.secondsRemaining = this.length * 8;
         this.timer = setInterval( this.countdown , 1000 );
-        console.log(quiz + " quiz.js, line 234 ");
+        //console.log(quiz + " quiz.js, line 253 ");
     },
-    //     TODO: start with 1 clue, button to give more clues
-    //     "clues": ["clue 1", "clue 2", "clue 3", "clue 4", "clue 5", "clue 6"],
     //     TODO: toggle? to choose which type of quiz: ["clues", "context", "topic", "keywords", "scripture_text"]
     //     "context": "context",
     //     "principle": "principle"
@@ -262,10 +276,11 @@ const game = {
 
     ask(ques) {
         console.log('ask() invoked');
+        qs('#hint').disabled = false;
         this.hintcount = 0;
         if (this.questions.length > 2) {
             shuffle(this.questions);
-            console.log(this.questions);
+            //console.log(this.questions);
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
             console.log(this.questions[0].ques);
@@ -297,30 +312,149 @@ const game = {
         switch (this.hintcount) {
             case 1:
                 qs('#question').innerHTML += `, ${this.question.hint1}`;
+                this.hintsUsed += 1;
                 break;
             case 2:
                 qs('#question').innerHTML += `, ${this.question.hint2}`;
+                this.hintsUsed += 1;
                 break;
             case 3:
                 qs('#question').innerHTML += `, ${this.question.hint3}`;
+                this.hintsUsed += 1;
                 break;
             case 4:
-                qs('#question').innerHTML += `, ${this.question.hint4}`;
+                console.log("hint4: " + this.question.hint4);
+                if (this.question.hint4 === undefined) {
+                    this.hintsUsed -= 1;
+                    qs('#question').innerHTML += "";
+                } else {
+                    qs('#question').innerHTML += `, ${this.question.hint4}`;
+                    this.hintsUsed += 1;
+                }
                 break;
             case 5:
-                qs('#question').innerHTML += `, ${this.question.hint5}`;
+                console.log("hint5: " + this.question.hint5);
+                if (this.question.hint5 === undefined) {
+                    this.hintsUsed -= 1;
+                    qs('#question').innerHTML += "";
+                } else {
+                    qs('#question').innerHTML += `, ${this.question.hint5}`;
+                    this.hintsUsed += 1;
+                }
                 break;
             case 6:
-                qs('#question').innerHTML += `, ${this.question.hint6}`;
+                console.log("hint6: " + this.question.hint6);
+                if (this.question.hint6 === undefined) {
+                    this.hintsUsed -= 1;
+                    qs('#question').innerHTML += "";
+                } else {
+                    qs('#question').innerHTML += `, ${this.question.hint6}`;
+                    this.hintsUsed += 1;
+                }
+                break;
+            case 7:
+                console.log("hint7: " + this.question.hint7);
+                if (this.question.hint7 === undefined) {
+                    this.hintsUsed -= 1;
+                    qs('#question').innerHTML += "";
+                } else {
+                    qs('#question').innerHTML += `, ${this.question.hint7}`;
+                    this.hintsUsed += 1;
+                }
+                break;
+            case 8:
+                qs('#hint').disabled = true;
+                qs('#question').innerHTML += `<br><br> Scripture text: ${this.question.hint8}`;
+                this.hintsUsed += 1;
                 break;
             default:
                 break;
         }
+        console.log("this.hintcount: " + this.hintcount);
+        console.log("this.hintsUsed: " + this.hintsUsed);
     },
 
     next() {
         console.log('next() invoked');
         this.ask();
+    },
+
+    calcBonus() {
+        console.log('calcBonus() invoked');
+
+        // Consecutive correct answers bonus
+        console.log(this.score);
+        if (this.consecutive > 49) {
+            this.cbonus =100;
+        } else if (this.consecutive > 39) {
+            this.cbonus = 75;
+        } else if (this.consecutive > 24) {
+            this.cbonus = 50;
+        } else if (this.consecutive > 19) {
+            this.cbonus = 40;
+        } else if (this.consecutive > 14) {
+            this.cbonus = 30;
+        } else if (this.consecutive > 9) {
+            this.cbonus = 20;
+        } else if (this.consecutive > 4) {
+            this.cbonus = 100;
+        }
+        this.score += this.cbonus * this.consecutive;
+        console.log(this.score);
+
+        // Time bonus
+        switch (this.timer) {
+            case 500:
+                this.tbonus = 10000;
+                break;
+            case 400:
+                this.tbonus = 8000;
+                break;
+            case 300:
+                this.tbonus = 6000;
+                break;
+            case 200:
+                this.tbonus = 4000;
+                break;
+            case 100:
+                this.tbonus = 2000;
+                break;
+            case 50:
+                this.tbonus = 1000;
+                break;
+            case 25:
+                this.tbonus = 500;
+                break;
+            case 10:
+                this.tbonus = 250;
+                break;
+            case 0:
+                this.tbonus = 0;
+                break;
+            default:
+                break;
+        }
+        this.score += this.tbonus;
+        console.log(this.score);
+
+        // Hint bonus
+        if (this.hintsUsed <= 10) {
+            this.hbonus = 10000;
+        } else if (this.hintsUsed <= 100) {
+            this.hbonus = 8000;
+        } else if (this.hintsUsed <= 200) {
+            this.hbonus = 6000;
+        } else if (this.hintsUsed <= 300) {
+            this.hbonus = 4000;
+        } else if (this.hintsUsed <= 400) {
+            this.hbonus = 2000;
+        } else if (this.hintsUsed <= 500) {
+            this.hbonus = 1000;
+        } else {
+            this.hbonus = 0;
+        }
+        this.score += this.hbonus;
+        console.log(this.score);
     },
 
     check(event) {
@@ -329,7 +463,7 @@ const game = {
         const answer = this.question.ans;
         if(response === answer) {
             view.render(view.result,'Correct!',{'class':'correct'});
-            this.score += 10;
+            this.score += 100;
             view.render(view.score, this.score);
             this.correct++;
             this.isConsecutive = true;
@@ -338,23 +472,23 @@ const game = {
             view.render(view.result,`Wrong! The correct answer was ${answer}`,{'class':'wrong'});
         }
         if (this.isConsecutive) {
-            this.consecutive++;
-            if (this.consecutive > 4) {
-                this.cbonus = 10;
-            } else if (this.consecutive > 9) {
-                this.cbonus = 20;
-            } else if (this.consecutive > 14) {
-                this.cbonus = 30;
-            } else if (this.consecutive > 19) {
-                this.cbonus = 40;
-            } else if (this.consecutive > 24) {
-                this.cbonus = 50;
-            } else if (this.consecutive > 39) {
-                this.cbonus = 75;
-            } else if (this.consecutive > 49) {
-                this.cbonus = 100;
-            }
-            this.bonus = (this.cbonus * this.consecutive);
+            // this.consecutive++;
+            // if (this.consecutive > 49) {
+            //     this.cbonus =100;
+            // } else if (this.consecutive > 39) {
+            //     this.cbonus = 75;
+            // } else if (this.consecutive > 24) {
+            //     this.cbonus = 50;
+            // } else if (this.consecutive > 19) {
+            //     this.cbonus = 40;
+            // } else if (this.consecutive > 14) {
+            //     this.cbonus = 30;
+            // } else if (this.consecutive > 9) {
+            //     this.cbonus = 20;
+            // } else if (this.consecutive > 4) {
+            //     this.cbonus = 100;
+            // }
+            // this.bonus = (this.cbonus * this.consecutive);
             console.log(`CBonus: ${this.cbonus}, consecutive: ${this.consecutive}, bonus: ${this.bonus}`);
             console.log (`score: ${this.score}`);
             this.score += this.bonus;
@@ -369,7 +503,7 @@ const game = {
     countdown() {
         //console.log('countdown() invoked');
         game.secondsRemaining--;
-        view.render(view.timer,game.secondsRemaining);
+        view.render(view.timer, game.secondsRemaining);
         if(game.secondsRemaining < 0) {
             game.gameOver();
         }
@@ -377,8 +511,8 @@ const game = {
 
     gameOver() {
         console.log('gameOver() invoked');
-        view.render(
-        view.info, `Game Over! You scored ${this.score} point${this.score !== 1 ? "s" : ""}` );
+        game.calcBonus();
+        view.render(view.info, `Game Over! You scored ${this.score} point${this.score !== 1 ? "s" : ""}` );
         view.teardown();
         clearInterval(this.timer);
     },

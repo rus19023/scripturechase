@@ -22,7 +22,7 @@ const logged = () => {
     const loggedIn = auth.currentUser;
     console.log(loggedIn);
     if (loggedIn) {    // function createLMNT(LMNT, LMNTtype, LMNTid, LMNTtext, LMNTclass)
-        const logoutLink =         createLMNT('a', '', 'loggedOut', 'Logout', 'show');
+        const logoutLink = createLMNT('a', '', 'loggedOut', 'Logout', 'show');
         console.log(logoutLink);
         logoutLink.href = './src/pages/sign-out.html';
         const logoutIcon =         createLMNT('img', '', 'logout1', '', 'icon bgwhite');
@@ -35,7 +35,7 @@ const logged = () => {
             console.log('logged out');
         });
     } else {
-        const loginLink =          createLMNT('a', '', 'loggedIn', 'Login', 'show');
+        const loginLink = createLMNT('a', '', 'loggedIn', 'Login', 'show');
         console.log(loginLink);
         loginLink.href = './src/pages/sign-in.html';
         const loginIcon =          createLMNT('img', '', 'login1', '', 'icon bgwhite');
