@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Hubballi&display=swap");
+html {
+  height: 100vh;
+}
+
+.title {
+  background: black;
+  color: #e2e600;
+  font-size: 3vh;
+  margin: 4vw auto;
+  padding: 2vw;
+  border-radius: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e67700;
+  background: linear-gradient(180deg, #0300cc 0%, #9fa290 52%, #e2e600 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0300ca",endColorstr="#e0e400",GradientType=1);
+  color: #067eff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.color3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4vw;
+  padding: 2vw;
+  background: transparent;
+  border: 4px solid white;
+  border-radius: 10px;
+  margin: 4vw;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1vw;
+  padding: 2vw;
+  background: transparent;
+  border: 4px solid white;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 2vw;
+  bottom: -2vw;
+}
+
+.buttons {
+  background: #ff1afb;
+  border-radius: 10px;
+  margin: 1vw auto;
+  width: 100%;
+  height: 10vh;
+  color: #067eff;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: "Hubbali", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.iconbuttons .icon {
+  margin: 0 auto;
+  width: 4vw;
+  height: 4vw;
+}
+
+.padit {
+  padding: 2vw;
+  max-width: 100%;
+  margin: 1vw;
+}
+
+.f1 {
+  font-family: "Hubbali", sans-serif;
+}
+
+.f2 {
+  font-family: "Handlee", cursive;
+}
+
+.gridparts {
+  border: 5px solid white;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 2vw;
+  max-width: 100%;
+  font-size: 3vh;
+  font-weight: bolder;
+  background: black;
+}
+
+.orange {
+  background: #bbbbbb;
+  color: #e67700;
+  margin: 0;
+}
+
+.yellow {
+  background: #bbbbbb;
+  color: #e2e600;
+  margin: 0;
+}
+
+.chartreuse {
+  color: #6fe600;
+  margin: 0;
+}
+
+.limegreen {
+  color: #00e604;
+  margin: 0;
+}
+
+.seafoam {
+  color: #00e677;
+  margin: 0;
+}
+
+.skyblue {
+  color: #00e2e6;
+  margin: 0;
+}
+
+.medblue {
+  color: #067eff;
+  margin: 0;
+}
+
+.royalblue {
+  color: #0400e6;
+  margin: 0;
+}
+
+.purple {
+  color: #7700e6;
+  margin: 0;
+}
+
+.hotpink {
+  color: #e600e2;
+  margin: 0;
+}
+
+.dksalmon {
+  color: #e6006f;
+  margin: 0;
+}
+
+.redorange {
+  background: #bbbbbb;
+  color: #e60400;
+  margin: 0;
+}
+
+.bordered {
+  border: 2px solid hotpink;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navbar {
+  background: #6ab446;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    justify-content: center;
+  }
+
+  .color3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=scripturechase.css.map */
