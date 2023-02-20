@@ -1,5 +1,4 @@
-
-import { qs } from './utilities.js';
+ import { qs } from './utilities.js';
 const url1 = 'rus19023.github.io/scripturechase/json/lds-scriptures.json';
 const url6 = 'https://raw.githubusercontent.com/rus19023/scripturechase/main/json/scripturechase.json';
 
@@ -202,6 +201,7 @@ const view = {
         this.show(this.response);
         this.show(this.result);
         this.hide(this.start);
+        this.hide(this.info);
         this.show(this.next);
         this.show(this.hint);
         this.render(this.score, game.score);

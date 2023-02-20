@@ -82,144 +82,6 @@ body header #main-nav ul li a {
   border: 2px solid white;
 }
 
-#todocontainer {
-  grid-area: todocontainer;
-  background: black;
-  margin: 2% auto;
-  grid-template-columns: 1fr;
-}
-#todocontainer #header1 {
-  grid-area: header1;
-  margin-bottom: 1%;
-}
-#todocontainer #todos {
-  grid-area: todos;
-  width: 100%;
-  margin: 1% auto;
-  grid-template-areas: "listitem";
-}
-#todocontainer #todos li.listitem {
-  grid-area: listitem;
-  width: 100%;
-  line-height: normal;
-  display: grid;
-  grid-template-columns: 1fr 8fr 1fr 1fr;
-  grid-template-areas: "markbtn itemtext delbtn editbtn";
-}
-#todocontainer #todos li.listitem .editbtn {
-  grid-area: editbtn;
-  background: white;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 5px;
-  margin: auto;
-  padding: none;
-  border: none;
-}
-#todocontainer #todos li.listitem .editbtn .editicon {
-  background: transparent;
-  margin: 0;
-  padding: 0;
-  width: 0.75rem;
-  height: 0.75rem;
-}
-#todocontainer #todos li.listitem .markbtn {
-  grid-area: markbtn;
-  border-radius: 5px;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: auto;
-}
-#todocontainer #todos li.listitem #itemtext {
-  grid-area: itemtext;
-  height: 2rem;
-  margin: 2% auto;
-}
-#todocontainer #todos li.listitem .delbtn {
-  grid-area: delbtn;
-  color: #b70500;
-  background: transparent;
-  margin: auto;
-  border: none;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-#todocontainer h3 {
-  padding: 1%;
-  text-align: center;
-  font-weight: bolder;
-}
-
-#listfooter {
-  display: grid;
-  max-width: 95%;
-  margin: 1% auto;
-  grid-area: listfooter;
-  grid-template-columns: 1fr;
-  justify-content: left;
-  grid-template-areas: "tasks" "sort" "btns" "srchbar";
-}
-#listfooter #sortitems {
-  grid-area: sort;
-  display: flex;
-  flex-direction: row;
-  padding: 1%;
-  margin: 1%;
-  border: none;
-}
-#listfooter #sortitems h3 {
-  font-family: "Handlee", cursive;
-  padding: 1%;
-  margin: 0;
-  color: #ffd700;
-}
-#listfooter #sortitems label {
-  padding: 2%;
-}
-#listfooter #btncontainer {
-  grid-area: btns;
-  width: 95%;
-  margin: 2% auto;
-  display: grid;
-  gap: 1%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-#listfooter #tasks {
-  grid-area: tasks;
-  text-align: center;
-  margin: 1% auto;
-  width: 80%;
-}
-#listfooter #allbtn, #listfooter #actbtn, #listfooter #donebtn, #listfooter #srchbtn {
-  border: 2px dotted white !important;
-}
-#listfooter #srchbar {
-  display: grid;
-  gap: 1%;
-  grid-area: srchbar;
-  width: 95%;
-  margin: 1% auto;
-  grid-template-columns: 3fr 1fr;
-  grid-template-areas: "srchinput srchbtn";
-}
-#listfooter #srchbar #srchinput {
-  grid-area: srchinput;
-  padding: 1%;
-  margin: 0;
-  font-weight: bold;
-  border: 2px solid white;
-  background: #28ff00;
-  color: black;
-}
-#listfooter #srchbar #srchbtn {
-  grid-area: srchbtn;
-  background: #28ff00;
-  margin: 2%;
-  padding: 2%;
-  font-size: 0.75rem;
-  color: black;
-}
-
 #content-wrap {
   padding-bottom: 2.5rem;
   /* Footer height */
@@ -406,13 +268,13 @@ input[type=checkbox].markbtnX {
   border: 2px solid white;
   border-radius: 10px;
   margin: 0 auto;
+  font-family: "Nunito", sans-serif;
 }
 
 .quizhead {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  font-family: "Hubbali", sans-serif;
 }
 
 .quizcol {
@@ -1254,8 +1116,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-.title {
+.titlefont {
   font-family: "Handlee", cursive;
+}
+
+.title {
   text-align: left;
   color: #ffd700;
   width: 100%;
@@ -1364,11 +1229,11 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   background: #0500b7;
   padding: 1%;
-  border: 4px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   color: #ffd700;
+  font-size: small;
   font-family: "Hubbali", sans-serif;
-  font-weight: bold;
 }
 .buttons a, .quizbutton a {
   width: 100%;
