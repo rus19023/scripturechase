@@ -191,7 +191,7 @@ const view = {
 
     hide(element) {
         console.log('hide(' + element + ') invoked');
-        element.classList.add("hide");
+        element.classList.add('hide');
         element.classList.remove("todo-bordered");
     },
 
@@ -201,12 +201,14 @@ const view = {
         this.show(this.response);
         this.show(this.result);
         this.hide(this.start);
-        this.hide(this.info);
         this.show(this.next);
         this.show(this.hint);
         this.render(this.score, game.score);
         this.render(this.result, "");
         this.render(this.info, "Each correct answer scores 100 points. You get a maximum of 8 hints possible per question. The fewer hints you use, the higher your Hint Bonus. The more consecutive answers you get correct, the higher your Consecutive Bonus. The more time is left on the timer, the higher your Time Bonus. ");
+
+        
+        this.hide(this.info);
         this.render(this.hiScore, game.hiScore(), '');
         this.render(this.hbonus, game.hbonus, '');
         this.render(this.tbonus, game.tbonus, '');
@@ -261,7 +263,9 @@ const game = {
         view.setup();
         this.ask();
         this.length = quiz.length;
-        this.secondsRemaining = this.length * 8;
+        this.totalTime = this.length * 15;
+        this.secondsRemaining = this.totalTime;
+        this.timeUsed = 0;
         this.timer = setInterval( this.countdown , 1000 );
         //console.log(quiz + " quiz.js, line 253 ");
     },
@@ -280,15 +284,19 @@ const game = {
         this.hintcount = 0;
         if (this.questions.length > 2) {
             shuffle(this.questions);
-            //console.log(this.questions);
+        }
+        if (this.questions.length < 1 || this.secondsRemaining < 1) {
+            this.gameOver();
+        } else {
             this.question = this.questions.pop();
             const options = [this.questions[0].ans, this.questions[1].ans, this.questions[2].ans, this.question.ans];
-            console.log(this.questions[0].ques);
+            //console.log(this.questions[0].ques);
             //const keywords = this.questions[0].hint1 + ", " + this.questions[0].hint2 + ", " + this.questions[0].keyword[2] + ", " + this.questions[0].keyword[3] + ", " + this.questions[0].keyword[4];
-            console.log(options);
+            console.log('options', options);
            //console.log(keywords);
             shuffle(options);
             const question = this.question.ques;  //  + this.gametype
+            console.log('question', question);
             view.render(view.question, question);
             //console.log(view.buttons(options));
             if (this.gametype === "flip") {
@@ -301,14 +309,14 @@ const game = {
                 // render quiz
                 view.render(view.response, view.buttons(options), {'class':'buttonbox'});
             }
-        } else {
-            this.gameOver();
         }
     },
 
     hint() {
         console.log('hint() invoked');
         this.hintcount += 1;
+        console.log('this.question: ', this.question);
+
         switch (this.hintcount) {
             case 1:
                 qs('#question').innerHTML += `, ${this.question.hint1}`;
@@ -370,8 +378,8 @@ const game = {
             default:
                 break;
         }
-        console.log("this.hintcount: " + this.hintcount);
         console.log("this.hintsUsed: " + this.hintsUsed);
+        this.render('#hused', this.hintcount, '');
     },
 
     next() {
@@ -379,11 +387,11 @@ const game = {
         this.ask();
     },
 
-    calcBonus() {
+    calcBonus(bonusType) {
         console.log('calcBonus() invoked');
 
         // Consecutive correct answers bonus
-        console.log(this.score);
+        console.log(bonusType);
         if (this.consecutive > 49) {
             this.cbonus =100;
         } else if (this.consecutive > 39) {
@@ -403,7 +411,7 @@ const game = {
         console.log(this.score);
 
         // Time bonus
-        switch (this.timer) {
+        switch (this.secondsRemaining) {
             case 500:
                 this.tbonus = 10000;
                 break;
@@ -469,26 +477,26 @@ const game = {
             this.isConsecutive = true;
         } else {
             this.isConsecutive = false;
-            view.render(view.result,`Wrong! The correct answer was ${answer}`,{'class':'wrong'});
+            view.render(view.result,`Sorry, the correct answer was ${answer}`,{'class':'wrong'});
         }
         if (this.isConsecutive) {
-            // this.consecutive++;
-            // if (this.consecutive > 49) {
-            //     this.cbonus =100;
-            // } else if (this.consecutive > 39) {
-            //     this.cbonus = 75;
-            // } else if (this.consecutive > 24) {
-            //     this.cbonus = 50;
-            // } else if (this.consecutive > 19) {
-            //     this.cbonus = 40;
-            // } else if (this.consecutive > 14) {
-            //     this.cbonus = 30;
-            // } else if (this.consecutive > 9) {
-            //     this.cbonus = 20;
-            // } else if (this.consecutive > 4) {
-            //     this.cbonus = 100;
-            // }
-            // this.bonus = (this.cbonus * this.consecutive);
+            this.consecutive++;
+            if (this.consecutive > 49) {
+                this.cbonus =100;
+            } else if (this.consecutive > 39) {
+                this.cbonus = 75;
+            } else if (this.consecutive > 24) {
+                this.cbonus = 50;
+            } else if (this.consecutive > 19) {
+                this.cbonus = 40;
+            } else if (this.consecutive > 14) {
+                this.cbonus = 30;
+            } else if (this.consecutive > 9) {
+                this.cbonus = 20;
+            } else if (this.consecutive > 4) {
+                this.cbonus = 10;
+            }
+            this.bonus = (this.cbonus * this.consecutive);
             console.log(`CBonus: ${this.cbonus}, consecutive: ${this.consecutive}, bonus: ${this.bonus}`);
             console.log (`score: ${this.score}`);
             this.score += this.bonus;
@@ -503,10 +511,9 @@ const game = {
     countdown() {
         //console.log('countdown() invoked');
         game.secondsRemaining--;
+        game.timeUsed++;
         view.render(view.timer, game.secondsRemaining);
-        if(game.secondsRemaining < 0) {
-            game.gameOver();
-        }
+        view.render(view.tused, game.timeUsed);
     },
 
     gameOver() {
@@ -522,8 +529,7 @@ const game = {
         const hi = localStorage.getItem('highScore') || 0;
         if(this.score > hi || hi === 0) {
             localStorage.setItem('highScore', this.score);
-
-            // TODO: get username from db, add to high score display
+            // TODO: get username, hiScore from db, add to high score display
             view.render(view.info, '** NEW HIGH SCORE! **', {'class':'bghotpink'});
         }
         return localStorage.getItem('highScore');

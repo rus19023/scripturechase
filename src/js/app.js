@@ -3,11 +3,13 @@ import {  } from './signin.js';
 import {  } from './storage.js';
 import {  } from './utilities.js';
 import {  } from './quiz.js';
+import {  } from './flipcard.js';
+import {  } from './scramble.js';
 import {  } from './highscores.js';
 
 //const quiz = JSON.stringify(getQuiz());
 console.log(quiz);
-// todo: get all selected quiz units from storage, format for quiz, and display
+// TODO: get all selected quiz units from storage, format for quiz, and display
 
 const getUnits = qs('#get-unit');
 
@@ -58,11 +60,11 @@ if (isElement(qs('#loggedinorout'))) {
 //     console.log(unit);
 // });
 
-// // Initialize Firebase services and get references to the service
-// const auth = getAuth(fbApp);
-// const fs = getFirestore(fbApp);
-// const db = getDatabase(fbApp);
-// const analytics = getAnalytics(fbApp);
+// Initialize Firebase services and get references to the service
+const auth = getAuth(fbApp);
+const fs = getFirestore(fbApp);
+const db = getDatabase(fbApp);
+const analytics = getAnalytics(fbApp);
 
 const mailField = qs('#mail');
 const passwordField = qs('#password');
@@ -76,17 +78,17 @@ const failureModal = qs('.failure');
 //user's device
 //auth.useDeviceLanguage();  //TODO: use lang pref to send emails in the user's language   (https://firebase.google.com/docs/auth/web/language-selection)
 
-// // Detect auth state
-// onAuthStateChanged(auth, user => {
-//     if (user) {
-//         // User is signed in.
-//         console.log('User is signed in');
-//         console.log(user);
-//     } else {
-//         // No user is signed in.
-//         console.log('No user is signed in');
-//     }
-// });
+// Detect auth state
+onAuthStateChanged(auth, user => {
+    if (user) {
+        // User is signed in.
+        console.log('User is signed in');
+        console.log(user);
+    } else {
+        // No user is signed in.
+        console.log('No user is signed in');
+    }
+});
 
 
 // Sign Up Form
@@ -298,32 +300,32 @@ export function signIn() {
     }
 }
 
-// //  Working For Profile Page
-// //  Get data from server and show in the page
-// firebase.auth().onAuthStateChanged((user) => {
-//     if (user) {
-//     //   User is signed in.
-//         let user = firebase.auth().currentUser;
-//         let uid
-//         if (user != null) {
-//             uid = user.uid;
-//         }
-//         let firebaseRefKey = firebase.database().ref().child(uid);
-//         firebaseRefKey.on('value', (data) => {
-//             sc.qs("#userPfFirstName").innerHTML = data.val().userFirstName;
-//             sc.qs("#userPfLastName").innerHTML = data.val().userLastName;
-//             sc.qs("#userPfLang").innerHTML = data.val().userLang;
-//             // userEmail = data.val().userEmail;
-//             // userPassword = data.val().userPassword;
-//             sc.qs("#userPfFb").setAttribute('href', data.val().userFb);
-//             sc.qs("#userPfTw").setAttribute('href', data.val().userTw);
-//             sc.qs("#userPfGp").setAttribute('href', data.val().userGp);
-//             sc.qs("#userPfBio").innerHTML = data.val().userBio;
-//         })
-//     } else {
-//     //   No user is signed in.
-//     }
-// });
+//  Working For Profile Page
+//  Get data from server and show in the page
+firebase.auth().onAuthStateChanged((user) => {
+    if (user) {
+    //   User is signed in.
+        let user = firebase.auth().currentUser;
+        let uid
+        if (user != null) {
+            uid = user.uid;
+        }
+        let firebaseRefKey = firebase.database().ref().child(uid);
+        firebaseRefKey.on('value', (data) => {
+            sc.qs("#userPfFirstName").innerHTML = data.val().userFirstName;
+            sc.qs("#userPfLastName").innerHTML = data.val().userLastName;
+            sc.qs("#userPfLang").innerHTML = data.val().userLang;
+            // userEmail = data.val().userEmail;
+            // userPassword = data.val().userPassword;
+            sc.qs("#userPfFb").setAttribute('href', data.val().userFb);
+            sc.qs("#userPfTw").setAttribute('href', data.val().userTw);
+            sc.qs("#userPfGp").setAttribute('href', data.val().userGp);
+            sc.qs("#userPfBio").innerHTML = data.val().userBio;
+        })
+    } else {
+    //   No user is signed in.
+    }
+});
 
 //  Show edit profile form with detail
 export function showEditProfileForm() {
